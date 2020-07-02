@@ -1,8 +1,8 @@
-# lang-en_US
+# lang-it_IT
 
 ### READ THIS WHEN YOU WANT TO MAKE TRANSLATIONS TO ANOTHER LANGUAGE
 
-There are fourteen text files included in this repository, each with their own section of translations:
+There are fourteen main text files included in this repository, each with their own section of translations:
 
 - translations.txt -- these are general translations and loaded each time
 - helptext.txt     -- these are all help text sections and loaded each time
