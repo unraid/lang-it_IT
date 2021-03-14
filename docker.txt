@@ -128,3 +128,9 @@ Was this container created using this plugin=Questo contenitore è stato creato 
 Web=Web
 WebUI=WebUI
 Writable=Scrivibile
+
+; New entries - 2021-03-14
+Drivers=
+ReadWrite - Shared=Read/Write - Shared
+Reset sorting=
+Start Container After Install=
