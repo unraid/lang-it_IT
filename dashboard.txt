@@ -102,5 +102,7 @@ utilization warning=avviso di utilizzo
 View Running Processes=Visualizza Processi In Esecuzione
 Virtual Machines=Macchine Virtuali
 
-; New entries - 2021-03-14
+; New entries (3) - 2021-05-08
+%s ago=
+Only PNG images are allowed=Only PNG images are allowed!
 Temp=
