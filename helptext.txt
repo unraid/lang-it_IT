@@ -1,49 +1,47 @@
 :main_array_devices_help:
-**Colored Status Indicator** the significance of the color indicator at the beginning of each line in *Array Devices* is as follows:
+** Indicatore di stato colorato ** il significato dell'indicatore all'inizio di ogni riga in * Dispositivi array * è il seguente:
 
-<i class='fa fa-circle orb green-orb'></i>Normal operation, device is active.
+<i class='fa fa-circle orb green-orb'></i>Funzionamento normale, il dispositivo è attivo.
 
-<i class='fa fa-circle orb grey-orb'></i>Device is in standby mode (spun-down).
+<i class='fa fa-circle orb grey-orb'></i>Dispositivo in modalità stantby(spun-down).
 
-<i class='fa fa-warning orb yellow-orb'></i>Device contents emulated.
+<i class='fa fa-warning orb yellow-orb'></i>Contenuto dispositivo emulato.
 
-<i class='fa fa-times orb red-orb'></i>Device is disabled, contents emulated.
+<i class='fa fa-times orb red-orb'></i>Dispositivo disattivato, contenuto emulato.
 
-<i class='fa fa-square orb blue-orb'></i>New device.
+<i class='fa fa-square orb blue-orb'></i>Nuovo dispositivo.
 
-<i class='fa fa-square orb grey-orb'></i>No device present, position is empty.
+<i class='fa fa-square orb grey-orb'></i>Nessun dispositivo presente, posizione vuota.
 
-**Identification** is the *signature* that uniquely identifies a storage device. The signature
-includes the device model number, serial number, linux device id, and the device size.
+** Identificazione ** è la * firma * che identifica in modo univoco un dispositivo di archiviazione. La firma
+include il numero di modello del dispositivo, il numero di serie, l'ID del dispositivo Linux e le dimensioni del dispositivo.
 
-**Temp.** (temperature) is read directly from the device. You configure which units to use on
-the [Display Preferences](Settings/DisplaySettings) page.  We do not read the temperature of spun-down hard
-drives since this typically causes them to spin up; instead we display the `*` symbol.  We also
-display the `*` symbol for SSD and Flash devices, though sometimes these devices do report a valid
-temperature, and sometimes they return the value `0`.
+**Temp.** (temperatura) viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina  [Display Preferenze](Settings/DisplaySettings).  Non è possibile leggere la temperatura dei dischi rigidi spun-down poiché questo in genere li fa avviare; invece viene visualizzato il simbolo *.  E' possivile
+visualizzare il simbolo "*" per i dispositivi SSD e Flash, anche se a volte questi dispositivi riportano un file
+temperatura e talvolta restituiscono il valore "0".
 
-**Size, Used, Free** reports the total device size, used space, and remaining space for files.  These
-units are also configured on the [Display Preferences](Settings/DisplaySettings) page.  The
-amount of space used will be non-zero even for an empty disk due to file system overhead.
+** Dimensioni, Usato, Libero ** indica le dimensioni totali del dispositivo, lo spazio utilizzato e lo spazio rimanente per i file. Questi valori
+vengono configurate anche nella pagina [Preferenze di visualizzazione] (Impostazioni / Impostazioni di visualizzazione).
+La quantità di spazio utilizzata sarà diversa da zero anche per un disco vuoto a causa del sovraccarico del file system.
 
-*Note: for a multi-device cache pool, this data is for the entire pool as returned by btrfs.*
+*Nota: per un pool di cache multi-dispositivo, questi dati sono per l'intero pool come restituito da btrfs.*
 
-**Reads, Writes** are a count of I/O requests sent to the device I/O drivers.  These statistics may
-be cleared at any time, refer to the Array Status section below.
+** Letture, scritture ** sono un conteggio delle richieste di I/O inviate ai driver di I/O del dispositivo. Queste statistiche possono
+essere cancellate in qualsiasi momento, fare riferimento alla sezione Stato dell'array di seguito.
 
-**Errors** counts the number of *unrecoverable* errors reported by the device
-I/O drivers. Missing data due to unrecoverable array read errors is filled in on-the-fly using parity
-reconstruct (and we attempt to write this data back to the sector(s) which failed). Any unrecoverable
-write error results in *disabling* the disk.
+**Errori** conta il numero di errori *irrecuperabili* segnalati dal dispositivo
+Driver di I/O. I dati mancanti a causa di errori di lettura dell'array irrecuperabili vengono compilati al volo utilizzando la parità
+per ricostruire (e tentiamo di riscrivere questi dati nei settori che hanno fallito). Qualsiasi errore di scrittura irrecuperabile
+provoca la * disabilitazione * del disco.
 
-**FS** indicates the file system detected in partition 1 of the device.
+** FS ** indica il file system rilevato nella partizione 1 del dispositivo.
 
-**View** column contains a folder icon indicating the device is *mounted*. Click the icon to
-browse the file system.
+La colonna ** Visualizza ** contiene un'icona di cartella che indica che il dispositivo è * montato *. Fare clic sull'icona per
+sfoglia il file system.
 
-If "Display array totals" is enable on the [Display Preferences](Settings/DisplaySettings) page, a
-**Total** line is included which provides a tally of the device statistics, including the average temperature
-of your devices.
+Se "Visualizza i totali dell'array" è abilitato nella pagina [Preferenze di visualizzazione] (Impostazioni / Impostazioni di visualizzazione), 
+È inclusa la riga ** Totale ** che fornisce un conteggio delle statistiche del dispositivo, inclusa la temperatura media
+dei tuoi dispositivi.
 
 The Array must be Stopped in order to change Array device assignments.
 
