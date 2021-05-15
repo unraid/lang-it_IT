@@ -103,6 +103,9 @@ View Running Processes=Visualizza Processi In Esecuzione
 Virtual Machines=Macchine Virtuali
 
 ; New entries (3) - 2021-05-08
-%s ago= fa
-Only PNG images are allowed=Solo immagini PNG sono abilitate
-Temp=Temp
+%s ago=
+Only PNG images are allowed=Only PNG images are allowed!
+Temp=
+
+; New entries (1) - 2021-05-15
+SMART health-check failed=
