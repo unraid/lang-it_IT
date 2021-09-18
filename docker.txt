@@ -36,8 +36,6 @@ DNS=DNS
 Docker Containers=Contenitori Docker
 Docker Hub URL=Docker Hub URL
 Docker Service failed to start=Avvio Servizio Docker fallito 
-Donation Link=Link Donazione
-Donation Text=Testo Donazione
 Downloaders= Downloaders 
 Edit Configuration=Modifica Configurazione
 Exited=Uscita
@@ -58,7 +56,6 @@ Icon URL=URL Icona
 Image ID=ID Immagine
 Key=Chiave
 Label=Etichetta
-latest=ultimo
 Management=Gestione
 MediaApp=MediaApp
 MediaServer=MediaServer
@@ -85,7 +82,6 @@ Pulling image= Pulling Immagine
 Read Only - Shared=Sola Lettura - Condiviso
 Read Only - Slave= Sola Lettura - Slave
 Read Only= Sola Lettura
-ReadWrite - Condiviso=Lettura/Scrittura - Condiviso
 ReadWrite - Slave=Lettura/Scrittura - Slave
 rebuild ready=ricostruzione pronta
 rebuilding=ricostruzione
@@ -109,7 +105,6 @@ Successfully removed container=Contenitore rimosso con successo
 Successfully removed orphan image=immagine orfana rimossa con successo
 Successfully stopped container=Contenitore fermato con successo
 Support Thread=Discussione di supporto
-Template repositories=Template repositories
 Template URL=Template URL
 Template=Template
 The command failed=Comando Fallito
@@ -133,8 +128,11 @@ Writable=Scrivibile
 Drivers= Drivers
 ReadWrite - Shared=Letto/Scritto - Condiviso
 Reset sorting=Reimposta l'ordinamento
-Start Container After Install=Avvia Contenitore dopo l'installazione
 Total size=Dimensione totale
 
 ; New entries (1) - 2021-06-12
 Crypto Currency=
+
+; New entries (2) - 2021-09-18
+Additional Requirements=
+None Listed=
