@@ -1,4 +1,9 @@
+%s ago=
 %s used of %s %s %%=%s used of %s (%s %%)
+10 s=
+30 s=
+1 m=
+2 m=
 Active tunnels=Tunnel Attivi
 Activity=Attività
 ago=  fa
@@ -7,6 +12,7 @@ All Apps=Tutte le Apps
 All VMs= Tutte le VMs
 Battery charge=Carica Batteria
 BIOS dated=BIOS datato
+Click to toggle CPU chart=
 Click to toggle details= Click per i dettagli
 Completed=Completato
 Counters info=Info Contatori
@@ -53,6 +59,7 @@ Last check incomplete on %s=Ultimo check incompleto il %s
 Last checked on %s=Controllato l'ultima volta il %s
 Maximum size=Dimensioni massime
 Mode of operation=Modalità operativa
+Network traffic=
 Next check scheduled on %s=Prossimo check pianificato il %s
 No docker containers defined=Nessun container Docker definito
 No running docker containers=Nessun container Docker in esecuzione
@@ -61,6 +68,7 @@ No shares present=Nessuna cartella condivisa presente
 No virtual machines defined=Nessuna macchina virtuale definita
 Nominal power=Potenza nominale
 not received=non ricevuto
+Only PNG images are allowed=Only PNG images are allowed!
 Outbound=In uscita
 Overall Load=Carico Complessivo
 Parity disk not present=Disco di parità assente
@@ -75,16 +83,19 @@ Received packets=Pacchetti ricevuti
 Runtime left=Autonomia rimanente
 Scheduled parity check is disabled=Il controllo di parità pianificato è disabilitato
 Select Case Model=Seleziona modello case
+Select time frame=
 Share count %s with %s cache only and %s encrypted=Numero di cartelle condivise %s di cui %s solo cache e %s cifrate
 Show details=Mostra dettagli
 Show Information=Mostra informazioni
 Shutdown the system=Arresta il sistema
 SMART error=Errore SMART
+SMART health-check failed=
 SMART= SMART
 sn= sn
 Start the array=Avvia l'array
 Started only=Solo avviato
 Stop the array=Arresta l'array
+Temp=
 This will put the system to sleep=Questo metterà il sistema a riposo
 This will reboot the system=Questo riavvierà il sistema
 This will shutdown the system=Questo arresterà il sistema
@@ -100,21 +111,4 @@ utilization warning=avviso di utilizzo
 View Running Processes=Visualizza Processi In Esecuzione
 Virtual Machines=Macchine Virtuali
 
-; New entries (3) - 2021-05-08
-%s ago=
-Only PNG images are allowed=Only PNG images are allowed!
-Temp=
-
-; New entries (1) - 2021-05-15
-SMART health-check failed=
-
-; New entries (2) - 2021-05-20
-Click to toggle CPU chart=
-Network traffic=
-
-; New entries (5) - 2021-05-31
-10 s=
-30 s=
-1 m=
-2 m=
-Select time frame=
+; Note: November 14, 2021 - 10 missing translations

@@ -2,6 +2,7 @@ Access Mode=Modalità d'accesso
 Add another Path, Port, Variable, Label or Device=Aggiungi un altro percorso, Porta,Variabile, Etichetta o Dispositivo
 Add Configuration=Aggiungi Configurazione
 Add=Aggiungi
+Additional Requirements=
 Always=Sempre
 App to Host=App a Host 
 Application=Applicazione
@@ -29,6 +30,7 @@ Container=Contenitore
 CPU Memory load=Carico memoria CPU
 CPU Pinning=CPU Pinning
 Created=Creato
+Crypto Currency=
 Default Value=Valore Predefinito
 Device=Dispositivo
 Display=Display
@@ -37,6 +39,7 @@ Docker Containers=Contenitori Docker
 Docker Hub URL=Docker Hub URL
 Docker Service failed to start=Avvio Servizio Docker fallito 
 Downloaders= Downloaders 
+Drivers= Drivers
 Edit Configuration=Modifica Configurazione
 Exited=Uscita
 Extra Parameters=Parametri aggiuntivi
@@ -64,6 +67,7 @@ Missing parameters=Parametri mancanti
 Music=Musica
 Network Type=Tipo di Rete
 No Docker containers installed=Nessun contenitore Docker istallato
+None Listed=
 of=di
 orphan image=immagine orfana
 Other=Altro
@@ -79,9 +83,11 @@ Productivity=Produttività
 Project Page=Pagina del Progetto
 Proxy=Proxy
 Pulling image= Pulling Immagine
+Read Me First=
 Read Only - Shared=Sola Lettura - Condiviso
 Read Only - Slave= Sola Lettura - Slave
 Read Only= Sola Lettura
+ReadWrite - Shared=Letto/Scritto - Condiviso
 ReadWrite - Slave=Lettura/Scrittura - Slave
 rebuild ready=ricostruzione pronta
 rebuilding=ricostruzione
@@ -90,6 +96,7 @@ Removing container=Rimuovi Contenitore
 Removing orphan image=Rimuovi immagine orfana
 Repository=Repository
 Required=Richiesta
+Reset sorting=Reimposta l'ordinamento
 Resume All=Riprendi tutto
 Save=Salva
 Select a template=Seleziona un Template
@@ -110,6 +117,7 @@ Template=Template
 The command failed=Comando Fallito
 The command finished successfully=Comando terminato con successo
 TOTAL DATA PULLED=DATI TOTALI ESTRATTI
+Total size=Dimensione totale
 Unknown action=azione sconosciuta
 Update All=Aggiorna tutto
 update ready=aggiornamento pronto
@@ -124,18 +132,4 @@ Web=Web
 WebUI=WebUI
 Writable=Scrivibile
 
-; New entries (5) - 2021-05-08
-Drivers= Drivers
-ReadWrite - Shared=Letto/Scritto - Condiviso
-Reset sorting=Reimposta l'ordinamento
-Total size=Dimensione totale
-
-; New entries (1) - 2021-06-12
-Crypto Currency=
-
-; New entries (2) - 2021-09-18
-Additional Requirements=
-None Listed=
-
-; New entries (1) - 2021-11-07
-Read Me First=
+; Note: November 14, 2021 - 4 missing translations
