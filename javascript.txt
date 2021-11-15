@@ -9,6 +9,7 @@ day=giorno
 days=giorni
 disk image and definition=immagine disco e definizione
 Disks=Dischi
+Donate=
 Done=Fatto
 Edit=Modifica
 Execution error=Errore di esecuzione
@@ -64,4 +65,4 @@ Container Variable=
 Container Label=
 Container Device=
 
-; Note: November 14, 2021 - 6 missing translations
+; Note: November 15, 2021 - 7 missing translations
