@@ -132,4 +132,4 @@ Web=Web
 WebUI=WebUI
 Writable=Scrivibile
 
-; Note: November 15, 2021 - 4 missing translations
+; Note: November 16, 2021 - 4 missing translations
