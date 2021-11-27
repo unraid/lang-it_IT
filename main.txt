@@ -175,7 +175,6 @@ registration key=chiave di registrazione
 Registration Key Manager=Gestione Chiave di registrazione
 reiserfsck status=Stato reiserfsck
 Rename Pool=Rinomina Pool
-Rename=Rinomina
 Repair corrupted blocks=Ripara i blocchi danneggiati
 Replacement disk installed=Disco sostitutivo installato
 Replacement disk is too small=Il disco sostitutivo è troppo piccolo
