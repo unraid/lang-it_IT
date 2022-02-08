@@ -47,6 +47,8 @@ Yes, update it=Yes, update it!
 Yes=Si
 
 ; footer messages
+Array Copying=
+Array Clearing=
 Array Starting=Avvio Array
 Array Stopping=Arresto Array
 Mounting disks=Montaggio dischi
@@ -65,4 +67,4 @@ Container Variable=
 Container Label=
 Container Device=
 
-; Note: February 8, 2022 - 7 missing translations
+; Note: February 8, 2022 - 9 missing translations
