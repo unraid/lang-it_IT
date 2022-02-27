@@ -258,6 +258,7 @@ Unmountable Missing encryption key=Non smotabile: Chiave di criptazione non pres
 Unmountable No file system=Non smontabile: Nessun file system
 Unmountable No pool uuid=Non smotabile: Nessun pool uuid
 Unmountable not btrfs pool=Non smotabile: nessun btrfs pool
+Unmountable Unsupported or no file system=Unmountable: Unsupported or no file system
 Unmountable Volume not encrypted=Non smotabile: Volume not criptato
 Unmounted=Non smotabile
 Upgrading diskswapping parity=Aggiornamento disco/swapping parity
@@ -347,4 +348,4 @@ System in sleep mode=
 This will put the system in sleep mode=
 wiki entry=
 
-; Note: February 25, 2022 - 52 missing translations
+; Note: February 27, 2022 - 52 missing translations
