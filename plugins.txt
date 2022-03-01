@@ -37,4 +37,4 @@ Update Plugin=
 Upgrade=
 View Release Notes=
 
-; Note: February 27, 2022 - 37 missing translations
+; Note: March 1, 2022 - 37 missing translations
