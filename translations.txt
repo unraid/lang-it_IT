@@ -71,7 +71,7 @@ Close=Chiudi
 close=chiudi
 Comment=Commento
 complete=completo
-Confirm Password=Conferma Password
+Confirm Password=
 Contact Email Address=Email di contatto
 Contact Support=Contatta il Supporto
 containing your key file URL=URL del tuo file key
@@ -765,6 +765,7 @@ Rename Folder=
 rename to=
 Renaming=
 Restricted access=
+Save=
 Share name=Nome Condivisione
 SHARE=
 Source device=
@@ -805,4 +806,4 @@ Updating=
 year=
 years=
 
-; Note: March 13, 2022 - 337 missing translations
+; Note: March 18, 2022 - 335 missing translations
