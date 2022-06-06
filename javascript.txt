@@ -52,9 +52,14 @@ Array Clearing=
 Array Starting=Avvio Array
 Array Stopping=Arresto Array
 Mounting disks=Montaggio dischi
+Retry unmounting user shares=Retry unmounting user share(s)
 Spinning up all drives=Avvia tutti i dischi
+Stale configuration=
 Starting services=Avvio  servizi
 Stopping services=Arresto servizi
+Starting Recycle Bin=
+Stopping Recycle Bin=
+Sync filesystems=
 Unmounting disks=Smonta dischi
 Autostart disabled=Autoavvio disattivato
 Missing encryption key=Chiave di criptazione mancante
@@ -67,4 +72,4 @@ Container Variable=
 Container Label=
 Container Device=
 
-; Note: May 29, 2022 - 9 missing translations
+; Note: June 6, 2022 - 14 missing translations
