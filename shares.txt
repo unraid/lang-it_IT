@@ -21,8 +21,7 @@ Enter a name for the share=Inserisci un nome per la share
 Excluded disks=Dischi esclusi
 Export=Esporta
 Fill-up=Riempi
-Free=Libera
-; can't find Free in Unraid GUI, will check
+Free=Liberi
 has been deleted=è stato cancellato
 HDD=HDD
 High-water=High-water
