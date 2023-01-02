@@ -1,6 +1,6 @@
-also remove image=rimuovi anche l'immagine =
+also remove image=rimuovi anche l'immagine
 Apply=Applica
-Are you sure=Are you sure?
+Are you sure=Sei sicuro
 Cancel=Cancella
 checking=controllo
 Completely REMOVE=RIMUOVI completamente
@@ -9,13 +9,13 @@ day=giorno
 days=giorni
 disk image and definition=immagine disco e definizione
 Disks=Dischi
-Donate=
+Donate=Dona
 Done=Fatto
 Edit=Modifica
 Execution error=Errore di esecuzione
 Force Stop=Forza arresto
 Hibernate=Iberna
-Log for=Log for:
+Log for=Log for
 log=log
 Logs=Logs
 More Info=Altre Informazioni
@@ -25,7 +25,7 @@ Ok=Ok
 Pause=Pausa
 Proceed=Procedere
 Project Page=Pagina Progetto
-Read Me First=
+Read Me First=Leggimi prima
 Remove container=Rimuovere contenitore
 Remove definition=Rimuovi definizione
 Remove image=Rimuovi immagine
@@ -42,34 +42,34 @@ Updating all Containers=Aggiornamento di tutti i contenitori
 Updating the container=Aggiornamento contenitore
 VNC Remote=VNC Remoto
 WebUI=WebUI
-Yes, delete it=Yes, delete it!
-Yes, update it=Yes, update it!
-Yes=Si
+Yes, delete it=Sì, cancellalo
+Yes, update it=Sì, aggiornalo
+Yes=Sì
 
 ; footer messages
-Array Copying=
-Array Clearing=
+Array Copying=Copia Array
+Array Clearing=Pulizia Array
 Array Starting=Avvio Array
 Array Stopping=Arresto Array
 Mounting disks=Montaggio dischi
-Retry unmounting user shares=Retry unmounting user share(s)
+Retry unmounting user shares=Riprova a smontare share utente
 Spinning up all drives=Avvia tutti i dischi
-Stale configuration=
-Starting services=Avvio  servizi
+Stale configuration=Configurazione scaduta
+Starting services=Avvio servizi
 Stopping services=Arresto servizi
-Starting Recycle Bin=
-Stopping Recycle Bin=
-Sync filesystems=
+Starting Recycle Bin=Avvio Cestino
+Stopping Recycle Bin=Arresto Cestino
+Sync filesystems=Sincronizza i filesystem
 Unmounting disks=Smonta dischi
 Autostart disabled=Autoavvio disattivato
 Missing encryption key=Chiave di criptazione mancante
 Opening encrypted volumes=Apertura volumi criptati
 
 ; docker variables
-Container Path=
-Container Port=
-Container Variable=
-Container Label=
-Container Device=
+Container Path=Percorso Contenitore
+Container Port=Porta Contenitore
+Container Variable=Variabile Contenitore
+Container Label=Etichetta Contenitore
+Container Device=Dispositivo Contenitore
 
-; Note: June 11, 2022 - 13 missing translations
+; Note: January 3, 2023 - 0 missing translations
