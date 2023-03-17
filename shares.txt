@@ -29,6 +29,7 @@ Included disks=Dischi inclusi
 Invalid Characters=Caratteri non validi
 Invalid share name=Nomi di share non validi
 Manual do not automatically split directories=Manuale: non dividere automaticamente le directory
+Minimum free space=
 Missing share name=Nome share mancante
 Most-free=Il più libero
 Mover takes no action=Sposta non comporta alcuna azione
@@ -62,4 +63,4 @@ User Shares=Share Utente
 Write=Scrivi
 You cannot use the following within share names=Non puoi usare i seguenti nei nomi della share
 
-; Note: January 3, 2023 - 0 missing translations
+; Note: March 17, 2023 - 1 missing translations

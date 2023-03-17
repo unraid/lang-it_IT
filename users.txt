@@ -25,5 +25,3 @@ Use a password up to 128 characters=Usa una password fino a 128 caratteri
 Use only lowercase letters, digits, underscores and dashes=Usa solo caratteri in minuscolo, cifre, trattini bassi e trattini
 User %s has been deleted=L'utente %s è stato cancellato
 User name=Nome utente
-
-; Note: June 6, 2022 - 25 missing translations
