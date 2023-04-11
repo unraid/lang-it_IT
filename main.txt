@@ -195,6 +195,8 @@ raidz3=
 Raw Value=Valore Grezzo
 Raw View=Vista Grezza
 Read-Check in progress=Controllo lettura in corso
+Read errors corrected=
+Read errors detected=
 Reading=Leggendo
 Reboot in safe mode=Riavvia in modalità provvisoria
 Registration Key Manager=Gestione Chiave di registrazione
@@ -373,4 +375,4 @@ System in sleep mode=Sistema in modalità sleep
 This will put the system in sleep mode=Questo metterà il sistema in modalità sleep
 wiki entry=registro wiki
 
-; Note: March 17, 2023 - 27 missing translations
+; Note: April 11, 2023 - 29 missing translations

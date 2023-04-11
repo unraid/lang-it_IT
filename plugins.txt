@@ -35,8 +35,9 @@ STALE=SCADUTO
 Support Thread=Discussione di supporto
 Uninstall=Disinstalla
 Update All Plugins=Aggiorna Tutti i Plugin
+Update Incompatible=
 Update Plugin=Aggiorna Plugin
 Upgrade=Aggiorna
 View Release Notes=Vedi le Note di Rilascio
 
-; Note: March 17, 2023 - 2 missing translations
+; Note: April 11, 2023 - 3 missing translations
