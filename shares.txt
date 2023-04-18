@@ -72,4 +72,4 @@ User Shares=Share Utente
 Write=Scrivi
 You cannot use the following within share names=Non puoi usare i seguenti nei nomi della share
 
-; Note: April 18, 2023 - 10 missing translations
+; Note: April 18, 2023 - 9 missing translations
