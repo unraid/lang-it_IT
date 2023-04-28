@@ -131,7 +131,6 @@ video for VNC=video per VNC
 VirtIO Drivers CDRom Bus=Bus dek Driver CDRom VirtIO
 VirtIO Drivers ISO=ISO dei Driver VirtIO
 Virtual Machines=Macchine Virtuali
-VM Console enable Copypaste=VM Console enable Copy/paste
 VM creation error=errore creazione VM
 VM image deletion error=errore cancellazione immagine VM
 VNC Keyboard=Tastiera VNC
@@ -143,7 +142,7 @@ Windows 7XP=Windows 7/XP
 Windows 82012, newer Linux distros=Windows 8/2012, nuove distro Linux
 XML View=Visualizza XML
 
-; Note: April 28, 2023 - 33 missing translations
+; Note: April 29, 2023 - 34 missing translations
 9p Mode=
 Boot Order=
 Boot order=
@@ -170,6 +169,7 @@ Unraid Source Path=
 Virtiofs Mode=
 Virtual=
 VM Console AutoPort=
+VM Console enable Copypaste=VM Console enable Copy/paste
 VM Console Keyboard=
 VM Console Password=
 VM Console Port=
