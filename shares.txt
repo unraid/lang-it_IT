@@ -62,7 +62,7 @@ User Shares=Share Utente
 Write=Scrivi
 You cannot use the following within share names=Non puoi usare i seguenti nei nomi della share
 
-; Note: April 29, 2023 - 18 missing translations
+; Note: July 9, 2023 - 19 missing translations
 Calculated free space value=
 Clean Up=
 CLEAN UP=
@@ -80,4 +80,5 @@ Remove unused share configurations=
 Removed share configurations=
 Secondary storage to Primary storage=
 Secondary storage=
+Share name contains invalid characters for ZFS use=
 Storage=
