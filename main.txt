@@ -336,6 +336,7 @@ xfs_repair status=stato xfs_repair
 You may not add new disks and also remove existing disks=Non dovresti aggiungere nuovi dischi ed anche rimuovere dischi esistenti
 your server=il tuo server
 
+
 ; Sleep plugin translations
 Check this=Controlla questo
 for more information=per maggiori informazioni
@@ -346,19 +347,33 @@ System in sleep mode=Sistema in modalità sleep
 This will put the system in sleep mode=Questo metterà il sistema in modalità sleep
 wiki entry=registro wiki
 
-; Note: April 28, 2023 - 29 missing translations
+; Note: December 17, 2023 - 49 missing translations
+Add Subpool=
+Add ZFS Subpool=
 Attributes not available=
 Autotrim=
+cache - Cache Devices=
 Capabilities not available=
 Compression=
+Critical NVME temperature threshold=
+Critical SSD temperature threshold=
+dedup - Deduplication Tables=
+Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
+Device contents invalid=
+Device is disabled=
+Device is missing disabled=Device is missing disabled=Device is missing disabled=Device is missing (disabled)
 Flash device is set as public share=
 Identity is not available=
 Incorrect confirmation=
+logs - ZFS Intent Log=
 mirror=
+Missing pool disk=
 no devices=
 Not present=
 Please try again=
 Pool Status=
+Power=
+Power=
 raid0=
 raid1=
 raid10=
@@ -373,6 +388,12 @@ Read errors corrected=
 Read errors detected=
 ReiserFS is deprecated, please use another file system=
 single=
+spares - Hot Spares=
+special - Special Allocation Class=
+W=
+Warning NVME temperature threshold=
+Warning SSD temperature threshold=
+will remove the missing pool disk and then bring the array on-line=
 Wrong Pool State=
 zfs pool status=
 zfs=
