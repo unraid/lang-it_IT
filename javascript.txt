@@ -62,8 +62,8 @@ Stopping Recycle Bin=Arresto Cestino
 Sync filesystems=Sincronizza i filesystem
 Unmounting disks=Smonta dischi
 Autostart disabled=Autoavvio disattivato
-Missing encryption key=Chiave di criptazione mancante
-Opening encrypted volumes=Apertura volumi criptati
+Missing encryption key=Chiave di crittografia mancante
+Opening encrypted volumes=Apertura volumi crittografati
 
 ; docker variables
 Container Path=Percorso Contenitore
