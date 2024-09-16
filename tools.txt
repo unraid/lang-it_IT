@@ -1,6 +1,6 @@
 A registration replacement key has been created for USB Flash GUID=
 About=
-Alert Message=
+Alert Message=Messaggio di avviso
 alert=
 Alerts=
 All Categories=Tutte le categorie
