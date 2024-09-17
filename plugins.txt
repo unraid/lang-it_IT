@@ -41,4 +41,4 @@ View Release Notes=Vedi le Note di rilascio
 Alert Message=Messaggio di avviso
 I have read the release notes=Ho letto le Note di rilascio
 Remove Selected Plugins=Rimuovi i Plugin selezionati
-Update Incompatible=Aggiornamento NON compatibile
+Update Incompatible=Aggiornamento **NON** compatibile

@@ -16,7 +16,7 @@
 ** Identificazione ** è la * firma * che identifica in modo univoco un dispositivo di archiviazione. La firma
 include il numero di modello del dispositivo, il numero di serie, l'ID del dispositivo Linux e le dimensioni del dispositivo.
 
-**Temp.** (temperatura) viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina  [Display Preferenze](Settings/DisplaySettings).  Non è possibile leggere la temperatura dei dischi rigidi spun-down poiché questo in genere li fa avviare; invece viene visualizzato il simbolo *.  E' possivile
+**Temp.** (temperatura) viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina  [Impostazioni Interfaccia grafica](Settings/DisplaySettings).  Non è possibile leggere la temperatura dei dischi rigidi i standby poiché questo in genere li fa avviare; invece viene visualizzato il simbolo *.  È possibile
 visualizzare il simbolo "*" per i dispositivi SSD e Flash, anche se a volte questi dispositivi riportano un file
 temperatura e talvolta restituiscono il valore "0".
 
@@ -24,7 +24,7 @@ temperatura e talvolta restituiscono il valore "0".
 vengono configurate anche nella pagina [Preferenze di visualizzazione] (Impostazioni / Impostazioni di visualizzazione).
 La quantità di spazio utilizzata sarà diversa da zero anche per un disco vuoto a causa del sovraccarico del file system.
 
-*Nota: per un pool di cache multi-dispositivo, questi dati sono per l'intero pool come restituito da btrfs.*
+*Nota: per un pool di cache multi-dispositivo, questi dati sono per l'intero pool come restituito da Btrfs.*
 
 ** Letture, scritture ** sono un conteggio delle richieste di I/O inviate ai driver di I/O del dispositivo. Queste statistiche possono
 essere cancellate in qualsiasi momento, fare riferimento alla sezione Stato dell'array di seguito.
