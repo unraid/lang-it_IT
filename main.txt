@@ -1,5 +1,5 @@
 A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=Una formattazione non è MAI parte di un processo di recupero dati o ricostruzione disco, e se effettuato in dette circostanze poterà alla perdita di tutti i dati sul disco formattato
-Aborted=Abortito
+Aborted=Interrotto
 Action=Azione
 Add Pool=Aggiungi Pool
 Add=Aggiungi
