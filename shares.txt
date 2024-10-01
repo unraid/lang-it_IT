@@ -53,14 +53,14 @@ Some or all files unencrypted=Alcuni o tutti i file non criptati
 Some or all files unprotected=Alcuni o tutti i file non protetti
 Split level=Livello di divisione
 SSD=SSD
-There are no exportable disk shares=Non ci sono share disco esportabili
-There are no exportable user shares=Non si sono share utente esportabili
-Time Machine volume size limit=Limite dimennsione volume Time Machine
+There are no exportable disk shares=Non ci sono condivisioni disco esportabili
+There are no exportable user shares=Non si sono condivisioni utente esportabili
+Time Machine volume size limit=Limite dimensione volume Time Machine
 Unknown encryption state=Stato criptazione sconosciuto
 Use cache pool for new filesdirectories=Usa la pool di cache per nuovi file e directory
 User Shares=Utente Condivisioni
 Write=Scrivi
-You cannot use the following within share names=Non puoi usare i seguenti nei nomi della share
+You cannot use the following within share names=Non puoi usare i seguenti nei nomi della condivisione
 
 ; Note: July 9, 2023 - 19 missing translations
 Calculated free space value=
