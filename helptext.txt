@@ -37,13 +37,13 @@ provoca la * disabilitazione * del disco.
 ** FS ** indica il file system rilevato nella partizione 1 del dispositivo.
 
 La colonna ** Visualizza ** contiene un'icona di cartella che indica che il dispositivo è * montato *. Fare clic sull'icona per
-sfoglia il file system.
+sfogliare il filesystem.
 
 Se "Visualizza i totali dell'array" è abilitato nella pagina [Preferenze di visualizzazione] (Impostazioni / Impostazioni di visualizzazione), 
 È inclusa la riga ** Totale ** che fornisce un conteggio delle statistiche del dispositivo, inclusa la temperatura media
 dei tuoi dispositivi.
 
-The Array must be Stopped in order to change Array device assignments.
+L'Array deve essere **Fermato** per poter modificare i dispositivi ad esso assegnati.
 
 An Unraid array consists of one or two Parity disks and a number of Data disks. The Data
 disks are exclusively used to store user data, and the Parity disk(s) provides the redundancy necessary

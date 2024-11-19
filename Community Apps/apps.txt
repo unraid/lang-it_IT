@@ -1,8 +1,8 @@
 Cancel=
 
 ; My PSAs / banners
-Happy New Year=
-Happy Holidays from Andrew, Tracey, and family=
+Happy New Year=Buon Anno Nuovo
+Happy Holidays from Andrew, Tracey, and family=Buone Vacanze da Andrew, Tracey e famiglia
 Please Enjoy Responsibly=
 Popup Blocked CA requires popups to be enabled under certain circumstances You must white list your server within your browser to allow popups=
 Docker Service Not Enabled - Only Plugins Available To Be Installed Or Managed=
@@ -23,15 +23,15 @@ Downloads=Download
 Date Added=Data di aggiunta
 Number Of Apps=Numero di app
 ; Initial disclaimer translations
-Disclaimer=
+Disclaimer=Informativa
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=
 Every attempt is made to ensure that only safe and compatible applications are present=
 Application Policy=
-I Understand=
+I Understand=Capisco
 Installations of apps disabled You must accept the warning to be able to install applications=
-Click here=
-%s Results Per Page=
-Results Per Page: %s=
+Click here=Clicca qui
+%s Results Per Page=%s Risultati per pagina
+Results Per Page: %s=Risultati per pagina: %s
 
 ; Plugin Disclaimer
 Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=
@@ -40,17 +40,17 @@ Plugin Note=
 ; Multi Install
 Install Plugin Applications=
 Select all on page=
-Install Application=
-Install Applications=
-Update Application=
-Update Applications=
+Install Application=Installa App
+Install Applications=Installa App
+Update Application=Aggiorna App
+Update Applications=Aggiorna App
 Are you sure you want to update %s applications=
 Are you sure you want to install %s docker and %s plugin applications=Are you sure you want to install %1$s docker and %2$s plugin application(s)
 
 ; Searches
-Search=
+Search=Cerca
 Click Here To Get More Results From DockerHub=
-No Matching Applications Found=
+No Matching Applications Found=Nessuna app corrispondente trovata
 
 ; Repository Related
 %s removed as favourite repository=
@@ -58,22 +58,22 @@ No Matching Applications Found=
 Click to remove favourite repository=
 Click to set %s as favourite repository=
 Search for apps in repository=
-No description present=
-Go to the forum page=
-Go to the webpage=
-Go to reddit=
-Go to facebook=
-Go to discord=
-Go to forum profile=
-Show Profile=
-SHOW MORE=
-SHOW LESS=
-Read more=
-Total Applications=
-Total Known Downloads=
-Total Docker Applications=
-Total Plugin Applications=
-Total Languages=
+No description present=Nessuna descrizione presente
+Go to the forum page=Vai alla pagina del forum
+Go to the webpage=Vai alla pagina web
+Go to reddit=Vai su Reddit
+Go to facebook=Vai su Facebook
+Go to discord=Vai su Discord
+Go to forum profile=Vai al profilo del forum
+Show Profile=Mostra Profilo
+SHOW MORE=MOSTRA DI PIÙ
+SHOW LESS=MOSTRA DI MENO
+Read more=Scopri di più
+Total Applications=App totali
+Total Known Downloads=Download totali
+Total Docker Applications=Contenitori Docker totali
+Total Plugin Applications=Plugin totali
+Total Languages=Pacchetti Lingua totali
 Average Downloads Per App=
 Web Page=Pagina Web
 Forum=Forum
@@ -355,18 +355,18 @@ Install The Update=
 ; as in you have the latest version already installed
 Latest Version=
 Multi Language Support=
-Support Forum=
+Support Forum=Forum di Supporto
 ; as in more than 100000
 More than %s=
 Remove from Previous Apps=
-Remove=
-See All Apps=
-Favourite=
-Application Type=
+Remove=Rimuovi
+See All Apps=Vedi tutte le App
+Favourite=Preferito
+Application Type=Tipo App
 
 ; Graphs
 Trend Per Month=
-Downloads Per Month=
+Downloads Per Month=Download Mensili
 
 ; Multi install script
 Installing docker applications %s=
