@@ -1,122 +1,122 @@
 # lang-it_IT
 
-### READ THIS WHEN YOU WANT TO MAKE TRANSLATIONS TO ANOTHER LANGUAGE
+### LEGGERE QUESTO SE SI DESIDERA EFFETTUARE TRADUZIONI IN UN'ALTRA LINGUA
 
-There are sixteen main text files included in this repository, each with their own section of translations:
+Questo repository include sedici file di testo principali, ognuno con la propria sezione di traduzioni:
 
-- translations.txt -- these are general translations and loaded each time
-- helptext.txt     -- these are all help text sections and loaded each time
-- dashboard.txt    -- these are translations for the dashboard section
-- main.txt         -- these are translations for the main section
-- shares.txt       -- these are translations for the shares section
-- users.txt        -- these are translations for the users section
-- settings.txt     -- these are translations for the settings section
-- plugins.txt      -- these are translations for the plugins section
-- docker.txt       -- these are translations for the docker section
-- vms.txt          -- these are translations for the vms section
-- tools.txt        -- these are translations for the tools section
-- javascript.txt   -- these are translations for javascript scripts
-- scripts.txt      -- these are translations for local scripts
-- apps.txt         -- these are translations for the CA section
-- ca_settings      -- these are translations for the CA settings
-- javascript.ca.txt-- these are translations for the CA javascript
+- translations.txt -- queste sono traduzioni generali e vengono caricate ogni volta
+- helptext.txt     -- queste sono tutte le sezioni di aiuto e vengono caricate ogni volta
+- dashboard.txt    -- queste sono le traduzioni riguardanti la sezione Dashboard
+- main.txt         -- queste sono le traduzioni riguardanti la sezione Principale
+- shares.txt       -- queste sono le traduzioni riguardanti la sezione Condivisioni
+- users.txt        -- queste sono le traduzioni riguardanti la sezione Utenti
+- settings.txt     -- queste sono le traduzioni riguardanti la sezione Impostazioni
+- plugins.txt      -- queste sono le traduzioni riguardanti la sezione Plugin
+- docker.txt       -- queste sono le traduzioni riguardanti la sezione Docker
+- vms.txt          -- queste sono le traduzioni riguardanti la sezione Macchine virtuali
+- tools.txt        -- queste sono le traduzioni riguardanti la sezione Strumenti
+- javascript.txt   -- queste sono le traduzioni riguardanti gli Script javascript
+- scripts.txt      -- queste sono le traduzioni riguardanti gli Script locali
+- apps.txt         -- queste sono le traduzioni riguardanti la sezione App (Community Applications = CA)
+- ca_settings      -- queste sono le traduzioni riguardanti la sezione Impostazioni App (CA)
+- javascript.ca.txt-- queste sono le traduzioni riguardanti la sezione App Javascript (CA)
 
-All file names are in lowercase and should be included in the repository to make the translations complete.
+Tutti i nomi dei file sono in minuscolo e devono essere inclusi nel repository per completare le traduzioni.
 
-Removing a particular file, means no translations will be available for that section and the GUI will display text in original English.
+La rimozione di un particolare file comporta la mancata traduzione di quella sezione e la GUI visualizzerà il testo in inglese originale.
 
-### TRANSLATIONS
+### TRADUZIONI
 
-Each text file contains regular text strings stored in UTF-8 format with linux line-endings.
-Use a text editor which supports UTF-8 and linux format, like [notepad++](https://notepad-plus-plus.org/downloads)
+Ogni file di testo contiene stringhe di testo regolari memorizzate in formato UTF-8 con terminazioni di riga Linux.
+Utilizzare un editor di testo che supporti il formato UTF-8 e Linux, come [notepad++](https://notepad-plus-plus.org/downloads)
 
-The content of each text file is separated into two parts
+Il contenuto di ogni file di testo è suddiviso in due parti:
 
-### PART 1
+### PARTE 1
 
-These are single line entries which are in the format:
+Queste sono voci a riga singola visualizzate con il seguente formato:
 
-`original English text=translated Foreign text`
+`testo Inglese originale=testo Straniero tradotto`
 
-Only modify the text after the equal sign(=) and leave the original English text at the left untouched.
-Removing a line or omitting a translation after the equal sign, results in the GUI displaying this line with the original English text.
+Modificare solo il testo dopo il segno di uguale (=) e lasciare il testo inglese originale a sinistra invariato.
+La rimozione di una riga o l'omissione di una traduzione dopo il segno di uguale, fa sì che la GUI visualizzi questa riga con il testo Inglese originale.
 
-The translated text may have 'special characters', such as slashes, parenthesis or brackets which are not included in the key text,
-but which are used to display text accordingly. E.g.
+Il testo tradotto può contenere "caratteri speciali", come barre, parentesi o parentesi quadre che non sono inclusi nel testo chiave,
+ma che vengono utilizzati per visualizzare il testo di conseguenza. Esempio:
 
-`Options see Help=Options (see Help)`
+`Options see Help=Opzioni (vedi Aiuto)`
 
-The characters \* and \*\* are used to display text in italics and bold respectively. E.g.
+I caratteri \* e \*\* vengono utilizzati per visualizzare il testo rispettivamente in corsivo e in grassetto. Esempio:
 
-`Array must be Stopped to change=Array must be **Stopped** to change`
+`*Array* must be Stopped to change=*L'array* deve essere **Arrestato** per apportare le modifiche`
 
-It is recommended to make translations per section, that is one file at the time, and verify the correctness of the translations in the GUI
-before proceeding with the next section.
+Si consiglia di effettuare le traduzioni per sezione, ossia un file alla volta, e di verificarne la correttezza nella GUI
+prima di procedere con la sezione successiva.
 
-Keep in mind the length of the translations and try to make them similar length as the original text and avoid space issues in the GUI.
+Tenere presente la lunghezza delle traduzioni e cercare di renderle di lunghezza simile al testo originale ed evitare problemi di spazio nella GUI.
 
-### PART 2
+### PARTE 2
 
-These are multi line entries used to translate multiple lines at once.
-Multi line translations have a unique opening and closing tag:
+Queste sono voci a più righe utilizzate per tradurre più righe contemporaneamente.
+Le traduzioni a più righe hanno un tag di apertura e chiusura univoco:
 
-**:unique_tag_name_plug:** - unique opening tag used for any multi line text section
+**:unique_tag_name_plug:** - tag di apertura univoco utilizzato per qualsiasi sezione di testo a più righe
 
-**:end**    - closing tag
+**:end**    - tag di chiusura
 
-Do not remove or alter these tags and only translate the text between the opening and closing tags!
+Non rimuovere o alterare questi tag e tradurre solo il testo tra i tag di apertura e chiusura!
 
-### HELP TEXT
+### TESTO DI AIUTO
 
-All help text of the GUI is stored in a single file *helptext.txt*.
+Tutto il testo di aiuto della GUI è memorizzato in un singolo file helptext.txt.
 
-This file has multiple help text sections. Each section is enclosed by a unique opening tag and corresponding closing tag.
+Questo file ha più sezioni di testo di aiuto. Ogni sezione è racchiusa da un tag di apertura univoco e dal corrispondente tag di chiusura.
 
-**:unique_tag_name_help:** - unique opening tag used for a help text section
+**:unique_tag_name_help:** - tag di apertura univoco utilizzato per una sezione di testo di aiuto
 
-**:end**    - corresponding closing tag
+**:end**    - tag di chiusura corrispondente
 
-Do not remove or alter these tags and only translate the text between the opening and closing tags!
+Non rimuovere o alterare questi tag e tradurre solo il testo tra i tag di apertura e chiusura!
 
-Be aware that Markdown styling syntax is used, this must be preserved.
+Tenere presente che viene utilizzata la sintassi di stile Markdown, che deve essere preservata.
 
-### LOCAL TESTING
+### TEST LOCALI
 
-Once the translations are complete and you want to test locally the (intermediate) results, the text files need to be zipped into a single ZIP file.
-Give the ZIP file the name of your language, e.g. French.zip.
+Una volta completate le traduzioni e si desidera testare localmente i risultati (intermedi), i file di testo devono essere compressi in un singolo file ZIP.
+Assegnare al file ZIP il nome della propria lingua, ad esempio Italian.zip.
 
-In the GUI go to: Tools -> webGUI -> Language (switch to Developer view)
+Nella GUI vai a: Strumenti -> webGUI -> Lingua (passa alla visualizzazione Sviluppatore)
 
-- By default only the English language is installed (built-in)
-- Choose the ZIP file you have created earlier as the source file
-- If the language name is recognized, it will be automatically selected, otherwise chose the name of the language from the dropdown menu to install.
-- Click on "Upload" will add your translations to the GUI under the selected language name
+- Per impostazione predefinita è installata solo la lingua inglese (integrata)
+- Scegliere il file ZIP creato in precedenza come file di origine
+- Se il nome della lingua viene riconosciuto, verrà selezionato automaticamente, altrimenti scegliere dal menu a discesa il nome della lingua da installare
+- Cliccando su "Carica" le tue traduzioni verranno aggiunte alla GUI con il nome della lingua selezionato
 
-NOTE: If your language is not available from the dropdown menu, please make a request on the [Unraid forum](https://forums.unraid.net/forum/75-multi-language-section/)
+NOTA: se la tua lingua non è disponibile dal menu a discesa, fai una richiesta sul [Forum Unraid](https://forums.unraid.net/forum/75-multi-language-section/)
 
-Now your language is available for local testing!
+Ora la tua lingua è disponibile per i test locali!
 
-In the GUI go to: Settings -> Display Settings -> Language
+Nella GUI vai in: Impostazioni -> Interfaccia grafica -> Lingua
 
-- Select the preferred language from the dropdown menu. Note that only the available language choices are displayed here.
+- Selezionare la lingua preferita dal menu a discesa. Notare che qui vengono visualizzate solo le lingue disponibili.
 
 ### GITHUB
 
-A language repository will be made available at [Github](https://github.com/unraid), where translators can create Pull Requests (PR) and submit their work.
+Un repository linguistico sarà reso disponibile su [Github](https://github.com/unraid), dove i traduttori possono creare delle Pull Request (PR) e inviare il loro lavoro.
 
-Once you are satisfied with your results, use Github (an account is required) to fork the respective language repository and create a PR with your modifications.
+Una volta soddisfatti dei risultati, utilizzare Github (è richiesto un account) per eseguire il fork del rispettivo repository linguistico e creare una PR con le modifiche.
 
-Limetech will review this and merge your work when approved.
+Limetech lo esaminerà e unirà il tuo lavoro quando approvato.
 
-### UPDATES
+### AGGIORNAMENTI
 
-When updated source text files in English become available in the future, these updates will be made available through Github.
+Quando in futuro saranno disponibili file di testo sorgente aggiornati in inglese, questi aggiornamenti saranno resi disponibili tramite Github.
 
-Translators can use the Github system to see which changes are made and update their translations accordingly.
+I traduttori possono utilizzare il sistema Github per vedere quali modifiche vengono apportate e aggiornare di conseguenza le loro traduzioni.
 
-### CREDITS
+### CREDITI
 
-Your efforts are much welcomed and to show our appreciation, your name and language are credited on the Credits page under Tools in the GUI.
-Please let us know which credentials to use.
+I tuoi sforzi sono molto apprezzati e per mostrare il nostro apprezzamento, il tuo nome e la tua lingua sono accreditati nella pagina dei crediti sotto Strumenti nella GUI.
+Facci sapere quali credenziali utilizzare.
 
-Thank you very much!
+Grazie mille!
