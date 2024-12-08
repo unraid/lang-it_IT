@@ -1,17 +1,16 @@
-
-
-; Note: April 28, 2023 - 14 missing translations
-Search for %s=
-DockerHub Search for %s=
-Are you sure you want to delete %s from the list of previously installed applications=
 Are you sure you want to uninstall %s=Sicuro di voler disinstallare %s?
-Are you sure you want to remove the private application %s by %s=
-Removing %s=
 Uninstalling %s=Disinstallo %s
 Install %s Selected Application=Installa %s applicazione selezionata
 Install %s Selected Applications=Installa %s applicazioni selezionate
-Are you sure you want to install %s docker and %s plugin applications=
 Install Application=Installa applicazione
 Install Applications=Installa applicazioni
+
+; Note: December 8, 2024 - 8 missing translations
+Search for %s=
+DockerHub Search for %s=
+Are you sure you want to delete %s from the list of previously installed applications=
+Are you sure you want to remove the private application %s by %s=
+Removing %s=
+Are you sure you want to install %s docker and %s plugin applications=
 Something really wrong went on during %s=
 Are you sure you want to delete %s applications from the previously installed list=
