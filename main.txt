@@ -24,6 +24,7 @@ btrfs scrub status=stato scrub Btrfs
 cache - Cache Devices=cache - Dispositivi Cache
 Canceled=Annullato
 Cannot contact key-server Please check your=Impossibile contattare il key-server Controlla
+Caution=**Caution**
 Capabilities not available=Funzionalità non disponibili
 Capabilities=Capacità
 Check Filesystem Status=Controlla lo stato del filesystem
@@ -376,13 +377,12 @@ System in sleep mode=Sistema in standby
 This will put the system in sleep mode=Questo metterà il sistema in standby
 wiki entry=registro wiki
 
-; Note: December 8, 2024 - 32 missing translations
+; Note: December 8, 2024 - 31 missing translations
 Add Subpool=
 Add ZFS Subpool=
 After renaming the pool, check that your shares are assigned to the proper primary and secondary storage locations=
 After upgrading the volume may not be mountable in previous versions of Unraid=
 btrfs filesystem usage=
-Caution=**Caution**
 dedup - Deduplication Tables=
 Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device contents invalid=
