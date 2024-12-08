@@ -1,5 +1,5 @@
-Alert Message=Messaggio di avviso
 %s An update is available=%s È disponibile un aggiornamento
+Alert Message=Messaggio di avviso
 anonymous=anonimo
 Author=Autore
 Check For Updates=Verifica aggiornamenti
@@ -36,7 +36,7 @@ STALE=SCADUTO
 Support Thread=Ottieni assistenza sul Forum Unraid
 Uninstall=Disinstalla
 Update All Plugins=Aggiorna tutti i Plugin
-Update Plugin=Aggiorna Plugin
 Update Incompatible=Aggiornamento **NON** compatibile
+Update Plugin=Aggiorna Plugin
 Upgrade=Aggiorna
 View Release Notes=Vedi le Note di rilascio

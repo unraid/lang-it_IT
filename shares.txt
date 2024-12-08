@@ -40,6 +40,7 @@ Prefer=Preferisci
 previous user share=share utente precedente
 Read=Leggi
 Recompute=Ricalcola
+Removed share configurations=Rimuovi configurazioni Condivisione
 Rule=Regola
 Select cache pool=Seleziona il pool per la cache
 Set when adding new share only=Imposta solo quando aggiungi una nuova Condivisione
@@ -62,11 +63,13 @@ User Shares=Utente Condivisioni
 Write=Scrivi
 You cannot use the following within share names=Non puoi usare i seguenti nei nomi della condivisione
 
-; Note: July 9, 2023 - 19 missing translations
-Calculated free space value=
+; Note: December 8, 2024 - 24 missing translations
 Clean Up=
 CLEAN UP=
 Exclusive access=
+Free Space will be calculated=
+is missing=
+it references storage that does not exist=
 Minimum free space=
 Mover action=
 Mover transfers files from Primary storage to Secondary storage=
@@ -77,8 +80,11 @@ Primary storage %s=
 Primary storage for new files and folders=Primary storage (for new files and folders)
 Primary storage to Secondary storage=
 Remove unused share configurations=
-Removed share configurations=Rimuovi configurazioni Condivisione
 Secondary storage to Primary storage=
 Secondary storage=
 Share name contains invalid characters for ZFS use=
+Share is empty and is safe to delete=
+Share must be empty to be deleted=
 Storage=
+This share is invalid=
+Warning: Configured Pool=

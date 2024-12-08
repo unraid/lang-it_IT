@@ -353,4 +353,4 @@ is not unique (this is common with USB card readers).
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
 
-; Note: December 17, 2023 - 194 missing translations
+; Note: December 8, 2024 - 121 missing translations
