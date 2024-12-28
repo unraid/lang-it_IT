@@ -24,9 +24,9 @@ btrfs scrub status=stato scrub Btrfs
 cache - Cache Devices=cache - Dispositivi Cache
 Canceled=Annullato
 Cannot contact key-server Please check your=Impossibile contattare il key-server Controlla
-Caution=**Caution**
 Capabilities not available=Funzionalità non disponibili
 Capabilities=Capacità
+Caution=**Caution**
 Check Filesystem Status=Controlla lo stato del filesystem
 Clear Stats=Cancella statistiche
 Clearing in progress=Cancellazione in corso…
@@ -366,7 +366,6 @@ your server=il tuo server
 zfs pool status=Stato del Pool ZFS
 zfs=ZFS
 
-
 ; Sleep plugin translations
 Check this=Controlla questo
 for more information=per maggiori informazioni
@@ -377,12 +376,13 @@ System in sleep mode=Sistema in standby
 This will put the system in sleep mode=Questo metterà il sistema in standby
 wiki entry=registro wiki
 
-; Note: December 8, 2024 - 31 missing translations
+; Note: December 28, 2024 - 37 missing translations
 Add Subpool=
 Add ZFS Subpool=
 After renaming the pool, check that your shares are assigned to the proper primary and secondary storage locations=
 After upgrading the volume may not be mountable in previous versions of Unraid=
 btrfs filesystem usage=
+cache - L2ARC=
 dedup - Deduplication Tables=
 Device contents invalid, in standby mode spun-down=Device contents invalid, in standby mode (spun-down)
 Device contents invalid=
@@ -394,13 +394,18 @@ Fix=
 Flash device is set as public share=
 Identity is not available=
 Incorrect confirmation=
+Ineligible to run this version of Unraid OS Please consider extending your=Ineligible to run this version of Unraid OS. Please consider extending your
+logs - Separate Intent Log SLOG=logs - Separate Intent Log (SLOG)
 logs - ZFS Intent Log=
 mirror=
+No array devices have been assigned=
+No devices=
 No file system corruption detected=
 ReiserFS is deprecated, please use another file system=
 Renaming the pool will change the share storage allocations=
 single=
 spares - Hot Spares=
+special - Metadata storage=
 special - Special Allocation Class=
 The ZFS volume will be upgraded=
 This operation cannot be reversed=

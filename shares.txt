@@ -63,13 +63,14 @@ User Shares=Utente Condivisioni
 Write=Scrivi
 You cannot use the following within share names=Non puoi usare i seguenti nei nomi della condivisione
 
-; Note: December 8, 2024 - 24 missing translations
+; Note: December 28, 2024 - 28 missing translations
 Clean Up=
 CLEAN UP=
 Exclusive access=
 Free Space will be calculated=
 is missing=
 it references storage that does not exist=
+It references storage that does not exist=
 Minimum free space=
 Mover action=
 Mover transfers files from Primary storage to Secondary storage=
@@ -82,9 +83,12 @@ Primary storage to Secondary storage=
 Remove unused share configurations=
 Secondary storage to Primary storage=
 Secondary storage=
-Share name contains invalid characters for ZFS use=
 Share is empty and is safe to delete=
 Share must be empty to be deleted=
+Share name contains invalid characters for ZFS use=
 Storage=
+There are no mountable array or pool disks - cannot add shares=
 This share is invalid=
+Unknown cache usage=
+Unknown protection status=
 Warning: Configured Pool=
