@@ -266,4 +266,4 @@ Windows 82012, newer Linux distros=Windows 8/2012, versioni Linux recenti
 wsport for virtual console=
 XML View=Visualizza XML
 
-; Note: December 29, 2024 - 94 missing translations
+; Note: December 29, 2024 - 95 missing translations
