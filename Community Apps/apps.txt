@@ -121,7 +121,7 @@ Choose A Branch To Install=
 ; Multiple application installs
 ; no apps selected
 Install Selected Applications=Installa le app selezionate
-Yes install it=Conferma
+Yes, install it=Conferma
 
 ; Multi-install popup
 Yes, install them=Conferma
