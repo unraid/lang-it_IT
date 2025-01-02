@@ -22,7 +22,6 @@ Name Descending=Nome (Z-A)
 Downloads=Download
 Date Added=Data di aggiunta
 Number Of Apps=Numero di app
-
 ; Initial disclaimer translations
 Disclaimer=Informativa
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=
@@ -88,13 +87,14 @@ Search Apps=Cerca App
 Registry=Registro
 Details=Dettagli
 Added=Aggiunto
-
 ; Install Plugin title of openbox
 Install Plugin=Installa Plugin
 Update Plugin=Aggiorna Plugin
+
 Requirements not met=Requisiti non rispettati
 The requirements for this upgrade have not been met on your system=
 The sidebar for the app click info will list the details=The sidebar for the app (click info) will list the details
+
 BACK=INDIETRO
 
 ; Remove App from previously installed
@@ -121,7 +121,7 @@ Choose A Branch To Install=
 ; Multiple application installs
 ; no apps selected
 Install Selected Applications=Installa le app selezionate
-Yes, install it=Conferma
+Yes install it=Conferma
 
 ; Multi-install popup
 Yes, install them=Conferma
@@ -156,11 +156,14 @@ Run Anyways=
 Memory Requirements not met Problems may result=
 Installation already in progress=
 Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=
+Clear Flag=
 %s is incompatible with your OS version Please update the OS to proceed=
 %s is incompatible with your OS version Either uninstall %s or update the OS=
 Browser failed to communicate with Unraid Server=
 For unknown reasons, your browser was unable to communicate with Community Applications running on your server=
 Attempt to Fix Via Reload Page=
+External Link=
+Clicking OK will take you to a 3rd party website not associated with Limetech=
 
 ; CA Sections Keep the length reasonable
 Home=
@@ -194,6 +197,7 @@ Copyright=Copyright
 Translation=Traduzione
 
 ; Statistics page
+
 unknown=sconosciuto
 Last Change To Application Feed=
 Docker Applications=
@@ -304,9 +308,9 @@ OtherUncategorized=Other:Uncategorized
 and %s more=
 
 ; App Popup Related
-This application template has been blacklisted=This application / template has been blacklisted
-This application template has been deprecated=This application / template has been deprecated
-This application has additional requirements=
+This application template has been blacklisted=Questo modello di app è stato inserito nella blacklist
+This application template has been deprecated=Questo modello di app è abbandonato
+This application has additional requirements=Questa app ha requisiti aggiuntivi
 Additional Requirements=
 Donate To Author=
 Donate To Maintainer=
@@ -325,10 +329,8 @@ Total Downloads=
 Popularity=
 Licence=
 Ranked #%s=
-
 ; as in Trending up or down arrow
 Trending %s=
-
 ; as in As of some date
 As of %s=(As of %s)
 Play Video=
@@ -342,24 +344,21 @@ Install=
 Uninstall=
 Project=
 Read Me First=
-Install second instance=
+Install another instance=
 Install Using The Templates Default Tag=Install Using The Template's Default Tag
 Moderator Comments=Moderator Comments:
 Note not all authors keep up to date on change logs=
 Note not all maintainers keep up to date on change logs=
 Last Update=
 Note All statistics are only gathered every 30 days=
-
-; the following if using a space you MUST use nbsp but keep it down to one word if at all possible
+;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=
 Currently Installed Version=
 Install The Update=
-
 ; as in you have the latest version already installed
 Latest Version=
 Multi Language Support=
 Support Forum=Forum di Supporto
-
 ; as in more than 100000
 More than %s=
 Remove from Previous Apps=
@@ -418,6 +417,11 @@ Incompatible=Incompatibili
 Blacklisted=Nella blacklist
 Template Exists=Modello esistente
 Template already exists in Apps=Il modello esiste già nelle App
+; eg: LinuxServer Repository
+%s Repository=%s Repository
+; eg: Squid's Repository
+%s's Repository=Repository di %s
+
 Info=Info
 Attention=Attenzione
 Repository=
@@ -425,14 +429,9 @@ Why we picked it=Perché l'abbiamo scelta
 Application Spotlight %s=App in evidenza %s
 Unraid Staff=Staff di Unraid
 
-; eg: LinuxServer Repository
-%s Repository=%s Repository
-
-; eg: Squid's Repository
-%s's Repository=Repository di %s
-
 ; Page Navigation
 Displaying %s - %s of %s=Displaying %1$s - %2$s (of %3$s)
+
 Updating Content=Aggiorno contenuto…
 Language=Lingua
 Switch to this language=
@@ -457,9 +456,8 @@ Checking %s=Verifico %s
 Determine configuration=
 Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Would you like CA to attempt to determine any applicable paths, ports, and variables for the template?  This will entail performing a test installation of the container.  It will be automatically deleted after processing.  The container will not be started.
 An error occurred - Could not determine configuration=
-
 ; WebGui
 Click Install to download and install the Community Applications plugin=Clicca **Installa** per scaricare e installare il plugin **App della Community**
 
 
-; Note: February 10, 2024 - 362 missing translations
+; Note: December 8, 2024 - 176 missing translations
