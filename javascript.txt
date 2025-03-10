@@ -59,9 +59,9 @@ Starting services=Avvio servizi
 Stopping services=Arresto servizi
 Starting Recycle Bin=Avvio Cestino
 Stopping Recycle Bin=Arresto Cestino
-Sync filesystems=Sincronizza i filesystem
+Sync filesystems=Sincronizza i file system
 Unmounting disks=Smonta dischi
-Autostart disabled=Autoavvio disattivato
+Autostart disabled=Auto-avvio disattivato
 Missing encryption key=Chiave di crittografia mancante
 Opening encrypted volumes=Apertura volumi crittografati
 
