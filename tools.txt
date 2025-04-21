@@ -73,6 +73,7 @@ Language=Lingua
 Log file cleared=File di Log eliminati
 Log size=Dimensioni Log
 LOG size=Dimensioni LOG
+Log Viewer new=Log Viewer (new)
 Missing Key File=
 Missing Language=Pacchetto Lingua mancante
 Modprobed config file=Modprobe.d config file
@@ -353,4 +354,4 @@ is not unique (this is common with USB card readers).
 For more information, please [Contact Support](https://lime-technology.com/contact).
 :end
 
-; Note: December 8, 2024 - 121 missing translations
+; Note: April 21, 2025 - 108 missing translations
