@@ -3,7 +3,7 @@
 
 <i class='fa fa-circle orb green-orb'></i>Funzionamento normale, il dispositivo è attivo.
 
-<i class='fa fa-circle orb grey-orb'></i>Dispositivo in modalità stantby (spun-down).
+<i class='fa fa-circle orb grey-orb'></i>Dispositivo in modalità standby (spun-down).
 
 <i class='fa fa-warning orb yellow-orb'></i>Contenuto dispositivo emulato.
 
