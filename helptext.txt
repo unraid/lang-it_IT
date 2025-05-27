@@ -3,7 +3,7 @@
 
 <i class='fa fa-circle orb green-orb'></i>Funzionamento normale, il dispositivo è attivo.
 
-<i class='fa fa-circle orb grey-orb'></i>Dispositivo in modalità stantby(spun-down).
+<i class='fa fa-circle orb grey-orb'></i>Dispositivo in modalità standby (spun-down).
 
 <i class='fa fa-warning orb yellow-orb'></i>Contenuto dispositivo emulato.
 
@@ -21,7 +21,7 @@ visualizzare il simbolo "*" per i dispositivi SSD e Flash, anche se a volte ques
 temperatura e talvolta restituiscono il valore "0".
 
 ** Dimensioni, Usato, Libero ** indica le dimensioni totali del dispositivo, lo spazio utilizzato e lo spazio rimanente per i file. Questi valori
-vengono configurate anche nella pagina [Preferenze di visualizzazione] (Impostazioni / Impostazioni di visualizzazione).
+vengono configurati anche nella pagina [Preferenze di visualizzazione] (Impostazioni / Impostazioni di visualizzazione).
 La quantità di spazio utilizzata sarà diversa da zero anche per un disco vuoto a causa del sovraccarico del file system.
 
 *Nota: per un pool di cache multi-dispositivo, questi dati sono per l'intero pool come restituito da Btrfs.*

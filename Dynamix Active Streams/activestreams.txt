@@ -13,5 +13,5 @@ User=Utente
 >
 > I nuovi indirizzi IP vengono aggiunti automaticamente all'elenco quando rilevati.
 >
-> Per rimuovere un'associazione di nomi, cancellare la rispettiva casella del nome utente e cliccare su **Applica**.
+> Per rimuovere un'associazione di nomi, cancella la rispettiva casella del nome utente e clicca su **Applica**.
 :end
