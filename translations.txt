@@ -24,6 +24,7 @@ Advanced View=Vista Avanzata
 AFP Security Settings=Impostazioni di sicurezza AFP
 ago=fa
 Alert Message=
+Alerts=
 All=Tutti
 Always Allow=Permetti sempre
 Anonymize diagnostics may make troubleshooting more difficult=La diagnostica anonima può rendere la risoluzione dei problemi più difficile
@@ -249,6 +250,7 @@ not connected=non connesso
 Not encrypted=Non criptato
 not encrypted=non criptato
 NOTE=NOTA
+Notices=
 Notifications=
 Numbers_array=trenta:trenta ventinove:ventinove ventotto:ventotto ventisette:ventisette ventisei:ventisei venticinque:venticinque ventiquattro:ventiquattro ventitrè:ventitrè ventidue:ventidue ventuno:ventuno venti:venti diciannove:diciannove diciotto:diciotto diciassette:diciassette sedici:sedici quindici:quindici quattordici:quattordici tredici:tredici dodici:dodici undici:undici dieci:dieci nove:nove otto:otto sette:sette sei:sei cinque:cinque quattro:quattro tre:tre due:due uno:uno zero:zero
 object=oggetto
@@ -463,6 +465,7 @@ View=Vista
 VMs=Macchine Virtuali
 VPN=VPN
 Warning=Avviso
+Warnings=
 Was this container created using this plugin=Questo contenitore è stato creato utilizzando questo plugin
 Website=Sito web
 White=Bianco
@@ -1267,4 +1270,4 @@ Open a bug report=
 %s year=%s anno
 %s years=%s anni
 
-; Note: April 21, 2025 - 370 missing translations
+; Note: May 31, 2025 - 373 missing translations
