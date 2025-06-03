@@ -1,11 +1,11 @@
-A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=Una formattazione non è MAI parte di un processo di recupero dati o ricostruzione disco, e se effettuato in dette circostanze poterà alla perdita di tutti i dati sul disco formattato
+A format is NEVER part of a data recovery or disk rebuild process and if done in such circumstances will normally lead to loss of all data on the disks being formatted=Una formattazione non è MAI parte di un processo di recupero dati o di ricostruzione disco e, se effettuato in dette circostanze, porterà alla perdita di tutti i dati attualmente presenti.
 Aborted=Interrotto
 Action=Azione
 Add Pool=Aggiungi Pool
 Add=Aggiungi
 All existing data on this device will be OVERWRITTEN when array is Started=Tutti i dati esistenti su questo dispositivo verranno **SOVRASCRITTI** quando l'array sarà avviato
 Array Devices=Dispositivi dell'Array
-Array of %s devices=Dispositivi dell'array %s
+Array of %s devices=Array di %s dispositivi
 Array Operation=Operazioni Array
 Attribute Name=Nome Attributo
 Attributes not available=Attributi non disponibili
@@ -24,7 +24,7 @@ BTRFS operation is running=operazione Btrfs in corso…
 btrfs scrub status=stato scrub Btrfs
 cache - Cache Devices=cache - Dispositivi Cache
 Canceled=Annullato
-Cannot contact key-server Please check your=Impossibile contattare il server delle chiavi. Controlla il tuo
+Cannot contact key-server Please check your=Impossibile contattare il server delle chiavi. Controlla
 Capabilities not available=Funzionalità non disponibili
 Capabilities=Funzionalità
 Caution=**Attenzione**
@@ -260,10 +260,10 @@ The array will be immediately available, but unprotected until Parity-Sync compl
 The replacement disk must be as big or bigger than the original=Il disco sostitutivo deve essere uguale o più grande di quello originale.
 This is typically done when a new disk is added to the array to get it ready for files to be written to it=Questa operazione viene in genere eseguita quando viene aggiunto un nuovo disco all'array per prepararlo alla scrittura dei file.
 This Unraid OS release has been withdrawn and may no longer be used Please=Questa versione di Unraid OS è stata ritirata e non può più essere utilizzata.
-This will ERASE ALL device content=Questo **ELIMINERÀ TUTTO** il contenuto del dispositivo
-This will ERASE content of ALL devices in the pool=Questo **ELIMINERÀ** il contenuto di **TUTTI** i dispositivi nel pool
-This will reboot the system=Il sistema verrà riavviato!
-This will shutdown the system=Il sistema verrà spento!
+This will ERASE ALL device content=**TUTTO** il contenuto del dispositivo verrà **ELIMINATO**
+This will ERASE content of ALL devices in the pool=Il contenuto di **TUTTI** i dispositivi nel pool verrà **ELIMINATO**
+This will reboot the system=Il sistema verrà riavviato
+This will shutdown the system=Il sistema verrà spento
 This will stop the array=L'array verrà fermato
 This will stop the running operation=L'operazione in corso verrà interrotta
 Threshold=Soglia
@@ -405,7 +405,7 @@ This operation cannot be reversed=Questa operazione non può essere annullata
 To confirm type %s=Per confermare digita: %s
 Tx=Tx
 While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=Sebbene ci sia un certo rischio, se non è possibile montare prima il file system per cancellare il log, azzerarlo è l'unica opzione per tentare di ripararlo e, nella maggior parte dei casi, comporta una perdita di dati minima o nulla.
-will remove the missing pool disk and then bring the array on-line=rimuoverà il disco del pool mancante e poi porterà l'array online
+will remove the missing pool disk and then bring the array on-line=rimuoverà il disco del pool mancante e porterà l'array online
 
 ; Sleep plugin translations
 Check this=Controlla questo
