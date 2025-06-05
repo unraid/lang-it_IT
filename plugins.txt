@@ -2,6 +2,7 @@
 Alert Message=Messaggio di avviso
 anonymous=anonimo
 Author=Autore
+cannot check=impossibile verificare
 Check For Updates=Verifica aggiornamenti
 Checking connectivity=Verifica della connessione…
 checking=Controllo…
@@ -40,4 +41,3 @@ Update Incompatible=Aggiornamento **NON** compatibile
 Update Plugin=Aggiorna Plugin
 Upgrade=Aggiorna
 View Release Notes=Vedi le Note di rilascio
-cannot check=impossibile verificare
