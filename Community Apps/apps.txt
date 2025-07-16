@@ -12,7 +12,7 @@ Community Applications works best when cookies are enabled in your browser Certa
 Backup Server Active Some icons may not appear, and plugin installations may be affected=Server di backup attivo. Alcune icone potrebbero non apparire e le installazioni dei plugin potrebbero essere influenzate.
 Debugging enabled This significantly increases the memory used by your browser=Debugging abilitato. Questo aumenta significativamente la memoria utilizzata dal tuo browser.
 Browser translation detected Display issues may result=Traduzione del browser rilevata. Potrebbero verificarsi problemi di visualizzazione.
-Action Centre Enabled=Centro Azioni Abilitato
+Action Centre Enabled=Nuove notifiche nel Centro Azioni
 Deprecated OS version No further updates to Community Applications will be issued for this OS version=Versione del sistema operativo obsoleta. Non verranno rilasciati ulteriori aggiornamenti per Community Applications su questa versione del sistema operativo.
 
 ; Sorting Options
