@@ -24,7 +24,7 @@ ma spesso restituiscono il valore "0".
 vengono configurati anche nella pagina [Preferenze di visualizzazione] (Impostazioni > Impostazioni di visualizzazione).
 La quantità di spazio utilizzata sarà diversa da zero anche per un disco vuoto poiché qualsiasi file system occupa comunque una propria porzione di dati.
 
-*Nota: per un pool di cache multi-dispositivo questi dati indicano l'intero pool come restituito da Btrfs.*
+*Nota: per un pool di cache multi-dispositivo questi dati indicano l'intero pool come restituito da BTRFS.*
 
 ** Letture, scritture ** sono un conteggio delle richieste di I/O inviate ai driver di I/O del dispositivo. Queste statistiche possono
 essere cancellate in qualsiasi momento, fare riferimento alla sezione Stato dell'array di seguito.
