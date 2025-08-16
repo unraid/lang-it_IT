@@ -11,7 +11,7 @@ User=Utente
 :streams_plug:
 > Assegna nomi simbolici agli indirizzi IP, che vengono visualizzati nella pagina delle trasmissioni attive.
 >
-> I nuovi indirizzi IP vengono aggiunti automaticamente all'elenco quando rilevati.
+> I nuovi indirizzi IP vengono aggiunti automaticamente all’elenco quando rilevati.
 >
-> Per rimuovere un'associazione di nomi, cancella la rispettiva casella del nome utente e clicca su **Applica**.
+> Per rimuovere un’associazione di nomi, cancella la rispettiva casella del nome utente e clicca su **Applica**.
 :end

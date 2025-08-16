@@ -1,40 +1,40 @@
-A registration replacement key has been created for USB Flash GUID=È stata creata una Chiave di registrazione sostitutiva per l'Unità Flash USB con GUID:
+A registration replacement key has been created for USB Flash GUID=È stata creata una Chiave di registrazione sostitutiva per l’Unità Flash USB con GUID:
 About=Informazioni
 Alert Message=Messaggio di avviso
 alert=Avviso
 Alerts=Avvisi
 All Categories=Tutte le categorie
-An email has been sent to=Un'e-mail è stata inviata a
+An email has been sent to=Un’e-mail è stata inviata a
 and=e
 Anonymize diagnostics=Anonimizza la diagnostica
 Anytime=Ogni volta
 Archived Notifications=Notifiche archiviate
-Are you sure=
-Array has been Reset=L'array è stato **ripristinato**
-Array must be Started to change permissions=L'array deve essere **avviato** per modificare i permessi
-Array must be Stopped to change=L'array deve essere **fermato** per apportare le modifiche
-Array slots=Slot dell'Array
+Are you sure=Vuoi procedere?
+Array has been Reset=L’array è stato **ripristinato**
+Array must be Started to change permissions=L’array deve essere **avviato** per modificare i permessi
+Array must be Stopped to change=L’array deve essere **fermato** per apportare le modifiche
+Array slots=Slot dell’Array
 Array=Array
 Author=Autore
 Beta=Beta
-Blacklisted USB Flash GUID=
-Branch=
-By using this software, you agree with our=
+Blacklisted USB Flash GUID=GUID dell’Unità Flash USB presente nella blacklist
+Branch=Canale di rilascio
+By using this software, you agree with our=Utilizzando questo software, accetti il nostro
 Cache slots=Slot della Cache
 Cannot connect to key-server=Connessione al server di attivazione non riuscita
 Check for Updates=Controlla aggiornamenti
 Clear Log=Pulisci i log
 click Install Key=clicca <i>Installa Chiave</i>
-collecting diagnostic information this may take several minutes=Raccolta informazioni di diagnostica in corso (potrebbe richiedere alcuni minuti)…
+collecting diagnostic information this may take several minutes=Raccolta informazioni di diagnostica in corso. Questa operazione potrebbe richiedere alcuni minuti…
 Component=Componente
 Creating Flash backup=Crea backup Unità Flash USB
-Creation error=
+Creation error=Errore di creazione
 Credits=Ringraziamenti
 Data slots=Slot di Dati
 Delete all notifications=Elimina tutte le notifiche
 Delete Modprobe config=
 Delete notification=Elimina notifica
-Deprecated Only=
+Deprecated Only=Solo Obsoleto
 Developer=Sviluppatore
 Diagnostics=Diagnostica
 Disks=Dischi
@@ -44,8 +44,8 @@ Downloading=Download in corso…
 Driver=Driver
 Edit Modprobe config=Modifica configurazione file Modprobe.d
 End-User License Agreement=Accordo di licenza utente finale
-Enter URL of language pack XML file=
-Error accessing your physical USB Flash boot device=
+Enter URL of language pack XML file=Inserisci l’URL del file XML del pacchetto lingua
+Error accessing your physical USB Flash boot device=Si è verificato un errore durante l’accesso all’Unità Flash USB di avvio
 Error reporting level=Livello segnalazione errori
 Errors Only=Solo Errori
 EULA=Termini & Condizioni
@@ -88,7 +88,7 @@ normal=normale
 Notices Only=
 Notices=
 Only ZIP files are allowed=Sono consentiti solo file .ZIP
-Page Map=Mappa dell'interfaccia
+Page Map=Mappa dell’interfaccia
 Parity slots=Slot di Parità
 PHP Info=Info su PHP
 PHP Information=Informazioni su PHP
@@ -155,7 +155,7 @@ Trial=Versione di prova
 Update OS=Esegui aggiornamento
 Upgrade Key=Aggiorna Licenza
 Uploaded=Caricato
-uploading hardware information=carico informazioni sull'hardware
+uploading hardware information=carico informazioni sull’hardware
 Uploading=Caricamento…
 Use this to develop language packs=
 Use this to install official language packs=
@@ -168,10 +168,10 @@ View VFIO-PCI Log=Visualizza i Log VFIO-PCI
 warning=avviso
 Warnings Only=Solo avvisi
 Warnings=Avvisi
-webGUI=Interfaccia grafica WEB
+webGUI=Interfaccia Grafica Web
 When received, please paste the URL into the Key file URL box and=When received, please paste the URL into the *Key file URL* box and
 Wrong File Extension=Estensione del file errata!
-You havent sent Limetech your hardware profile yet=You haven't sent Limetech your hardware profile yet
+You havent sent Limetech your hardware profile yet=You haven’t sent Limetech your hardware profile yet
 Your hardware profile was last submitted on=
 Your Trial key has expired=Your *Trial* key has expired
 Your Trial key requires an internet connection=Your *Trial* key requires an internet connection
@@ -190,7 +190,7 @@ PCI Devices and IOMMU Groups=Dispositivi PCI e Gruppi IOMMU
 PCI Devices No IOMMU Groups Available=Dispositivi PCI (Nessun Gruppo IOMMU disponibile)
 Reboot to take effect=Riavvia per applicare le modifiche
 SCSI Devices=Dispositivi SCSI
-The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn't not reflect the way IOMMU would naturally group devices
+The below list doesnt not reflect the way IOMMU would naturally group devices=The below list doesn’t not reflect the way IOMMU would naturally group devices
 This controller is bound to vfio, connected USB devices are not visible=
 This controller is bound to vfio, connected drives are not visible=
 To see natural IOMMU groups for your hardware, go to the VM Manager page and set the PCIe ACS override setting to Disabled=To see natural IOMMU groups for your hardware, go to the [VM Manager] page and set the **PCIe ACS override** setting to **Disabled**
@@ -243,7 +243,7 @@ if it were a fresh new server.
 This is useful when you have added or removed multiple drives and wish to rebuild parity based on
 the new configuration.
 
-Use the *'Preserve current assignments'* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
+Use the *’Preserve current assignments’* selection to populate the desired disk slots ***after*** the array has been reset. By default **no** disk slots are populated.
 
 **DO NOT USE THIS UTILITY THINKING IT WILL REBUILD A FAILED DRIVE** - it will have the opposite
 effect of making it ***impossible*** to rebuild an existing failed drive - you have been warned!
@@ -275,7 +275,7 @@ For readonly files:
 :newperms_3_plug:
 Clicking **Start** will open another window and start the background process.
 
-Closing the window before completion will terminate the background process - so don't do that. This process can take a long time if you have many files.
+Closing the window before completion will terminate the background process - so don’t do that. This process can take a long time if you have many files.
 
 Note that this tool may negatively affect any docker containers if you allow your appdata share to be included.
 :end
