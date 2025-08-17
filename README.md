@@ -4,8 +4,8 @@
 
 In questo repository sono inclusi diversi file di testo, ciascuno con la propria sezione di traduzioni:
 
-- **translations.txt** 	  --	traduzioni generiche, caricate ogni volta
-- **helptext.txt**		    --	traduzioni per le sezioni di aiuto, caricate ogni volta
+- **translations.txt**    --	traduzioni generiche, caricate ogni volta
+- **helptext.txt**        --	traduzioni per le sezioni di aiuto, caricate ogni volta
 - **dashboard.txt**		    --	traduzioni per la sezione **Dashboard**
 - **main.txt**			      --	traduzioni per la sezione **Principale**
 - **shares.txt**		      --	traduzioni per la sezione **Condivisioni**
