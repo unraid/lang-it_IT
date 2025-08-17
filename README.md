@@ -19,7 +19,7 @@ In questo repository sono inclusi diversi file di testo, ciascuno con la propria
 - <strong>javascript.txt</strong>       -- traduzioni per gli script <strong>JavaScript</strong>
 - <strong>scripts.txt</strong>          -- traduzioni per gli <strong>Script locali</strong>
 - <strong>apps.txt</strong>             -- traduzioni per la sezione <strong>App</strong> <em>(CA = Community Applications)</em>
-- <strong>ca_settings</strong>          -- traduzioni per le <strong>Impostazioni App</strong> <em>(CA)</em>
+- <strong>ca_settings.txt</strong>      -- traduzioni per le <strong>Impostazioni App</strong> <em>(CA)</em>
 - <strong>javascript.ca.txt</strong>    -- traduzioni per gli <strong>Script JavaScript</strong> della sezione <em>CA</em>
 </pre>
 
