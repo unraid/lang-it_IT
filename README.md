@@ -4,22 +4,22 @@
 
 In questo repository sono inclusi diversi file di testo, ciascuno con la propria sezione di traduzioni:
 
-- **translations.txt** 	--	traduzioni generiche, caricate ogni volta
-- **helptext.txt**		--	traduzioni per le sezioni di aiuto, caricate ogni volta
-- **dashboard.txt**		--	traduzioni per la sezione **Dashboard**
-- **main.txt**			--	traduzioni per la sezione **Principale**
-- **shares.txt**		--	traduzioni per la sezione **Condivisioni**
-- **users.txt**			--	traduzioni per la sezione **Utenti**
-- **settings.txt**		--	traduzioni per la sezione **Impostazioni**
-- **plugins.txt**		--	traduzioni per la sezione **Plugin**
-- **docker.txt**		--	traduzioni per la sezione **Docker**
-- **vms.txt**			--	traduzioni per la sezione **Macchine virtuali**
-- **tools.txt**			--	traduzioni per la sezione **Strumenti**
-- **javascript.txt**	--	traduzioni per gli script **JavaScript**
-- **scripts.txt**		--	traduzioni per gli **Script locali**
-- **apps.txt**			--	traduzioni per la sezione **App** *(CA = Community Applications)*
-- **ca_settings**		--	traduzioni per le **Impostazioni App** *(CA)*
-- **javascript.ca.txt**	--	traduzioni per gli **Script JavaScript** della sezione *CA*
+- **translations.txt** 	  --	traduzioni generiche, caricate ogni volta
+- **helptext.txt**		    --	traduzioni per le sezioni di aiuto, caricate ogni volta
+- **dashboard.txt**		    --	traduzioni per la sezione **Dashboard**
+- **main.txt**			      --	traduzioni per la sezione **Principale**
+- **shares.txt**		      --	traduzioni per la sezione **Condivisioni**
+- **users.txt**			      --	traduzioni per la sezione **Utenti**
+- **settings.txt**		    --	traduzioni per la sezione **Impostazioni**
+- **plugins.txt**		      --	traduzioni per la sezione **Plugin**
+- **docker.txt**		      --	traduzioni per la sezione **Docker**
+- **vms.txt**			        --	traduzioni per la sezione **Macchine virtuali**
+- **tools.txt**			      --	traduzioni per la sezione **Strumenti**
+- **javascript.txt**	    --	traduzioni per gli script **JavaScript**
+- **scripts.txt**		      --	traduzioni per gli **Script locali**
+- **apps.txt**			      --	traduzioni per la sezione **App** *(CA = Community Applications)*
+- **ca_settings**		      --	traduzioni per le **Impostazioni App** *(CA)*
+- **javascript.ca.txt**	  --	traduzioni per gli **Script JavaScript** della sezione *CA*
 
 Tutti i nomi dei file sono in minuscolo e devono essere inclusi nel repository per rendere complete le traduzioni.
 
