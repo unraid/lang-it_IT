@@ -4,24 +4,26 @@
 
 In questo repository sono inclusi diversi file di testo, ciascuno con la propria sezione di traduzioni:
 
-- **translations.txt**    --	traduzioni generiche, caricate ogni volta
-- **helptext.txt**        --	traduzioni per le sezioni di aiuto, caricate ogni volta
-- **dashboard.txt**		    --	traduzioni per la sezione **Dashboard**
-- **main.txt**			      --	traduzioni per la sezione **Principale**
-- **shares.txt**		      --	traduzioni per la sezione **Condivisioni**
-- **users.txt**			      --	traduzioni per la sezione **Utenti**
-- **settings.txt**		    --	traduzioni per la sezione **Impostazioni**
-- **plugins.txt**		      --	traduzioni per la sezione **Plugin**
-- **docker.txt**		      --	traduzioni per la sezione **Docker**
-- **vms.txt**			        --	traduzioni per la sezione **Macchine virtuali**
-- **tools.txt**			      --	traduzioni per la sezione **Strumenti**
-- **javascript.txt**	    --	traduzioni per gli script **JavaScript**
-- **scripts.txt**		      --	traduzioni per gli **Script locali**
-- **apps.txt**			      --	traduzioni per la sezione **App** *(CA = Community Applications)*
-- **ca_settings**		      --	traduzioni per le **Impostazioni App** *(CA)*
-- **javascript.ca.txt**	  --	traduzioni per gli **Script JavaScript** della sezione *CA*
+<pre>
+- <strong>translations.txt</strong>     -- traduzioni <strong>generali</strong>, utilizzate in diverse sezioni
+- <strong>helptext.txt</strong>         -- traduzioni per le sezioni di <strong>aiuto</strong>
+- <strong>dashboard.txt</strong>        -- traduzioni per la sezione <strong>Dashboard</strong>
+- <strong>main.txt</strong>             -- traduzioni per la sezione <strong>Principale</strong>
+- <strong>shares.txt</strong>           -- traduzioni per la sezione <strong>Condivisioni</strong>
+- <strong>users.txt</strong>            -- traduzioni per la sezione <strong>Utenti</strong>
+- <strong>settings.txt</strong>         -- traduzioni per la sezione <strong>Impostazioni</strong>
+- <strong>plugins.txt</strong>          -- traduzioni per la sezione <strong>Plugin</strong>
+- <strong>docker.txt</strong>           -- traduzioni per la sezione <strong>Docker</strong>
+- <strong>vms.txt</strong>              -- traduzioni per la sezione <strong>Macchine virtuali</strong>
+- <strong>tools.txt</strong>            -- traduzioni per la sezione <strong>Strumenti</strong>
+- <strong>javascript.txt</strong>       -- traduzioni per gli script <strong>JavaScript</strong>
+- <strong>scripts.txt</strong>          -- traduzioni per gli <strong>Script locali</strong>
+- <strong>apps.txt</strong>             -- traduzioni per la sezione <strong>App</strong> <em>(CA = Community Applications)</em>
+- <strong>ca_settings</strong>          -- traduzioni per le <strong>Impostazioni App</strong> <em>(CA)</em>
+- <strong>javascript.ca.txt</strong>    -- traduzioni per gli <strong>Script JavaScript</strong> della sezione <em>CA</em>
+</pre>
 
-Tutti i nomi dei file sono in minuscolo e devono essere inclusi nel repository per rendere complete le traduzioni.
+Tutti i nomi dei file sono in minuscolo e <strong>devono essere inclusi nel repository</strong> per rendere complete le traduzioni.
 
 La rimozione di un determinato file comporta l'assenza di traduzioni per quella sezione e l'interfaccia grafica *(GUI)* mostrerà il testo in inglese originale.
 
