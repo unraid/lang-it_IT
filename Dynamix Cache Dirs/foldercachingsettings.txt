@@ -7,7 +7,7 @@ for adaptive depth=per profondità adattiva
 Important - check HELP if disks spin up=Importante - Consulta la **GUIDA** se i dischi continuano ad attivarsi
 Included folders=Cartelle incluse
 Memory available to the cache_dirs script increase if it dies=Memoria disponibile per lo script *cache_dirs* (aumenta se si blocca)
-Logging=
+Logging=Logging
 Maximum interval between folder scans=Intervallo massimo tra le scansioni delle cartelle
 Maximum level depth=Profondità massima del livello
 Minimum interval between folder scans=Intervallo minimo tra le scansioni delle cartelle
@@ -115,7 +115,7 @@ User defined options=Opzioni definite dall’utente
 :end
 
 :cachedirs_scan_disk_plug:
-> Ogni disco verrà scansionato in un thread separato, quindi i dischi saranno letti in modo simultaneo. Se viene scansionata anche una Condivisione Utente,
+> Ogni disco verrà scansionato in un thread separato, quindi i dischi saranno letti in parallelo. Se viene scansionata anche una Condivisione Utente,
 > questa operazione avverrà in un singolo thread dopo che tutte le scansioni dei dischi saranno completate, per evitare un eccessivo sovraccarico dei dischi.
 :end
 
