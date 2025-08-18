@@ -28,13 +28,13 @@ All applications listed here are 3rd party additions to Unraid Neither the autho
 Every attempt is made to ensure that only safe and compatible applications are present=Ogni tentativo è fatto per assicurare che siano presenti solo applicazioni sicure e compatibili.
 Application Policy=Politica delle Applicazioni
 I Understand=Capisco
-Installations of apps disabled You must accept the warning to be able to install applications=L'installazione delle app è disabilitata. Devi accettare l'avviso per poter installare le applicazioni.
+Installations of apps disabled You must accept the warning to be able to install applications=L’installazione delle app è disabilitata. Devi accettare l’avviso per poter installare le applicazioni.
 Click here=Clicca qui
 %s Results Per Page=%s Risultati per pagina
 Results Per Page: %s=Risultati per pagina: %s
 
 ; Plugin Disclaimer
-Plugin Note=Community Applications contiene sia Contenitori Docker che Applicazioni (plugin). I Plugin sono progettati per migliorare l'esperienza di Unraid, vengono eseguiti con privilegi completi sul tuo sistema e sono chiaramente identificati all'interno di Community Applications.
+Plugin Note=Community Applications contiene sia Contenitori Docker che Applicazioni (plugin). I Plugin sono progettati per migliorare l’esperienza di Unraid, vengono eseguiti con privilegi completi sul tuo sistema e sono chiaramente identificati all’interno di Community Applications.
 
 ; Multi Install
 Install Plugin Applications=Installa Applicazioni (plugin)
@@ -92,7 +92,7 @@ Update Plugin=Aggiorna Plugin
 
 Requirements not met=Requisiti non rispettati
 The requirements for this upgrade have not been met on your system=I requisiti per questo aggiornamento non sono stati soddisfatti sul tuo sistema.
-The sidebar for the app click info will list the details=La barra laterale, attivata dal click sull'app, mostrerà i dettagli.
+The sidebar for the app click info will list the details=La barra laterale, attivata dal click sull’app, mostrerà i dettagli.
 
 BACK=INDIETRO
 
@@ -115,7 +115,7 @@ Pin App=Fissa App
 Unpin App=Sblocca App
 
 ; Branch installations
-Choose A Branch To Install=Scegli la Linea di sviluppo da utilizzare per l'installazione
+Choose A Branch To Install=Scegli la Linea di sviluppo da utilizzare per l’installazione
 
 ; Multiple application installs
 ; no apps selected
@@ -129,22 +129,22 @@ Cookies not enabled Plugins must be separately installed from docker application
 Docker applications will be installed utilizing the most recently saved template with no user input on your part=I Contenitori Docker verranno installati utilizzando il template più recente, senza alcun input da parte tua.
 Updating Support Links=Aggiornamento dei link di supporto
 Downloading docker icons=Download delle icone Docker
-Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Installazione completata. Se il pulsante "FATTO" non è apparso, clicca sulla X rossa nell'angolo in alto a destra.
+Finished Installing If the DONE button did not appear, then you will need to click the red X in the top right corner=Installazione completata. Se il pulsante "FATTO" non è apparso, clicca sulla X rossa nell’angolo in alto a destra.
 
 ; error messages
-An error occurred Could not find any %s Apps=Si è verificato un errore. Impossibile trovare l'app %s.
+An error occurred Could not find any %s Apps=Si è verificato un errore. Impossibile trovare l’app %s.
 Download of appfeed failed=Download del feed di applicazioni fallito.
 ; the %s here refers to a function being called
 Something really went wrong here=Si è verificato un errore
-Post the ENTIRE contents of this message in the Community Applications Support Thread=Pubblica l'INTERO contenuto di questo messaggio nel thread di supporto di Community Applications.
+Post the ENTIRE contents of this message in the Community Applications Support Thread=Pubblica l’INTERO contenuto di questo messaggio nel thread di supporto di Community Applications.
 Unknown error happened Please post a screenshot in the support thread of the Statistics screen=Si è verificato un errore sconosciuto. Per favore, posta uno screenshot della schermata Statistiche nel thread di supporto.
 This plugin has a duplicated name from another plugin %s This will impact your ability to install both plugins simultaneously=Questo plugin ha un nome duplicato rispetto a un altro plugin: %s. Questo influirà sulla tua capacità di installare entrambi i plugin contemporaneamente.
 You have been logged out=Sei stato disconnesso
-Fatal Flash Drive Error=Errore fatale dell'unità Flash USB
-This usually means your flash drive is corrupted or has dropped offline The rest of the Unraid GUI will also be affected Post a new thread in the Unraid forums if this error continues=Questo di solito significa che la tua unità Flash USB è corrotta o si è disconnessa. Anche il resto dell'interfaccia grafica di Unraid sarà influenzato. Apri una nuova discussione nei forum di Unraid se questo errore persiste.
-Fatal Docker Image Error=Errore Fatale dell'Immagine Docker
+Fatal Flash Drive Error=Errore fatale dell’unità Flash USB
+This usually means your flash drive is corrupted or has dropped offline The rest of the Unraid GUI will also be affected Post a new thread in the Unraid forums if this error continues=Questo di solito significa che la tua unità Flash USB è corrotta o si è disconnessa. Anche il resto dell’interfaccia grafica di Unraid sarà influenzato. Apri una nuova discussione nei forum di Unraid se questo errore persiste.
+Fatal Docker Image Error=Errore Fatale dell’Immagine Docker
 Your docker image or folder is either read-only or completely full Issues will result because of this You should create a new post in the Unraid forums and include your diagnostics=La tua immagine o cartella Docker è di sola lettura o completamente piena. Potresti riscontrare alcuni problemi a causa di ciò. Dovresti creare un nuovo post sul forum di Unraid e includere i tuoi dati diagnostici.
-This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Questo template è configurato per usare una rete personalizzata. Potresti dover modificare le impostazioni di rete (come ad es. l'indirizzo IP) per adattarle al tuo sistema.
+This template is set up to use a custom network You may have to adjust the network or IP address etc to match your system=Questo template è configurato per usare una rete personalizzata. Potresti dover modificare le impostazioni di rete (come ad es. l’indirizzo IP) per adattarle al tuo sistema.
 This template is set up to run as Privileged This is a possible security risk and usually does not need to be enabled Note that some applications require privileged in order to operate correctly=Questo template è impostato per essere eseguito come "Privilegiato". Questo è un possibile rischio per la sicurezza e di solito non è necessario abilitarlo. Nota che alcune applicazioni richiedono questa impostazione per funzionare correttamente.
 One or more ports used by this application are already in use by another service or app running on your server You will need to adjust the host ports accordingly on the template=Una o più porte utilizzate da questa applicazione sono già in uso da un altro servizio o app in esecuzione sul tuo server. Dovrai modificare le porte host sul template.
 Not Enough Memory=Memoria Insufficiente
@@ -152,7 +152,7 @@ Community Applications and Unraid OS have a minimum required installed memory of
 Run Anyways=Esegui comunque
 Memory Requirements not met Problems may result=Requisiti di memoria non soddisfatti. Potrebbero verificarsi problemi.
 Installation already in progress=Installazione già in corso
-Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=Un'altra installazione o aggiornamento di plugin è già in corso. Attendi che l'installazione o l'aggiornamento corrente sia completato e riprova.
+Another plugin installation or update is already in progress and this one cannot start Wait until the current installation or update is completed and try again=Un’altra installazione o aggiornamento di plugin è già in corso. Attendi che l’installazione o l’aggiornamento corrente sia completato e riprova.
 Clear Flag=Cancella Flag
 %s is incompatible with your OS version Please update the OS to proceed=%s è incompatibile con la tua versione del sistema operativo. Aggiorna il sistema operativo per procedere.
 %s is incompatible with your OS version Either uninstall %s or update the OS=%s è incompatibile con la tua versione del sistema operativo. Disinstalla %s oppure aggiorna il sistema operativo.
@@ -216,7 +216,7 @@ Installs not allowed from this page=Installazioni non consentite da questa pagin
 
 ; Statistics Popup
 No invalid templates found=Non è stato trovato alcun template non valido
-These templates are invalid and the application they are referring to is unknown=Questi template non sono validi e l'applicazione a cui si riferiscono è sconosciuta.
+These templates are invalid and the application they are referring to is unknown=Questi template non sono validi e l’applicazione a cui si riferiscono è sconosciuta.
 No templates were automatically fixed=Nessun template è stato corretto automaticamente.
 All of these errors found have been fixed automatically=Tutti gli errori trovati sono stati corretti automaticamente.
 Note that many of these errors can be avoided by following the directions=Si noti che molti di questi errori possono essere evitati seguendo le istruzioni.
@@ -232,7 +232,7 @@ Individual Application Moderation=Moderazione delle Singole App
 Community Applications Changelog=Changelog di Community Applications
 
 Each month we highlight some of the amazing work from our community=Ogni mese mettiamo in evidenza alcuni degli incredibili lavori della nostra community
-Check out these newly added applications from our awesome community=Dai un'occhiata a queste applicazioni appena aggiunte dalla nostra fantastica community
+Check out these newly added applications from our awesome community=Dai un’occhiata a queste applicazioni appena aggiunte dalla nostra fantastica community
 Check out these up and coming apps=Scopri queste app emergenti
 These apps have the highest percentage of new installs=Queste app hanno la più alta percentuale di nuove installazioni
 An assortment of randomly chosen apps=Un assortimento di app scelte casualmente
@@ -306,17 +306,17 @@ OtherUncategorized=Altro: Nessuna Categoria
 and %s more=e ulteriori %s
 
 ; App Popup Related
-This application template has been blacklisted=Il template di quest'applicazione è stato inserito nella blacklist
-This application template has been deprecated=Il template di quest'applicazione è obsoleto
-This application has additional requirements=Quest'app presenta requisiti aggiuntivi
+This application template has been blacklisted=Il template di quest’applicazione è stato inserito nella blacklist
+This application template has been deprecated=Il template di quest’applicazione è obsoleto
+This application has additional requirements=Quest’app presenta requisiti aggiuntivi
 Additional Requirements=Requisiti Aggiuntivi
-Donate To Author=Dona all'Autore
+Donate To Author=Dona all’Autore
 Donate To Maintainer=Dona al Maintainer
 CLOSE=CHIUDI
 Author=Autore
 Maintainer=Maintainer
 DockerHub=DockerHub
-Application Template=Template dell'Applicazione
+Application Template=Template dell’Applicazione
 DockerHub Stars=Valutazione DockerHub
 Added to CA=Aggiunto a Community Applications
 Date Updated=Data Aggiornamento
@@ -333,8 +333,8 @@ Trending %s=Tendenza %s
 As of %s=(A partire dal %s)
 Play Video=Riproduci Video
 Play Video %s=Riproduci Video %s
-This application is not compatible with your version of Unraid=Quest'applicazione non è compatibile con la tua versione di Unraid
-Another browser tab or device has updated the displayed templates Some actions are not available=Un'altra scheda del browser o un altro dispositivo ha aggiornato i template visualizzati. Alcune azioni non sono disponibili.
+This application is not compatible with your version of Unraid=Quest’applicazione non è compatibile con la tua versione di Unraid
+Another browser tab or device has updated the displayed templates Some actions are not available=Un’altra scheda del browser o un altro dispositivo ha aggiornato i template visualizzati. Alcune azioni non sono disponibili.
 WebUI=Interfaccia Web
 Reinstall=Reinstalla
 Reinstall From Previous Apps=Reinstalla da App Precedenti
@@ -342,7 +342,7 @@ Install=Installa
 Uninstall=Disinstalla
 Project=Progetto
 Read Me First=Leggimi
-Install another instance=Installa un'altra istanza
+Install another instance=Installa un’altra istanza
 Install Using The Templates Default Tag=Installa Usando il Tag Predefinito del Template
 Moderator Comments=Commenti del Moderatore:
 Note not all authors keep up to date on change logs=Nota: non tutti gli autori aggiornano i changelog.
@@ -352,7 +352,7 @@ Note All statistics are only gathered every 30 days=Nota: Tutte le statistiche v
 ;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=Fai una donazione
 Currently Installed Version=Versione Attualmente Installata
-Install The Update=Installa l'Aggiornamento
+Install The Update=Installa l’Aggiornamento
 ; as in you have the latest version already installed
 Latest Version=Ultima Versione
 Multi Language Support=Supporto Multi-lingua
@@ -373,33 +373,33 @@ Downloads Per Month=Download Mensili
 Installing docker applications %s=Installazione dei Contenitori Docker %s…
 Starting %s=Avvio di %s
 %s failed to start You should install it by itself to fix the errors=%s non è riuscito ad avviarsi. Dovresti installarlo singolarmente per risolvere gli errori.
-Setting installed applications to autostart=Impostazione dell'avvio automatico delle applicazioni installate
+Setting installed applications to autostart=Impostazione dell’avvio automatico delle applicazioni installate
 Docker Application Installation finished=Installazione del Contenitore Docker completata
 
 ; Application Cards
 Actions=Azioni
 Pending=In sospeso
-This application is a driver plugin=Quest'app è un driver (plugin)
+This application is a driver plugin=Quest’app è un driver (plugin)
 This is a language pack=Questo è un pacchetto lingue
-This application is a docker container=Quest'app è un Contenitore Docker
-This application is a plugin=Quest'app è un plugin
-This is a spotlight application=Questa è un'app in evidenza
+This application is a docker container=Quest’app è un Contenitore Docker
+This application is a plugin=Quest’app è un plugin
+This is a spotlight application=Questa è un’app in evidenza
 This is your favourite repository=Questo è il tuo repository preferito
-This application is from your favourite repository=Quest'app proviene dal tuo repository preferito
-This application is pinned for later viewing=Quest'app è fissata per la visualizzazione successiva
+This application is from your favourite repository=Quest’app proviene dal tuo repository preferito
+This application is pinned for later viewing=Quest’app è fissata per la visualizzazione successiva
 Private Application=App privata
-Remove Application From List=Rimuovi app dall'elenco
+Remove Application From List=Rimuovi app dall’elenco
 Check off to select multiple reinstalls=Seleziona per scegliere reinstallazioni multiple
 Go to the plugin settings=Vai alle impostazioni del plugin
-Click to reinstall the application using default values=Clicca per reinstallare l'app usando i valori predefiniti
-Click to edit the application values=Clicca per modificare i valori dell'app
+Click to reinstall the application using default values=Clicca per reinstallare l’app usando i valori predefiniti
+Click to edit the application values=Clicca per modificare i valori dell’app
 Click to reinstall=Clicca per reinstallare
 Click to install=Clicca per installare
-Click to go to the WebUI=Clicca per andare all'interfaccia Web
+Click to go to the WebUI=Clicca per andare all’interfaccia Web
 This application template has been deprecated=Il template di questa applicazione è obsoleto
 This application template has been blacklisted=Il template di questa applicazione è stato inserito nella blacklist
-Click info to see the notes regarding this application=Clicca su "Info" per vedere le note riguardanti quest'app
-This application has additional requirements=Quest'app presenta requisiti aggiuntivi
+Click info to see the notes regarding this application=Clicca su "Info" per vedere le note riguardanti quest’app
+This application has additional requirements=Quest’app presenta requisiti aggiuntivi
 BETA=BETA
 INSTALLED=INSTALLATO
 OFFICIAL=UFFICIALE
@@ -408,7 +408,7 @@ This is an official container=Questo è un Contenitore ufficiale
 Digitally Signed=Firmato digitalmente
 This container is digitally signed=Questo Contenitore è firmato digitalmente
 Docker Hub=DockerHub
-NOTE You must visit the dockerHub page to gather the information required to install correctly=NOTA: È necessario visitare la pagina di DockerHub per ricevere le informazioni necessarie per l'installazione corretta.
+NOTE You must visit the dockerHub page to gather the information required to install correctly=NOTA: È necessario visitare la pagina di DockerHub per ricevere le informazioni necessarie per l’installazione corretta.
 Show CA templates=Mostra i template di Community Applications
 Deprecated=Obsolete
 Incompatible=Incompatibili
@@ -417,13 +417,13 @@ Template Exists=Template già presente
 Template already exists in Apps=Il template esiste già nelle App
 ; eg: LinuxServer Repository
 %s Repository=%s Repository
-; eg: Squid's Repository
-%s's Repository=Repository di %s
+; eg: Squid’s Repository
+%s’s Repository=Repository di %s
 
 Info=Info
 Attention=Attenzione
 Repository=Repository
-Why we picked it=Perché l'abbiamo scelta
+Why we picked it=Perché l’abbiamo scelta
 Application Spotlight %s=App in evidenza %s
 Unraid Staff=Staff di Unraid
 
@@ -451,9 +451,9 @@ Checking %s=Verifico %s…
 
 ; dockerHub conversions
 Determine configuration=Determina configurazione
-Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Vuoi che Community Applications tenti di determinare per il template eventuali percorsi, porte e variabili applicabili? Questo comporterà l'esecuzione di un'installazione di prova del container. Verrà automaticamente eliminato dopo l'elaborazione. Il container non verrà avviato.
+Would you like CA to attempt to determine any applicable paths, ports, and variables for the template This will entail performing a test installation of the container It will be automatically deleted after processing The container will not be started=Vuoi che Community Applications tenti di determinare per il template eventuali percorsi, porte e variabili applicabili? Questo comporterà l’esecuzione di un’installazione di prova del container. Verrà automaticamente eliminato dopo l’elaborazione. Il container non verrà avviato.
 An error occurred - Could not determine configuration=Si è verificato un errore - Impossibile determinare la configurazione.
 
 ; WebGui
 Click Install to download and install the Community Applications plugin=Clicca **Installa** per scaricare e installare il plugin **Community Applications**
-Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications contiene sia Contenitori Docker che Applicazioni (Plugin). I plugin sono progettati per miglioramenti del sistema operativo e vengono eseguiti con privilegi completi sul tuo sistema. NOTA: sono chiaramente identificati all'interno di Community Applications.
+Community Applications contains both docker containers and plugin applications Plugins are designed for OS enhancements, and run with full privileges on your system and are clearly identified within CA=Community Applications contiene sia Contenitori Docker che Applicazioni (Plugin). I plugin sono progettati per miglioramenti del sistema operativo e vengono eseguiti con privilegi completi sul tuo sistema. NOTA: sono chiaramente identificati all’interno di Community Applications.

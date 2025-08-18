@@ -1,4 +1,4 @@
-also remove image=rimuovi anche l'immagine
+also remove image=rimuovi anche l’immagine
 Apply=Applica
 Are you sure=Confermi?
 Cancel=Cancella
@@ -23,7 +23,7 @@ No=No
 OK=OK
 Ok=Ok
 Pause=Pausa
-Proceed=Procedere
+Proceed=Procedi
 Project Page=Pagina del Progetto
 Read Me First=Leggimi prima
 Remove container=Rimuovi Contenitore
@@ -47,12 +47,12 @@ Yes, update it=Sì, aggiornalo
 Yes=Sì
 
 ; footer messages
-Array Copying=Copia dell'Array…
-Array Clearing=Pulizia dell'Array…
-Array Starting=Avvio l'Array…
-Array Stopping=Arresto l'Array…
+Array Copying=Copia dell’Array…
+Array Clearing=Pulizia dell’Array…
+Array Starting=Avvio dell’Array…
+Array Stopping=Arresto dell’Array…
 Mounting disks=Monto i Dischi…
-Retry unmounting user shares=Riprova a smontare share utente
+Retry unmounting user shares=Riprova a disconnettere le Condivisioni utente
 Spinning up all drives=Avvio tutti i Dischi…
 Stale configuration=Configurazione non aggiornata
 Starting services=Avvio i Servizi…
@@ -63,11 +63,11 @@ Sync filesystems=Sincronizzo i File System…
 Unmounting disks=Smonto i Dischi…
 Autostart disabled=Avvio automatico disattivato
 Missing encryption key=Chiave di crittografia mancante
-Opening encrypted volumes=Sblocco i Volumi Crittografati…
+Opening encrypted volumes=Sblocco i Volumi crittografati…
 
 ; docker variables
-Container Path=Percorso Contenitore
-Container Port=Porta Contenitore
-Container Variable=Variabile Contenitore
-Container Label=Etichetta Contenitore
-Container Device=Dispositivo Contenitore
+Container Path=Percorso del Contenitore
+Container Port=Porta del Contenitore
+Container Variable=Variabile del Contenitore
+Container Label=Etichetta del Contenitore
+Container Device=Dispositivo del Contenitore
