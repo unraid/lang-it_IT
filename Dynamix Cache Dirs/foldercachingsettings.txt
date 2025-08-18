@@ -52,7 +52,7 @@ User defined options=Opzioni definite dall’utente
 >
 > Avviso: il valore **0** farà sì che il kernel non liberi mai la memoria delle directory, e se la memoria disponibile è insufficiente,
 > il sistema potrebbe andare in crash; *cache_dirs* non reimposta *cache_pressure* alla chiusura.
-> Per reimpostare *cache_pressure* esegui 'sudo sysctl vm.vfs_cache_pressure=100', oppure esegui *cache-dirs* con *cache_pressure **100***.
+> Per reimpostare *cache_pressure* esegui 'sudo sysctl vm.vfs_cache_pressure=100', oppure esegui *cache-dirs* con *cache_pressure* **100**.
 >
 > Vedi ‘vfs_cache_pressure’ su [kernel.org](https://www.kernel.org/doc/Documentation/sysctl/vm.txt).
 :end

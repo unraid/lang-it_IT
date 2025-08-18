@@ -36,7 +36,7 @@ provoca la * disabilitazione * del disco.
 
 ** FS ** indica il file system rilevato nella partizione 1 del dispositivo.
 
-La colonna ** Visualizza ** mostra l’icona di una Cartella e ciò indica che il dispositivo è * montato *. Fai clic sull’icona per
+La colonna ** Visualizza ** mostra l’icona di una Cartella e ciò indica che il dispositivo è * montato *. Clicca sull’icona per
 sfogliare il file system.
 
 Se "Visualizza i totali dell’array" è abilitato nella pagina [Preferenze di visualizzazione](Impostazioni / Impostazioni di visualizzazione), 

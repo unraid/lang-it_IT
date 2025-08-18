@@ -16,4 +16,4 @@ Done=Fatto
 Credits=Riconoscimenti
 For support for this plugin, visit here=Per ottenere supporto su questo plugin, clicca qui
 HERE=QUI
-Plugin Version=Versione Plugin
+Plugin Version=Versione del Plugin
