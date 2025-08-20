@@ -75,9 +75,9 @@ User defined options=Opzioni definite dall’utente
 :end
 
 :cachedirs_adaptive_depth_plug:
-> Se l'opzione 'adattiva' è abilitata, la profondità verrà regolata automaticamente ma non supererà mai il valore massimo impostato.
+> Se l’opzione 'adattiva' è abilitata, la profondità verrà regolata automaticamente ma non supererà mai il valore massimo impostato.
 > Inizierà dalla profondità **1** e aumenterà fino al livello massimo finché i tempi di scansione non diventano troppo lunghi (vedere timeout di scansione).
-> Se l'opzione 'adattiva' è disabilitata, allora **cache_dirs** eseguirà sempre la scansione fino al livello massimo.
+> Se l’opzione 'adattiva' è disabilitata, allora **cache_dirs** eseguirà sempre la scansione fino al livello massimo.
 :end
 
 :cachedirs_min_level_plug:
@@ -120,18 +120,18 @@ User defined options=Opzioni definite dall’utente
 :end
 
 :cachedirs_limit_memory_plug:
-> Imposta *ulimit* a 'NN' per limitare la memoria utilizzata dallo script (predefinito=50000); '-U 0' disabilita completamente *ulimit* ed eredita il valore predefinito della shell.
+> Imposta *ulimit* su 'NN' per limitare la memoria utilizzata dallo script (predefinito=50000); '-U 0' disabilita completamente *ulimit* ed eredita il valore predefinito della shell.
 :end
 
 :cachedirs_logging_plug:
-> Seleziona se abilitare o disabilitare il logging. Il log verrà registrato in /var/log/cache_dirs.log e /var/log/cache_dirs_lost_cache.csv.
-> Tieni presente che i log di *cache_dirs* sono memorizzati in memoria su unRAID e non vengono sovrascritti automaticamente.
+> Seleziona se abilitare o disabilitare il logging. Il log verrà registrato in '/var/log/cache_dirs.log' e '/var/log/cache_dirs_lost_cache.csv'.
+> Tieni presente che i log di *cache_dirs* sono archiviati in memoria su Unraid e non vengono sovrascritti automaticamente.
 :end
 
 :cachedirs_user_defined_plug:
 > Lo script *cache_dirs* ha opzioni aggiuntive che possono essere utilizzate.
 > Consulta la documentazione online per usarle secondo necessità, 
-> oppure controlla lo script situato in /usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs
+> oppure controlla lo script situato in '/usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs'.
 >
 > È possibile indicare a *cache_dirs* di evitare di attraversare tutte le directory con un certo nome. L’esempio seguente evita le cartelle '.Recycle.Bin', 'temp' e 'log':
 >

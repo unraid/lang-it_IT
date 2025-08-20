@@ -40,7 +40,7 @@ Il contenuto di ciascun file di testo è suddiviso in due parti, come illustrato
 
 Queste sono voci su singola riga visualizzate nel seguente formato:
 
-"testo originale in inglese=traduzione nella lingua desiderata"
+<pre>Testo originale in inglese=Traduzione nella lingua desiderata</pre>
 
 Modificare solo il testo dopo il segno di uguale **(=)** e lasciare invariato il testo originale in inglese a sinistra.
 La rimozione di una riga o l'omissione della traduzione dopo il segno di uguale comporterà la visualizzazione, nella *GUI*, del testo originale in inglese per quella riga.
@@ -48,12 +48,12 @@ La rimozione di una riga o l'omissione della traduzione dopo il segno di uguale 
 Il testo tradotto può contenere “caratteri speciali” come *barre*, *parentesi tonde* o *parentesi quadre*, che non sono inclusi nel testo chiave, ma servono per la corretta visualizzazione del testo.
 Ad esempio:
 
-"Options see Help=Opzioni (vedi Aiuto)"
+<pre>Options see Help=Opzioni (vedi Aiuto)</pre>
 
 I caratteri \* e \*\* sono utilizzati per visualizzare rispettivamente il testo in *corsivo* e in **grassetto**.
 Ad esempio:
 
-"*Array* must be **Stopped** to change=*L'Array* deve essere **Fermato** per apportare le modifiche"
+"Array must be Stopped to change=*L'Array* deve essere **Fermato** per apportare le modifiche".
 
 Si consiglia di effettuare le traduzioni per sezione, cioè un file alla volta, e di verificarne la correttezza nella *GUI* prima di procedere con la sezione successiva.
 
@@ -87,7 +87,7 @@ Ogni sezione è racchiusa da un tag di apertura univoco e dal corrispondente tag
 
 ⚠️ Non rimuovere o modificare questi tag; tradurre **solo** il testo compreso tra il tag di apertura e quello di chiusura!
 
-Nota: viene utilizzata la sintassi di stile **Markdown**, che deve essere preservata.
+Nota: viene utilizzata la sintassi di stile *Markdown*, la quale deve essere preservata.
 
 
 ### TEST LOCALI
@@ -103,7 +103,7 @@ Nella *GUI* di Unraid andare in: **Strumenti -> Interfaccia Grafica Web -> Lingu
 - Se il nome della lingua viene riconosciuto, verrà selezionato automaticamente; altrimenti, scegliere il nome della lingua dal menu a discesa per installarla.
 - Fare clic su "Carica" per aggiungere la traduzione alla *GUI* sotto il nome lingua selezionato.
 
-NOTA: Se la lingua non è disponibile nel menu a discesa, fare richiesta nella [sezione multi-lingua del forum di Unraid](https://forums.unraid.net/forum/75-multi-language-section/).
+NOTA: Se la lingua non è disponibile nel menu a discesa, fare richiesta nella [Sezione Multi-Lingua del Forum di Unraid](https://forums.unraid.net/forum/75-multi-language-section/).
 
 A questo punto la lingua sarà disponibile per i test locali!
 
@@ -130,7 +130,7 @@ I traduttori potranno usare il sistema *GitHub* per verificare le modifiche appo
 
 ### CREDITI
 
-Il tuo contributo è molto apprezzato e, come segno di riconoscenza, il tuo nome e la lingua tradotta saranno inseriti nella sezione "**Crediti**" della pagina **Strumenti** nella *GUI* di Unraid.
+Il tuo contributo è molto apprezzato e, come segno di riconoscenza, il tuo nome e la lingua tradotta saranno inseriti nella sezione "**Crediti**" della pagina **Strumenti** nella *GUI di Unraid*.
 
 Ti preghiamo di indicarci quale nome e credenziali utilizzare.
 
