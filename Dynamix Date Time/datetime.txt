@@ -38,5 +38,5 @@ Use NTP=Usa NTP
 :end
 
 :current_time_plug:
-> Inserisci l’ora corrente. Usa il formato AAAA-MM-GG HH:MM:SS. Il campo è disabilitato quando si utilizza un server NTP.
+> Inserisci la data e l’ora correnti. Usa il formato AAAA-MM-GG HH:MM:SS. Il campo è disabilitato quando si utilizza un server NTP.
 :end

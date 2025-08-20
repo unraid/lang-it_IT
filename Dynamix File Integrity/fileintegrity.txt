@@ -18,7 +18,7 @@ Error logging=Registro errori
 Excluded files=File esclusi
 Excluded folders and files=Cartelle e file esclusi
 Excluded folders=Cartelle escluse
-File Duplicates Check=Controllo Duplicati File
+File Duplicates Check=Controlla File Duplicati
 Find=Trova
 Generate Corz Files=Genera File Corz
 hash files=hash dei file
@@ -34,7 +34,7 @@ Output file=File di output
 Placement of file integrity control=Posizione del controllo di integrità dei file
 Process priority=Priorità del processo
 Save new hashing results to flash=Salva i nuovi risultati di hashing sull’Unità Flash
-saved files=file salvati
+saved files=File salvati
 Send notifications=Invia notifiche
 SHA2=SHA2
 Syslog only=Solo Syslog
@@ -67,7 +67,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 :integrity_hashing_plug:
 > Seleziona il metodo di hashing preferito. SHA2 genera un valore di checksum di 256 bit, MD5 genera un valore di checksum di 128 bit, mentre BLAKE2 genera un valore di checksum di 512 bit per file.
 >
-> MD5 è il metodo più comunemente usato e dovrebbe essere selezionato quando è richiesta la compatibilità con programmi esterni. BLAKE2 è il metodo più veloce e ha il grado di rilevamento più alto, sebbene sia una soluzione proprietaria
+> MD5 è il metodo più comunemente usato e dovrebbe essere selezionato quando è richiesta la compatibilità con programmi esterni. BLAKE2 è il metodo più veloce e offre un’elevata capacità di rilevamento; è open source e ampiamente supportato.
 > SHA2 è lo standard ufficiale ed è selezionato di default. È però il più lento dei tre metodi. L’opzione BLAKE2 viene disabilitata se non è supportata dal tuo processore.
 > Tutti i metodi richiedono una notevole potenza di calcolo del processore e una CPU troppo debole potrebbe non essere in grado di funzionare come ci si aspetta.
 :end
@@ -96,7 +96,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 >
 > Un disco con una casella di checksum disabilitata e uno sfondo rosso indica che un processo di verifica in background è attualmente in corso per quel disco e non può essere fermato.
 >
-> Quando esistono più operazioni pianificate, ognuna di essa viene eseguita a rotazione. Ad esempio, se hai scelto una pianificazione settimanale per 3 diverse operazioni pianificate, ogni settimana ne verrà eseguita una. Ciò significa 
+> Quando esistono più operazioni pianificate, ognuna di esse viene eseguita a rotazione. Ad esempio, se hai scelto una pianificazione settimanale per 3 diverse operazioni pianificate, ogni settimana ne verrà eseguita una. Ciò significa 
 > che al termine delle 3 settimane le operazioni pianificate saranno state tutte completate.
 >
 > Quando le operazioni pianificate di verifica sono disabilitate, è richiesto il **controllo manuale** per verificare la correttezza dei file.
@@ -124,11 +124,11 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 :end
 
 :integrity_notifications_plug:
-> Imposta su 'Sì' se desideri ricevere notifiche quando viene rilevato una corruzione dei dati.
+> Imposta su 'Sì' se desideri ricevere notifiche quando viene rilevata una corruzione dei dati.
 > Vedi le impostazioni delle notifiche per sapere come impostare e ricevere notifiche di "avviso".
 :end
 
 :integrity_logging_plug:
-> La rilevazione degli errori, incluse le informazioni riguardanti i dati corrotti, possono essere scritte nel log di sistema o salvate in un file di log sull’Unità Flash.
+> La rilevazione degli errori, incluse le informazioni riguardanti i dati corrotti, può essere scritta nel log di sistema o salvata in un file di log sull’Unità Flash.
 > Disabilitando la rilevazione degli errori anche la creazione del file di log verrà disabilitata. È comunque possibile continuare a ricevere le notifiche.
 :end

@@ -1,8 +1,8 @@
 Automatic theming=Temi automatici
 Bing API key=Chiave API Bing
 Bing=Bing
-City name=Nome Città
-Country name=Nome Paese
+City name=Nome città
+Country name=Nome paese
 Day theme=Tema Chiaro
 Geocoding service=Servizio di geocoding
 Google API key=Chiave API Google

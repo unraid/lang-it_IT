@@ -124,14 +124,14 @@ User defined options=Opzioni definite dall’utente
 :end
 
 :cachedirs_logging_plug:
-> Seleziona se abilitare o disabilitare il logging. Il log verrà registrato in /var/log/cache_dirs.log e /var/log/cache_dirs_lost_cache.csv.
+> Seleziona se abilitare o disabilitare il logging. Il log verrà registrato in '/var/log/cache_dirs.log' e '/var/log/cache_dirs_lost_cache.csv'.
 > Tieni presente che i log di *cache_dirs* sono archiviati in memoria su Unraid e non vengono sovrascritti automaticamente.
 :end
 
 :cachedirs_user_defined_plug:
 > Lo script *cache_dirs* ha opzioni aggiuntive che possono essere utilizzate.
 > Consulta la documentazione online per usarle secondo necessità, 
-> oppure controlla lo script situato in /usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs.
+> oppure controlla lo script situato in '/usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs'.
 >
 > È possibile indicare a *cache_dirs* di evitare di attraversare tutte le directory con un certo nome. L’esempio seguente evita le cartelle '.Recycle.Bin', 'temp' e 'log':
 >
