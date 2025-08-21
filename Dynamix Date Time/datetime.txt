@@ -18,23 +18,23 @@ Use NTP=Usa NTP
 
 :use_ntp_plug:
 > Seleziona 'Sì' per usare il Network Time Protocol (NTP) e mantenere accurato l’orario del server.
-> È fortemente raccomandato l’uso di un Server NTP, specialmente se prevedi di utilizzare Active Directory.
+> È fortemente raccomandato l’uso di un server NTP, specialmente se prevedi di utilizzare Active Directory.
 :end
 
 :ntp_server1_plug:
-> Questo è il Server NTP primario da usare. Inserisci un FQDN (Fully Qualified Domain Name) oppure un indirizzo IP.
+> Questo è il server NTP primario da usare. Inserisci un FQDN (Fully Qualified Domain Name) oppure un indirizzo IP.
 :end
 
 :ntp_server2_plug:
-> Questo è il Server NTP (2) alternativo da utilizzare se il Server NTP 1 non è disponibile.
+> Questo è il server NTP (2) alternativo da utilizzare se il server NTP 1 non è disponibile.
 :end
 
 :ntp_server3_plug:
-> Questo è il Server NTP (3) alternativo da utilizzare se entrambi i Server NTP 1 e 2 non sono disponibili.
+> Questo è il server NTP (3) alternativo da utilizzare se entrambi i server NTP 1 e 2 non sono disponibili.
 :end
 
 :ntp_server4_plug:
-> Questo è il Server NTP (4) alternativo da utilizzare se i Server NTP 1, 2 e 3 non sono disponibili.
+> Questo è il server NTP (4) alternativo da utilizzare se i server NTP 1, 2 e 3 non sono disponibili.
 :end
 
 :current_time_plug:

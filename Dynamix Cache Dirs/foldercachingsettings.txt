@@ -133,9 +133,9 @@ User defined options=Opzioni definite dall’utente
 > Consulta la documentazione online per usarle secondo necessità, 
 > oppure controlla lo script situato in '/usr/local/emhttp/plugins/dynamix.cache.dirs/scripts/cache_dirs'.
 >
-> È possibile indicare a *cache_dirs* di evitare di attraversare tutte le directory con un certo nome. L’esempio seguente evita le cartelle '.Recycle.Bin', 'temp' e 'log':
+> Puoi impedire a *cache_dirs* di attraversare directory con determinati nomi. L’esempio seguente esclude le cartelle '.Recycle.Bin', 'temp' e 'log':
 >
 > <span class="strong orange-text">-a '-noleaf -name .Recycle.Bin -prune -o -name log -prune -o -name temp -prune -o -print'</span>
 >
-> Nota che le virgolette singole intorno all’argomento di -a sono importanti. Le virgolette doppie non funzionano nella versione attuale, quindi sfortunatamente non è possibile filtrare con '-name "*Old" -prune'.
+> Nota: le virgolette singole intorno all’argomento di -a sono importanti. Le virgolette doppie non funzionano nella versione attuale, quindi non è possibile filtrare con '-name "*Old" -prune'.
 :end

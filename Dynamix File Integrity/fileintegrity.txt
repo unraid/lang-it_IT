@@ -18,7 +18,7 @@ Error logging=Registro errori
 Excluded files=File esclusi
 Excluded folders and files=Cartelle e file esclusi
 Excluded folders=Cartelle escluse
-File Duplicates Check=Controlla File Duplicati
+File Duplicates Check=Controlla File duplicati
 Find=Trova
 Generate Corz Files=Genera File Corz
 hash files=hash dei file
@@ -57,7 +57,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 
 :integrity_service_plug:
 > Quando abilitato, viene calcolato automaticamente un valore di checksum e aggiunto agli attributi estesi del file appena creato o modificato.
-> Quando viene rilevato che si è verificata una modifica a un file ma il suo tempo di modifica non è cambiato, viene eseguita una verifica automatica del checksum per controllare la presenza di eventuali corruzioni di file "silenziosi".
+> Quando viene rilevato che si è verificata una modifica a un file ma il suo tempo di modifica non è cambiato, viene eseguita una verifica automatica del checksum per controllare la presenza di eventuali corruzioni di file 'silenziosi'.
 >
 > La selezione dell’area può essere filtrata escludendo cartelle (Condivisioni) e/o escludendo completamente i dischi (vedi tabella qui sotto).
 >
@@ -78,7 +78,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 :end
 
 :integrity_exluded_plug:
-> Seleziona qui le cartelle (Condivisioni) che desideri escludere dalle funzionalità di hashing e di verifica automatiche. Una 'Condivisione' riguardante più dischi verrà saltata su ogni disco in cui è presente.
+> Seleziona qui le cartelle (Condivisioni) che desideri escludere dalle funzionalità di hashing e di verifica automatiche. Una 'Condivisione' riguardante più dischi verrà ignorata su ogni disco in cui è presente.
 >
 > Usa **Cartelle personalizzate/File personalizzati** per inserire manualmente le esclusioni. Le esclusioni multiple sono separate da una virgola.<br>
 > Alcuni esempi sono i nomi delle cartelle come **`.Recycle.Bin`**, i nomi dei file come **`my_workfile.tmp`** o le estensioni dei file come **`*.tmp`**.
@@ -125,7 +125,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 
 :integrity_notifications_plug:
 > Imposta su 'Sì' se desideri ricevere notifiche quando viene rilevata una corruzione dei dati.
-> Vedi le impostazioni delle notifiche per sapere come impostare e ricevere notifiche di "avviso".
+> Vedi le impostazioni delle notifiche per sapere come impostare e ricevere notifiche di 'avviso'.
 :end
 
 :integrity_logging_plug:

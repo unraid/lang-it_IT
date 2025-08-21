@@ -25,7 +25,7 @@ In questo repository sono inclusi diversi file di testo, ciascuno con la propria
 
 Tutti i nomi dei file sono in minuscolo e <strong>devono essere inclusi nel repository</strong> per rendere complete le traduzioni.
 
-La rimozione di un determinato file comporta l'assenza di traduzioni per quella sezione e l'interfaccia grafica *(GUI)* mostrerà il testo in inglese originale.
+La rimozione di un determinato file comporta l’assenza di traduzioni per quella sezione e l’interfaccia grafica *(GUI)* mostrerà il testo in inglese originale.
 
 
 ### TRADUZIONI
@@ -43,7 +43,7 @@ Queste sono voci su singola riga visualizzate nel seguente formato:
 <pre>Testo originale in inglese=Traduzione nella lingua desiderata</pre>
 
 Modificare solo il testo dopo il segno di uguale **(=)** e lasciare invariato il testo originale in inglese a sinistra.
-La rimozione di una riga o l'omissione della traduzione dopo il segno di uguale comporterà la visualizzazione, nella *GUI*, del testo originale in inglese per quella riga.
+La rimozione di una riga o l’omissione della traduzione dopo il segno di uguale comporterà la visualizzazione, nella *GUI*, del testo originale in inglese per quella riga.
 
 Il testo tradotto può contenere “caratteri speciali” come *barre*, *parentesi tonde* o *parentesi quadre*, che non sono inclusi nel testo chiave, ma servono per la corretta visualizzazione del testo.
 Ad esempio:
@@ -53,9 +53,9 @@ Ad esempio:
 I caratteri \* e \*\* sono utilizzati per visualizzare rispettivamente il testo in *corsivo* e in **grassetto**.
 Ad esempio:
 
-"Array must be Stopped to change=*L'Array* deve essere **Fermato** per apportare le modifiche".
+"Array must be Stopped to change=L’*Array* deve essere **Fermato** per apportare le modifiche".
 
-Si consiglia di effettuare le traduzioni per sezione, cioè un file alla volta, e di verificarne la correttezza nella *GUI* prima di procedere con la sezione successiva.
+Si consiglia di effettuare le traduzioni per sezione, ossia un file alla volta, e di verificarne la correttezza nella *GUI* prima di procedere con la sezione successiva.
 
 Tenere presente la lunghezza delle traduzioni, cercando di mantenerla simile a quella del testo originale, così da evitare problemi di spaziatura nella *GUI*.
 
@@ -98,10 +98,10 @@ Dare al file ZIP il nome della propria lingua, ad esempio: "**Italian.zip**".
 
 Nella *GUI* di Unraid andare in: **Strumenti -> Interfaccia Grafica Web -> Lingua** (*e passare alla vista Sviluppatore*)
 
-- Per impostazione predefinita, è installata solo la lingua inglese (integrata nativamente).
+- Per impostazione predefinita, è inclusa solo la lingua inglese (integrata nativamente).
 - Selezionare come file sorgente il file ZIP creato in precedenza.
 - Se il nome della lingua viene riconosciuto, verrà selezionato automaticamente; altrimenti, scegliere il nome della lingua dal menu a discesa per installarla.
-- Fare clic su "Carica" per aggiungere la traduzione alla *GUI* sotto il nome lingua selezionato.
+- Fare clic su 'Carica' per aggiungere la traduzione alla *GUI* sotto il nome lingua selezionato.
 
 NOTA: Se la lingua non è disponibile nel menu a discesa, fare richiesta nella [Sezione Multi-Lingua del Forum di Unraid](https://forums.unraid.net/forum/75-multi-language-section/).
 
@@ -130,8 +130,8 @@ I traduttori potranno usare il sistema *GitHub* per verificare le modifiche appo
 
 ### CREDITI
 
-Il tuo contributo è molto apprezzato e, come segno di riconoscenza, il tuo nome e la lingua tradotta saranno inseriti nella sezione "**Crediti**" della pagina **Strumenti** nella *GUI di Unraid*.
+Il tuo contributo è molto apprezzato e, come segno di riconoscenza, il tuo nome e la lingua tradotta saranno inseriti nella sezione **Crediti** della pagina **Strumenti** nella *GUI di Unraid*.
 
 Ti preghiamo di indicarci quale nome e credenziali utilizzare.
 
-Grazie mille per la collaborazione e l'impegno ❤️
+Grazie mille per la collaborazione e l’impegno ❤️
