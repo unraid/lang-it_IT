@@ -30,7 +30,7 @@ Use NTP=Usa NTP
 :end
 
 :ntp_server3_plug:
-> Questo è il server NTP (3) alternativo da utilizzare se entrambi i server NTP 1 e 2 non sono disponibili.
+> Questo è il server NTP (3) alternativo da utilizzare se i server NTP 1 e 2 non sono disponibili.
 :end
 
 :ntp_server4_plug:

@@ -57,7 +57,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 
 :integrity_service_plug:
 > Quando abilitato, viene calcolato automaticamente un valore di checksum e aggiunto agli attributi estesi del file appena creato o modificato.
-> Quando viene rilevato che si è verificata una modifica a un file ma il suo tempo di modifica non è cambiato, viene eseguita una verifica automatica del checksum per controllare la presenza di eventuali corruzioni di file 'silenziosi'.
+> Quando viene rilevata una modifica a un file, ma l’ora di modifica non è cambiata, viene eseguita automaticamente una verifica del checksum per individuare eventuali corruzioni di file 'silenziose'.
 >
 > La selezione dell’area può essere filtrata escludendo cartelle (Condivisioni) e/o escludendo completamente i dischi (vedi tabella qui sotto).
 >
@@ -69,7 +69,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 >
 > MD5 è il metodo più comunemente usato e dovrebbe essere selezionato quando è richiesta la compatibilità con programmi esterni. BLAKE2 è il metodo più veloce e offre un’elevata capacità di rilevamento; è open source e ampiamente supportato.
 > SHA2 è lo standard ufficiale ed è selezionato di default. È però il più lento dei tre metodi. L’opzione BLAKE2 viene disabilitata se non è supportata dal tuo processore.
-> Tutti i metodi richiedono una notevole potenza di calcolo del processore e una CPU troppo debole potrebbe non essere in grado di funzionare come ci si aspetta.
+> Tutti i metodi richiedono una notevole potenza di calcolo del processore e una CPU poco performante potrebbe non essere in grado di funzionare come ci si aspetta.
 :end
 
 :integrity_flash_plug:
