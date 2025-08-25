@@ -4,7 +4,7 @@
 12 hours=12 ore
 24 hours=24 ore
 8023ad=802.3ad
-a value of zero means no automatic closure=il valore "zero" indica nessuna chiusura automatica
+a value of zero means no automatic closure=il valore 'zero' disattiva la chiusura automatica
 Accumulation duration=Durata accumulo
 Accumulation frequency=Frequenza accumulo
 Activate=Attiva
@@ -341,7 +341,7 @@ Header show description=Mostra descrizione dell’intestazione
 HHMM=HH:MM
 Hibernate VMs=Ibernazione VM
 Hidden share names are not allowed=I nomi delle Condivisioni nascoste non sono consentiti.
-Hide dot files=Nascondi file "dot"
+Hide dot files=Nascondi file 'dot'
 Hide=Nascondi
 Host access to custom networks=Accesso host a reti personalizzate
 Hostname from DNS reverse lookup=Hostname (da lookup DNS inverso)
