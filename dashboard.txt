@@ -1,4 +1,4 @@
-	1%s ago=%s fa
+%s ago=%s fa
 %s used of %s %s %%=%s in uso su %s (%s%%)
 1 m=1 min
 10 s=10 sec

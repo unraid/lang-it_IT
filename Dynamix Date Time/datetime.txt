@@ -22,19 +22,19 @@ Use NTP=Usa NTP
 :end
 
 :ntp_server1_plug:
-> Questo è il server '**NTP 1**' da usare. Inserisci un FQDN (Fully Qualified Domain Name) oppure un indirizzo IP.
+> Questo è il server **NTP 1** predefinito. Inserisci un FQDN (Fully Qualified Domain Name) oppure un indirizzo IP.
 :end
 
 :ntp_server2_plug:
-> Questo è il server '**NTP 2**' alternativo da utilizzare se il server NTP 1 non è disponibile.
+> Questo è il server **NTP 2** alternativo da utilizzare se il server NTP 1 non è disponibile.
 :end
 
 :ntp_server3_plug:
-> Questo è il server '**NTP 3**' alternativo da utilizzare se i server NTP 1 e 2 non sono disponibili.
+> Questo è il server **NTP 3** alternativo da utilizzare se i server NTP 1 e 2 non sono disponibili.
 :end
 
 :ntp_server4_plug:
-> Questo è il server '**NTP 4**' alternativo da utilizzare se i server NTP 1, 2 e 3 non sono disponibili.
+> Questo è il server **NTP 4** alternativo da utilizzare se i server NTP 1, 2 e 3 non sono disponibili.
 :end
 
 :current_time_plug:

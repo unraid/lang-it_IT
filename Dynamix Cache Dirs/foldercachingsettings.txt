@@ -85,7 +85,7 @@ User defined options=Opzioni definite dall’utente
 :end
 
 :cachedirs_max_level_plug:
-> Imposta il numero massimo di livelli di cartelle per la scansione (Cartella padre → Cartella figlia → Sotto-cartella). Impostare su 'illimitato' (il cui valore equivale a 0) per rimuovere il limite massimo.
+> Imposta il numero massimo di livelli di cartelle per la scansione ('Cartella padre → Cartella figlia → Sotto-cartella'). Impostare su 'illimitato' (il cui valore equivale a 0) per rimuovere il limite massimo.
 :end
 
 :cachedirs_idle_timer_plug:
