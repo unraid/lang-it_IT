@@ -617,7 +617,7 @@ Share does *not* contain any data and may be deleted if not needed any longer.
 :end
 
 :share_edit_delete_help:
-Share can *not* be deleted as long as it contains data. Be aware that some data can be hidden. See also [SMB Settings](/Settings/SMB) -> Hide "dot" files.
+Share can *not* be deleted as long as it contains data. Be aware that some data can be hidden. See also [SMB Settings](/Settings/SMB) → Hide "dot" files.
 :end
 
 :smb_security_help:
@@ -1218,7 +1218,7 @@ configuration file:
 
 `set service dns forwarding options rebind-domain-ok=/unraid.net/`
 
-**OpenDNS:** Go to Settings -> Security and *remove* the checkbox next to
+**OpenDNS:** Go to Settings → Security and *remove* the checkbox next to
  "Suspicious Responses - Block internal IP addresses". It is an all-or-nothing setting.
 
 When all else fails, you can create an entry in your PC's *hosts* file to override external DNS and
@@ -2337,7 +2337,7 @@ More optional selections are present for bridges under network settings or for l
 NOTE: You can also specify a network source on a per-VM basis.
 
 **IMPORTANT: Neither Libvirt nor Unraid automatically brings up an interface that is assigned to a Libvirt network.
-Before you use a Libvirt network, please go to Settings -> Network Settings and, if necessary, manually set the associated interface to up.**
+Before you use a Libvirt network, please go to Settings → Network Settings and, if necessary, manually set the associated interface to up.**
 :end
 
 ; New entries (5) - 2023-04-25

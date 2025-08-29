@@ -1,5 +1,5 @@
 Hide Deprecated Applications=Nascondi app obsolete
-This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=Questa impostazione nasconde le applicazioni obsolete dall’elenco delle app disponibili. Tali app verranno comunque visualizzate nelle sezioni "App installate" e "App precedenti".
+This setting hides deprecated applications from the list of available apps Deprecated apps will still however display within the installed and previous apps sections=Questa impostazione nasconde le applicazioni obsolete dall’elenco delle app disponibili. Tali app verranno comunque visualizzate nelle sezioni 'App installate' e 'App precedenti'.
 Hide Incompatible Applications=Nascondi le app non compatibili
 This setting will hide applications that are listed as being incompatible with your version of Unraid=Questa impostazione nasconderà le applicazioni elencate come incompatibili con la tua versione di Unraid.
 Allow install of second instance=Consenti l’installazione di una seconda istanza
@@ -24,4 +24,4 @@ Enable developer mode=Abilita Modalità Sviluppatore
 This unlocks some extra features within CA generally only used by developers Not recommended to enable=Questo sblocca alcune funzionalità extra all’interno di Community Applications generalmente usate solo dagli sviluppatori. Non è consigliato abilitarlo.
 Support Thread=Thread di Supporto
 Disable Featured Applications=Disabilita app "In Evidenza"
-This setting will disable Featured applications appearing on the home screen=Questa impostazione disabiliterà la visualizzazione delle applicazioni "In Evidenza" nella schermata principale.
+This setting will disable Featured applications appearing on the home screen=Questa impostazione disabiliterà la visualizzazione delle applicazioni 'In Evidenza' nella schermata principale.

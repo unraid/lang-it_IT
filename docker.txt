@@ -156,4 +156,4 @@ Web=Web
 WebUI=WebUI
 Writable=Scrivibile
 Container not found Try reloading this page to fix=Contenitore non trovato. Prova a ricaricare questa pagina per risolvere.
-For security reasons, containers with Network Type Host should not have Tailscale enabled Please disable Tailscale in this container or change the Network Type of the container=Per motivi di sicurezza, i Contenitori che utilizzano "Host" come Tipo di Rete non dovrebbero avere Tailscale abilitato. Disabilita Tailscale in questo Contenitore o modifica il Tipo di Rete.
+For security reasons, containers with Network Type Host should not have Tailscale enabled Please disable Tailscale in this container or change the Network Type of the container=Per motivi di sicurezza, i Contenitori che utilizzano **Host** come 'Tipo di Rete' non dovrebbero avere Tailscale abilitato. Disabilita Tailscale in questo Contenitore o modifica il 'Tipo di Rete'.
