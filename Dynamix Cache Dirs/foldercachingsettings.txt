@@ -50,7 +50,7 @@ User defined options=Opzioni definite dall’utente
 >
 > Se la CPU e i dischi sono fortemente influenzati da *cache_dirs* ad intervalli frequenti, ciò potrebbe indicare che *cache_dirs* deve rieseguire la scansione completa.
 >
-> Avviso: il valore **0** farà sì che il kernel non liberi mai la memoria delle directory, e se la memoria disponibile è insufficiente,
+> Avviso: il valore **0** farà sì che il kernel non liberi mai la memoria delle directory e, se la memoria disponibile è insufficiente,
 > il sistema potrebbe andare in crash; *cache_dirs* non reimposta *cache_pressure* alla chiusura.
 > Per reimpostare *cache_pressure* esegui 'sudo sysctl vm.vfs_cache_pressure=100', oppure esegui *cache-dirs* con *cache_pressure* **100**.
 >
