@@ -16,7 +16,7 @@ This is a global value for all devices If it causes issues, then disable Mouse W
 Allow CA to send any emergency notifications=Abilita Notifiche di Emergenza
 This setting allows CA to periodically scan your system and alert you to the presence of=Questa impostazione consente a Community Applications di scansionare periodicamente il tuo sistema e di avvisarti della presenza di:
 1 Known malware and security vulnerabilities within applications=• Malware noti e vulnerabilità di sicurezza all’interno delle applicazioni
-2 Critical security vulnerabilities within Unraid OS=• Vulnerabilità di sicurezza critiche all’interno del sistema operativo Unraid
+2 Critical security vulnerabilities within Unraid OS=• Vulnerabilità di sicurezza critiche all’interno di Unraid OS
 3 Any installed applications which may seriously hinder the operation of your server=• Qualsiasi applicazione installata che potrebbe impedire seriamente il funzionamento del tuo server
 Save CA debugging information=Salva le informazioni di debug di Community Applications
 Only enable this when advised to from the author of Community Applications=Abilita questa opzione solo quando richiesto dallo sviluppatore di Community Applications.
