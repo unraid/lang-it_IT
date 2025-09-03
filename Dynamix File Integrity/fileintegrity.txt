@@ -81,9 +81,9 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 > Seleziona qui le cartelle (Condivisioni) che desideri escludere dalle funzionalità di hashing e di verifica automatiche. Una 'Condivisione' riguardante più dischi verrà ignorata su ogni disco in cui è presente.
 >
 > Usa **Cartelle personalizzate/File personalizzati** per inserire manualmente le esclusioni. Le esclusioni multiple sono separate da una virgola.<br>
-> Alcuni esempi sono i nomi delle cartelle come **`.Recycle.Bin`**, i nomi dei file come **`my_workfile.tmp`** o le estensioni dei file come **`*.tmp`**.
+> Alcuni esempi sono i nomi delle cartelle come '**.Recycle.Bin**', i nomi dei file come '**my_workfile.tmp**' o le estensioni dei file come '**.tmp**'.
 >
-> Seleziona **Metadati Apple** per escludere i file di metadati creati da Netatalk di Apple (.AppleDB e .DS_Store).
+> Seleziona **Metadati Apple** per escludere i file di metadati creati da macOS o da Netatalk (ad es. '.AppleDB' e '.DS_Store').
 :end
 
 :integrity_verification_plug:
@@ -125,7 +125,7 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 
 :integrity_notifications_plug:
 > Imposta su 'Sì' se desideri ricevere notifiche quando viene rilevata una corruzione dei dati.
-> Vedi le impostazioni delle notifiche per sapere come impostare e ricevere notifiche di 'avviso'.
+> Vedi le impostazioni delle notifiche per sapere come impostare e ricevere notifiche di avviso.
 :end
 
 :integrity_logging_plug:

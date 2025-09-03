@@ -148,7 +148,7 @@ This will delete all notification files=Questa operazione eliminerà tutti i fil
 This will delete the selected notification files=Questa operazione eliminerà i file di notifica selezionati
 This will update folder file permissions=Questa operazione aggiornerà i permessi dei file e delle cartelle
 Time=Ora
-To install a registration key, paste the key file URL in the box below and click Install Key=Per installare una Chiave di Licenza, incolla l'URL del file della Chiave nella casella qui sotto e clicca su Installa Chiave.
+To install a registration key, paste the key file URL in the box below and click Install Key=Per installare una Chiave di Licenza, incolla l’URL del file della Chiave nella casella qui sotto e clicca su Installa Chiave.
 to select your language=per selezionare la tua lingua
 Trial key expires on=La ***Licenza di prova*** scadrà il
 Trial=Versione di prova
@@ -169,7 +169,7 @@ warning=avviso
 Warnings Only=Solo avvisi
 Warnings=Avvisi
 webGUI=Interfaccia Grafica Web
-When received, please paste the URL into the Key file URL box and=Una volta ricevuto, incolla l'URL nell’apposita casella del file della Chiave di Licenza e
+When received, please paste the URL into the Key file URL box and=Una volta ricevuto, incolla l’URL nell’apposita casella del file della Chiave di Licenza e
 Wrong File Extension=Estensione del file errata.
 You havent sent Limetech your hardware profile yet=Non hai ancora inviato il tuo 'Profilo Hardware' a Limetech
 Your hardware profile was last submitted on=Il tuo 'Profilo Hardware' è stato inviato l’ultima volta il
@@ -285,7 +285,7 @@ Note that this tool may negatively affect any docker containers if you allow you
 Your server will not be usable until you purchase a Registration key or install a free 30-day *Trial* key. A *Trial*
 key provides all the functionality of a *Pro* Registration key.
 
-Registration keys are bound to your USB Flash boot device serial number (GUID).  Please use a high quality name brand device
+Registration keys are bound to your USB Flash boot device serial number (GUID). Please use a high quality name brand device
 at least 1GB in size.
 
 Note: USB memory card readers are generally **not** supported because most do not present unique serial numbers.
@@ -339,7 +339,7 @@ Please copy the correct key file to the [config](/Registration/Browse?dir&#61;/b
 on your USB Flash boot device. If you do not have a backup copy of your key file, [Contact Support](https://lime-technology.com/contact).
 
 If you want to replace your Registration key with a new key bound to this USB Flash device, click Replace Key below. An original key may be
-replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed.  If you require
+replaced anytime. Thereafter, a replacement key may be replaced again after one year has passed. If you require
 another replacement key sooner, [Contact Support](https://lime-technology.com/contact).
 
 **Note:** Replacing a Registration key results in permanently *blacklisting* the previous USB Flash GUID.

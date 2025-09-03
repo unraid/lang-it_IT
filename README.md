@@ -96,7 +96,7 @@ Una volta completate le traduzioni, se si desidera testare localmente i risultat
 
 Dare al file ZIP il nome della propria lingua, ad esempio: "**Italian.zip**".
 
-Nella *GUI* di Unraid andare in: **Strumenti -> Interfaccia Grafica Web -> Lingua** (*e passare alla vista Sviluppatore*)
+Nella *GUI* di Unraid andare in: **Strumenti → Interfaccia Grafica Web → Lingua** (*e passare alla vista Sviluppatore*)
 
 - Per impostazione predefinita, è inclusa solo la lingua inglese (integrata nativamente).
 - Selezionare come file sorgente il file ZIP creato in precedenza.
@@ -107,7 +107,7 @@ NOTA: Se la lingua non è disponibile nel menu a discesa, fare richiesta nella [
 
 A questo punto la lingua sarà disponibile per i test locali!
 
-Nella *GUI* di Unraid andare in: **Impostazioni -> Impostazioni Interfaccia -> Lingua**
+Nella *GUI* di Unraid andare in: **Impostazioni → Impostazioni Interfaccia → Lingua**
 
 - Selezionare la lingua preferita dal menu a discesa. Si ricorda che qui vengono visualizzate solo le lingue disponibili.
 

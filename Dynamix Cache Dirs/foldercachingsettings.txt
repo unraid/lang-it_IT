@@ -50,7 +50,7 @@ User defined options=Opzioni definite dall’utente
 >
 > Se la CPU e i dischi sono fortemente influenzati da *cache_dirs* ad intervalli frequenti, ciò potrebbe indicare che *cache_dirs* deve rieseguire la scansione completa.
 >
-> Avviso: il valore **0** farà sì che il kernel non liberi mai la memoria delle directory, e se la memoria disponibile è insufficiente,
+> Avviso: il valore **0** farà sì che il kernel non liberi mai la memoria delle directory e, se la memoria disponibile è insufficiente,
 > il sistema potrebbe andare in crash; *cache_dirs* non reimposta *cache_pressure* alla chiusura.
 > Per reimpostare *cache_pressure* esegui 'sudo sysctl vm.vfs_cache_pressure=100', oppure esegui *cache-dirs* con *cache_pressure* **100**.
 >
@@ -81,29 +81,29 @@ User defined options=Opzioni definite dall’utente
 :end
 
 :cachedirs_min_level_plug:
-> Imposta il livello minimo di cartella per la scansione adattiva (ad esempio, il percorso Condivisioni Utente > Cartella figlia > Sotto-cartella è considerato su due livelli). Il valore predefinito è 4.
+> Imposta il livello minimo di cartella per la scansione adattiva (ad esempio, il percorso 'Condivisioni Utente → Cartella figlia → Sotto-cartella' è considerato su due livelli). Il valore predefinito è 4.
 :end
 
 :cachedirs_max_level_plug:
-> Imposta il numero massimo di livelli di cartelle per la scansione (Cartella padre > Cartella figlia > Sotto-cartella). Impostare su 'illimitato' (il cui valore equivale a 0) per rimuovere il limite massimo.
+> Imposta il numero massimo di livelli di cartelle per la scansione ('Cartella padre → Cartella figlia → Sotto-cartella'). Impostare su 'illimitato' (il cui valore equivale a 0) per rimuovere il limite massimo.
 :end
 
 :cachedirs_idle_timer_plug:
-> Quando i dischi sono rimasti inattivi per tutto questo tempo, la scansione adattiva di *cache_dirs* inizia a lavorare per costruire la cache.
+> Quando i dischi sono rimasti inattivi per tutto questo tempo, la scansione adattiva di 'cache_dirs' inizia a lavorare per costruire la cache.
 :end
 
 :cachedirs_timeout_scan_plug:
 > Il timeout di scansione è la durata massima che una singola scansione può impiegare per attraversare tutte le directory al livello di profondità attuale (che può variare in modo adattivo).
-> Puoi aumentarlo se *cache_dirs* non riesce a memorizzare nella cache tutti i tuoi file. Questo timeout viene sempre utilizzato se l’opzione 'adattiva' è disabilitata.
+> Puoi aumentarlo se 'cache_dirs' non riesce a memorizzare nella cache tutti i tuoi file. Questo timeout viene sempre utilizzato se l’opzione 'adattiva' è disabilitata.
 :end
 
 :cachedirs_timeout_initial_plug:
-> Aumenta questo valore se desideri che *cache_dirs* conceda più tempo alla scansione iniziale o quando il file system potrebbe essere occupato.
+> Aumenta questo valore se desideri che 'cache_dirs' conceda più tempo alla scansione iniziale o quando il file system potrebbe essere occupato.
 :end
 
 :cachedirs_timeout_cached_plug:
-> Diminuisci questo valore se desideri che *cache_dirs* abbia un carico minore sul sistema quando la cache viene rimossa dalla memoria e i dischi non sono inattivi.
-> Puoi aumentarlo se desideri che *cache_dirs* abbia maggiori possibilità di ricaricare le directory in memoria.
+> Diminuisci questo valore se desideri che 'cache_dirs' abbia un carico minore sul sistema quando la cache viene rimossa dalla memoria e i dischi non sono inattivi.
+> Puoi aumentarlo se desideri che 'cache_dirs' abbia maggiori possibilità di ricaricare le directory in memoria.
 :end
 
 :cachedirs_min_interval_plug:
@@ -125,7 +125,7 @@ User defined options=Opzioni definite dall’utente
 
 :cachedirs_logging_plug:
 > Seleziona se abilitare o disabilitare il logging. Il log verrà registrato in '/var/log/cache_dirs.log' e '/var/log/cache_dirs_lost_cache.csv'.
-> Tieni presente che i log di *cache_dirs* sono archiviati in memoria su Unraid e non vengono sovrascritti automaticamente.
+> Tieni presente che i log di 'cache_dirs' sono archiviati in memoria su Unraid e non vengono sovrascritti automaticamente.
 :end
 
 :cachedirs_user_defined_plug:
