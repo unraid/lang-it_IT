@@ -49,7 +49,7 @@ Un array di Unraid è composto da uno o due **Dischi di Parità** e da un certo 
 I Dischi Dati sono usati esclusivamente per archiviare i dati dell’utente, mentre i Dischi
 di Parità forniscono la ridondanza necessaria per il recupero dei dati in caso di guasti ai Dischi Dati.
 
-Visto che i dati non sono distribuiti ricorsivamente sull’array, qualsiasi Disco di Parità deve essere capiente almeno quanto il Disco Dati più grande.
+Poiché i dati non sono distribuiti ricorsivamente su tutti i dischi dell’array, qualsiasi Disco di Parità deve essere capiente almeno quanto il Disco Dati più grande.
 Il Disco di Parità dovrebbe essere anche l’unità con le prestazioni più elevate.
 
 Ogni Disco Dati ha il proprio file system e può essere configurato

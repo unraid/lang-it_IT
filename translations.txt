@@ -968,7 +968,7 @@ Checking WAN IPs…=Controllo IP WAN…
 Checkout the Connect Documentation=Consulta la documentazione di Unraid Connect
 Click to close modal=Clicca per chiudere il pop-up
 Close Dropdown=Chiudi il menu a discesa
-Close Modal=Chiudi Pop-up
+Close Modal=Chiudi pop-up
 Configure Connect Features=Configura le funzionalità di Unraid Connect
 Copied=Copiato
 Copy your Key URL %s=Copia l’URL della tua Chiave di Licenza: %s
@@ -1193,4 +1193,4 @@ Open a bug report=Crea Segnalazione Errori
 %s year=%s anno
 %s years=%s anni
 
-; Translation completed - 31.08.2025
+; Translation completed - 2025-09-04

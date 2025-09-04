@@ -92,4 +92,4 @@ Warning: Configured Pool=Attenzione: Pool già configurato
 Write=Scrivi
 You cannot use the following within share names=Non puoi usare i seguenti caratteri nei nomi della Condivisione
 
-; Translation completed - 04.09.2025
+; Translation completed - 2025-09-04
