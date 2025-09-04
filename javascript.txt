@@ -29,7 +29,7 @@ Read Me First=Leggimi prima
 Remove container=Rimuovi Contenitore
 Remove definition=Rimuovi definizione
 Remove image=Rimuovi immagine
-Remove VM=Rimuovi VM
+Remove VM=Rimuovi Macchina Virtuale
 Remove=Rimuovi
 Restart=Riavvia
 Resume=Ripristina
@@ -71,3 +71,5 @@ Container Port=Porta del Contenitore
 Container Variable=Variabile del Contenitore
 Container Label=Etichetta del Contenitore
 Container Device=Dispositivo del Contenitore
+
+; Translation completed - 04.09.2025
