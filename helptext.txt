@@ -16,7 +16,7 @@
 ** Identificazione ** è la * firma * che identifica in modo univoco un dispositivo di archiviazione. La firma
 include il modello del dispositivo, il numero di serie, l’ID del dispositivo Linux e le sue dimensioni.
 
-**Temp.** (temperatura) viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina [Impostazioni > Impostazioni Interfaccia](Settings/DisplaySettings).  Non è possibile leggere la temperatura dei dischi in standby poiché questo in genere li risveglia; in questo caso viene visualizzato il simbolo "*".  È possibile
+**Temp.** (temperatura) viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina [Impostazioni > Impostazioni Interfaccia](Settings/DisplaySettings). Non è possibile leggere la temperatura dei dischi in standby poiché questo in genere li risveglia; in questo caso viene visualizzato il simbolo "*". È possibile
 che venga visualizzato il simbolo "*" per i dispositivi SSD e Flash anche se questi comunicano la propria temperatura
 ma spesso restituiscono il valore "0".
 
@@ -39,20 +39,20 @@ provoca la * disabilitazione * del disco.
 La colonna ** Visualizza ** mostra l’icona di una Cartella e ciò indica che il dispositivo è * montato *. Clicca sull’icona per
 sfogliare il file system.
 
-Se "Visualizza i totali dell’array" è abilitato nella pagina [Preferenze di visualizzazione](Impostazioni / Impostazioni di visualizzazione), 
+Se "Visualizza i totali dell’array" è abilitato nella pagina [Preferenze di visualizzazione](Impostazioni / Impostazioni di visualizzazione),
 è inclusa la riga ** Totale ** che fornisce un conteggio delle statistiche del dispositivo, inclusa la temperatura media
 dei tuoi dispositivi.
 
 L’Array deve essere **Fermato** per poter modificare i dispositivi ad esso assegnati.
 
-Un array di Unraid è composto da uno o due **Dischi di Parità** e da un certo numero di **Dischi Dati**. 
-I Dischi Dati sono usati esclusivamente per archiviare i dati dell’utente, mentre i Dischi 
+Un array di Unraid è composto da uno o due **Dischi di Parità** e da un certo numero di **Dischi Dati**.
+I Dischi Dati sono usati esclusivamente per archiviare i dati dell’utente, mentre i Dischi
 di Parità forniscono la ridondanza necessaria per il recupero dei dati in caso di guasti ai Dischi Dati.
 
-Visto che i dati non sono distribuiti ricorsivamente sull’array, qualsiasi Disco di Parità deve essere capiente almeno quanto il Disco Dati più grande. 
+Poiché i dati non sono distribuiti ricorsivamente su tutti i dischi dell’array, qualsiasi Disco di Parità deve essere capiente almeno quanto il Disco Dati più grande.
 Il Disco di Parità dovrebbe essere anche l’unità con le prestazioni più elevate.
 
-Ogni Disco Dati ha il proprio file system e può essere configurato 
+Ogni Disco Dati ha il proprio file system e può essere configurato
 come una Condivisione individuale.
 
 Clicca sul nome del dispositivo per configurare le impostazioni individuali del dispositivo e avviare determinate utility.
