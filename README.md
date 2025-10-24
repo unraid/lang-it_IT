@@ -53,11 +53,11 @@ Ad esempio:
 I caratteri \* e \*\* sono utilizzati per visualizzare rispettivamente il testo in *corsivo* e in **grassetto**.
 Ad esempio:
 
-"Array must be Stopped to change=L’*Array* deve essere **Fermato** per apportare le modifiche".
+"Array must be Stopped to change=L’\*Array\* deve essere \*\*Fermato\*\* per apportare le modifiche".
 
-Si consiglia di effettuare le traduzioni per sezione, ossia un file alla volta, e di verificarne la correttezza nella *GUI* prima di procedere con la sezione successiva.
+Si consiglia di effettuare le traduzioni per sezione, ossia un file alla volta, e di verificarne la correttezza nella GUI prima di procedere con la sezione successiva.
 
-Tenere presente la lunghezza delle traduzioni, cercando di mantenerla simile a quella del testo originale, così da evitare problemi di spaziatura nella *GUI*.
+Tenere presente la lunghezza delle traduzioni, cercando di mantenerla simile a quella del testo originale, così da evitare problemi di spaziatura nella GUI.
 
 
 ### PARTE 2
@@ -130,7 +130,7 @@ I traduttori potranno usare il sistema *GitHub* per verificare le modifiche appo
 
 ### CREDITI
 
-Il tuo contributo è molto apprezzato e, come segno di riconoscenza, il tuo nome e la lingua tradotta saranno inseriti nella sezione **Crediti** della pagina **Strumenti** nella *GUI di Unraid*.
+Il tuo contributo è molto apprezzato e, come segno di riconoscenza, il tuo nome e la lingua tradotta saranno inseriti nella sezione **Crediti** della pagina **Strumenti** nella *GUI* di Unraid.
 
 Ti preghiamo di indicarci quale nome e credenziali utilizzare.
 
