@@ -22,6 +22,7 @@ Name Descending=Nome (Z-A)
 Downloads=Download
 Date Added=Data di aggiunta
 Number Of Apps=Numero di app
+
 ; Initial disclaimer translations
 Disclaimer=Dichiarazione di non responsabilità
 All applications listed here are 3rd party additions to Unraid Neither the authors of Community Applications nor Limetech make any warranty as to the suitability of any application listed here=Tutte le applicazioni qui elencate sono aggiunte di terze parti a Unraid. Né gli autori di Community Applications né Limetech forniscono alcuna garanzia sul funzionamento di qualsiasi applicazione qui elencata.
@@ -86,14 +87,13 @@ Search Apps=Cerca App
 Registry=Registro
 Details=Dettagli
 Added=Aggiunto
+
 ; Install Plugin title of openbox
 Install Plugin=Installa Plugin
 Update Plugin=Aggiorna Plugin
-
 Requirements not met=Requisiti non rispettati
 The requirements for this upgrade have not been met on your system=I requisiti per questo aggiornamento non sono stati soddisfatti sul tuo sistema.
 The sidebar for the app click info will list the details=La barra laterale, attivata dal click sull’app, mostrerà i dettagli.
-
 BACK=INDIETRO
 
 ; Remove App from previously installed
@@ -118,9 +118,7 @@ Unpin App=Sblocca App
 Choose A Branch To Install=Scegli la Linea di sviluppo da utilizzare per l’installazione
 
 ; Multiple application installs
-; no apps selected
 Install Selected Applications=Installa le app selezionate
-
 Yes, install it=Conferma
 
 ; Multi-install popup
@@ -134,6 +132,7 @@ Finished Installing If the DONE button did not appear, then you will need to cli
 ; error messages
 An error occurred Could not find any %s Apps=Si è verificato un errore. Impossibile trovare l’app %s.
 Download of appfeed failed=Download del feed di applicazioni fallito.
+
 ; the %s here refers to a function being called
 Something really went wrong here=Si è verificato un errore
 Post the ENTIRE contents of this message in the Community Applications Support Thread=Pubblica l’INTERO contenuto di questo messaggio nel thread di supporto di Community Applications.
@@ -195,7 +194,6 @@ Copyright=Copyright
 Translation=Traduzione
 
 ; Statistics page
-
 unknown=sconosciuto
 Last Change To Application Feed=Ultima modifica al Feed delle Applicazioni
 Docker Applications=Contenitori Docker
@@ -230,7 +228,6 @@ Individual Application Moderation=Moderazione delle Singole App
 
 ; Misc
 Community Applications Changelog=Changelog di Community Applications
-
 Each month we highlight some of the amazing work from our community=Ogni mese mettiamo in evidenza alcuni degli incredibili lavori della nostra community
 Check out these newly added applications from our awesome community=Dai un’occhiata a queste applicazioni appena aggiunte dalla nostra fantastica community
 Check out these up and coming apps=Scopri queste app emergenti
@@ -239,7 +236,6 @@ An assortment of randomly chosen apps=Un assortimento di app scelte casualmente
 Featured Applications=Applicazioni in Evidenza
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
-
 Backup=Backup
 Cloud=Cloud
 Crypto Currency=Cryptovalute
@@ -327,8 +323,10 @@ Total Downloads=Download Totali
 Popularity=Popolarità
 Licence=Licenza
 Ranked #%s=Classificato #%s
+
 ; as in Trending up or down arrow
 Trending %s=Tendenza %s
+
 ; as in As of some date
 As of %s=(A partire dal %s)
 Play Video=Riproduci Video
@@ -349,14 +347,17 @@ Note not all authors keep up to date on change logs=Nota: non tutti gli autori a
 Note not all maintainers keep up to date on change logs=Nota: non tutti i maintainer aggiornano i changelog.
 Last Update=Ultimo Aggiornamento
 Note All statistics are only gathered every 30 days=Nota: Tutte le statistiche vengono raccolte solo ogni 30 giorni.
-;the following if using a space you MUST use nbsp but keep it down to one word if at all possible
+
+; the following if using a space you MUST use nbsp but keep it down to one word if at all possible
 Donate=Fai una donazione
 Currently Installed Version=Versione Attualmente Installata
 Install The Update=Installa l’Aggiornamento
+
 ; as in you have the latest version already installed
 Latest Version=Ultima Versione
 Multi Language Support=Supporto Multi-lingua
 Support Forum=Ottieni Aiuto
+
 ; as in more than 100000
 More than %s=Più di %s
 Remove from Previous Apps=Rimuovi da App Precedenti
@@ -415,8 +416,10 @@ Incompatible=Incompatibili
 Blacklisted=Nella blacklist
 Template Exists=Template già presente
 Template already exists in Apps=Il template esiste già nelle App
+
 ; eg: LinuxServer Repository
 %s Repository=%s Repository
+
 ; eg: Squid’s Repository
 %s’s Repository=Repository di %s
 
