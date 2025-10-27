@@ -33,12 +33,12 @@ MD5=MD5
 Output file=File di output
 Placement of file integrity control=Posizione del controllo di integrità dei file
 Process priority=Priorità del processo
-Save new hashing results to flash=Salva i nuovi risultati di hashing sull’Unità Flash
+Save new hashing results to flash=Salva i nuovi risultati di hashing sull’Unità Flash USB
 saved files=File salvati
 Send notifications=Invia notifiche
 SHA2=SHA2
-Syslog only=Solo Syslog
-Syslog Output file=File di Output Syslog
+Syslog only=Solo syslog
+Syslog Output file=File di Output syslog
 Task=Attività
 Time of the day=Ora del giorno
 Toggle all=Attiva/Disattiva tutto
@@ -129,6 +129,6 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 :end
 
 :integrity_logging_plug:
-> La rilevazione degli errori, incluse le informazioni riguardanti i dati corrotti, può essere scritta nel log di sistema o salvata in un file di log sull’Unità Flash.
+> La rilevazione degli errori, incluse le informazioni riguardanti i dati corrotti, può essere scritta nel log di sistema o salvata in un file di log sull’Unità Flash USB.
 > Disabilitando la rilevazione degli errori anche la creazione del file di log verrà disabilitata. È comunque possibile continuare a ricevere le notifiche.
 :end
