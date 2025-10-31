@@ -54,7 +54,7 @@ You can use Unassigned Devices to clear the disk=Puoi usare Unassigned Devices p
 :preclear_general_help_plug:
 > Il Pre-clear di Unassigned Devices può essere usato per preparare i dischi da utilizzare nell’array, per cancellare i dati in maniera sicura e per eseguire uno stress test per verificarne il corretto funzionamento prima di impiegarli nell’array.
 >
-> Solo i dischi che non sono utilizzati nell’array e che non hanno partizioni con file system sono indonei al Pre-clear.
+> Solo i dischi che non sono utilizzati nell’array e che non hanno partizioni con file system sono idonei all’operazione di Pre-clear.
 >
 > Quando un disco è sottoposto a Pre-clear puoi seguire lo stato su questa pagina, sulla pagina Unassigned Devices o sull’icona di stato del Pre-clear nella pagina web di Unraid.
 > 
