@@ -1,9 +1,9 @@
 A disk must be cleared of all partitions before it can be precleared=Tutte le partizioni presenti sul disco devono essere **ELIMINATE** prima di poter eseguire il Pre-clear.
 Cannot Preclear=Impossibile eseguire il Pre-clear.
-Clear Disk=Cancella Disco
+Clear Disk=Ripulisci Disco
 Clear Signature=Cancella Firma
 Clear Stats=Cancella Statistiche
-Click to show reports=Clicca o premi qui per mostrare i report
+Click to show reports=Clicca o premi qui per mostrare le statistiche
 Concurrent Sessions=Sessioni Simultanee
 Cycles=Cicli
 Device Model=Dispositivo
@@ -29,19 +29,19 @@ Preclear Log=Log Pre-clear
 Preclear Status=Stato Pre-clear
 Preview Progress=Visualizza Avanzamento
 Read size=Dimensioni Lettura
-Remove Report=Rimuovi Report
+Remove Report=Rimuovi Statistiche
 Resume all Sessions=Riprendi tutte le operazioni
 Resume Preclear=Riprendi il Pre-clear
 Preview Progress Report=Visualizza Stato Operazione
 Select Disks=Seleziona Dischi
 Serial Number=Numero di Serie
 Set Preclear Queue=Imposta Coda di Pre-clear
-Show Preclear Report=Mostra Report di Pre-clear
+Show Preclear Report=Mostra Statistiche di Pre-clear
 Skip Pre-read=Salta 'Pre-read'
 Skip Post-Read=Salta 'Post-read'
 Start Multiple Sessions=Avvia Sessioni Multiple
 Start New=Avvia Nuova
-Start Preclear=Avvia Pre-clear
+Start Preclear=Esegui il Pre-clear
 Stop all Sessions=Ferma tutte le Sessioni
 Stop Preclear=Ferma il Pre-clear
 Temp=Temperatura
@@ -52,27 +52,29 @@ Write size=Dimensioni Scrittura
 You can use Unassigned Devices to clear the disk=Puoi usare Unassigned Devices per cancellare il disco
 
 :preclear_general_help_plug:
-> The Unassigned Devices Pre-clear can be used to prepare disks for inclusion in the array, clear disks for disposal, and perform stress tests before disks are used in the array.
+> Il Pre-clear di Unassigned Devices può essere usato per preparare i dischi da utilizzare nell’array, per cancellare i dati in maniera sicura e per eseguire uno stress test per verificarne il corretto funzionamento prima di impiegarli nell’array.
 >
-> Only disks that are not being used in the array and have no partitions with file systems will be listed as candidates for pre-clearing.
+> Solo i dischi che non sono utilizzati nell’array e che non hanno partizioni con file system sono indonei al Pre-clear.
 >
-> When a disk is being pre-cleared, you can follow the status on this page, on the Unassigned Devices page, or the pre-clear status icon in the footer of the Unraid web page.
+> Quando un disco è sottoposto a Pre-clear puoi seguire lo stato su questa pagina, sulla pagina Unassigned Devices o sull’icona di stato del Pre-clear nella pagina web di Unraid.
 > 
-> There are multiple choices for pre-clearing:
+> Ci sono molteplici scelte per il Pre-clear:
 >
-> The **Enhanced** script authored by user **gfjardim** has the advantage that it supports the enhanced features like pause and resume pre-clearing. It also has extensive logging.
+> Lo script **Enhanced**, creato dall’utente '**gfjardim**', supporta funzionalità avanzate come la messa in pausa e la ripresa del Pre-clear. Ha anche un’ampia funzionalità di logging.
 >
-> The **Docker** option refers to the binhex Docker container that performs pre-clear. The advantage is that pre-clearing is isolated within the container.
+> L’opzione **Docker** si riferisce al Contenitore Docker '**binhex**' che esegue il Pre-clear. Il vantaggio è che l’operazione di Pre-clear è isolata all’interno del Contenitore Docker.
 >
-> Pre-clear operations:
+> Operazioni di Pre-clear:
 >
-> + Clear Disk - The disk is cleared and the Unraid signature is written to the disk. This will create an empty partition on the disk.
-> + Erase Disk - Erase the entire disk by writing all zeros. The pre-clear signature is removed.
-> + Erase and Clear Disk - Random patterns are written to the disk and then zeros are written. This is a good choice for a disk to be discarded to ensure all traces of files are removed.
-> + Verify Signature - The disk signature is checked.
-> + Verify Disk - The disk signature is checked and the disk is verified to be zeroed.
-> + Post-read Verify - Perform a post-read verify to check the disk.
-> + Clear Signature - Remove the pre-clear signature from the disk.
+> • **Ripulisci Disco** - Il disco viene sottoposto a Pre-clear e la firma di Unraid viene salvata sul disco. Questa operazione creerà una partizione vuota sul disco.
+> • **Cancella Disco** - Cancella l’intero contenuto in maniera sicura scrivendo degli 'zeri' sul disco. La firma di Pre-clear viene rimossa.
+> • **Cancella e Ripulisci Disco** - Vengono scritti 'dati casuali' sul disco che poi vengono sovrascritti dagli 'zeri'. Questa è una buona scelta per assicurarsi che tutte le tracce siano rimosse.
+> • **Verifica Firma** - Controlla la firma del disco.
+> • **Verifica Disco** - La firma del disco viene controllata e il disco viene verificato per essere azzerato.
+> • **Verifica 'Post-read'** - Esegue un’operazione di 'Post-read' per controllare l’integrità del disco.
+> • **Cancella Firma** - Rimuove la firma di Pre-clear dal disco.
 >
-> The text <em style='color:#00BE37;'>Pre-cleared</em> next to the disk serial number indicates that the disk has a pre-cleared signature. This will only show when the disk is pre-cleared and the Pre-clear Stats have been removed.
+> Il testo <em style='color:#00BE37;'>Pre-cleared</em> accanto al numero di serie del disco indica che il disco ha una firma di Pre-clear. Sarà mostrato solo se il disco è stato sottoposto all’operazione di Pre-clear e le relative statistiche sono state rimosse.
 :end
+
+; Translation completed - 31.10.2025

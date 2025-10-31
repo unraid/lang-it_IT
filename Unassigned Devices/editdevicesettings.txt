@@ -100,3 +100,5 @@ può mostrare lo stato di esecuzione dello script che userà questo dispositivo.
 >
 > Clicca o premi su **Fatto** per uscire da questa pagina.
 :end
+
+; Translation completed - 30.10.2025

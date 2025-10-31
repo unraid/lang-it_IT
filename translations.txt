@@ -433,10 +433,10 @@ Type your question or comment to Lime Technology here=Digita qui la tua domanda 
 Type=Digita
 Unable to generate system diagnostics=Impossibile generare la diagnostica di sistema
 Unable to set password=Impossibile impostare la password
-Unassigned=Non assegnato
-unassigned=non assegnato
-Unknown=Sconosciuto
-unknown=sconosciuto
+Unassigned=*Non assegnato*
+unassigned=*non assegnato*
+Unknown=*Sconosciuto*
+unknown=*sconosciuto*
 Unlock sortable items=Sblocca elementi ordinabili
 Unraid OS=Unraid OS
 Unraidnet re-authentication required=Accedi nuovamente a Unraid.net
@@ -1193,4 +1193,4 @@ Open a bug report=Crea Segnalazione Errori
 %s year=%s anno
 %s years=%s anni
 
-; Translation completed - 2025.09.04
+; Translation completed - 04.09.2025

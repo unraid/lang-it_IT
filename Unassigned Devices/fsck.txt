@@ -8,3 +8,5 @@ Force Log Zeroing=Forza l'azzeramento del log
 No file system corruption detected=Nessuna corruzione del file system rilevata
 Note: While there is some risk, if it is not possible to first mount the filesystem to clear the log, zeroing it is the only option to try and repair the filesystem, and in most cases it results in little or no data loss=NOTA: Sebbene ci sia un certo rischio, se non è possibile montare prima il file system per cancellare il log, azzerarlo è l’unica opzione per tentare di riparare il file system e, nella maggior parte dei casi, comporta una perdita di dati minima o nulla.
 Run with Correct flag=Esegui con opzione 'Ripara'
+
+; Translation completed - 30.10.2025

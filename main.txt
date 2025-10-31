@@ -305,7 +305,7 @@ Too many wrong andor missing disks=Troppi dischi in errore e/o mancanti
 Total size=Dimensione totale
 Tx=Tx
 Unassign ALL devices to delete this pool=Annulla l’assegnazione di **TUTTI** i dispositivi per eliminare questo pool
-Unassigned Devices=Dispositivi non assegnati
+Unassigned Devices=Unassigned Devices
 Unavailable - disk must be spun up=Non disponibile: il disco deve essere avviato
 unavailable no parity-check entries logged=non disponibile (nessuna voce di Controllo di Parità registrata)
 Unavailable=Non disponibile
@@ -416,3 +416,5 @@ Sleeping=Sospensione
 System in sleep mode=Sistema in modalità *standby*
 This will put the system in sleep mode=Questo metterà il sistema in modalità *standby*
 wiki entry=voce wiki
+
+; Translation completed - 31.10.2025

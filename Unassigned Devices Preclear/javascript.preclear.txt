@@ -20,3 +20,5 @@ Stop Preclear=Interrompi Pre-clear
 Success=Riuscito
 There is a previous preclear session available for this drive=È disponibile una sessione precedente di Pre-clear per questa unità.
 This will stop all running sessions, halt all processes and remove all related files=Questa operazione interromperà tutte le sessioni in esecuzione, arresterà tutti i processi e rimuoverà tutti i file correlati.
+
+; Translation completed - 30.10.2025
