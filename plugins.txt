@@ -41,3 +41,5 @@ Update Incompatible=Aggiornamento **NON** compatibile
 Update Plugin=Aggiorna Plugin
 Upgrade=Aggiorna
 View Release Notes=Vedi le Note di rilascio
+
+; Translation completed - 31.10.2025

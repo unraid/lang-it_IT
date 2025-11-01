@@ -1,0 +1,256 @@
+Add ISO File Share=Aggiungi Condivisione File ISO
+Add Remote SMB=Aggiungi Condivisione SMB Remota
+Add Root Share=Aggiungi Condivisione Principale
+All Unassigned Devices configurations will be updated=Tutte le configurazioni di 'Unassigned Devices' verranno aggiornate
+All disks will be refreshed using udev=Tutti i dischi verranno aggiornati usando 'udev'
+An XFS, BTRFS, or ZFS disk partitioned in UD is compatible with the array disk partitioning and can be added to the array=Un disco XFS, BTRFS o ZFS partizionato in Unassigned Devices è compatibile con il partizionamento del disco dell’array e può essere aggiunto ad esso.
+Any data on this disk will be lost=Tutti i dati su questo disco verranno eliminati
+Are you sure=Sicuro?
+Auto mount=Monta Automaticamente
+Back=Indietro
+Browse Disk Share=Sfoglia Condivisione Disco
+Browse ISO File Share=Sfoglia Condivisione File ISO
+Browse Remote SMB=Sfoglia Condivisione SMB Remota
+Check the syslog for details=Controlla il syslog per i dettagli
+Choose File System Format=Scegli Formato File System
+Choose ISO File=Scegli File ISO
+Choose NFS Server=Scegli Server NFS
+Choose SMB Server=Scegli Server SMB
+Choose Share=Scegli Condivisione
+Click on Icon to Choose Protocol=Clicca sull’icona per scegliere il Protocollo
+Change Disk Mount Point=Modifica del Punto di mount del Disco
+Change ISO File Mount Point=Modifica del Punto di mount del File ISO
+Change Remote Share Mount Point=Modifica del Punto di mount della Condivisione Remota
+Change SMB=Modifica Condivisione SMB
+Changing the Mount Point will also change the disk label on all disks and the pool name on a ZFS disk=La modifica del Punto di mount cambierà anche l’etichetta del disco (su tutti i dischi) e il nome del pool (solo sui dischi ZFS).
+Clear=Cancella
+Click to select ISO file=Clicca o premi qui per selezionare il file ISO
+Click to view/hide partitions and mount points=Clicca o premi qui per visualizzare/nascondere Partizioni e Punti di mount
+Complete=Completato
+Device=Dispositivo
+Disks=Dischi
+Disk Label=Etichetta Disco
+Disk Log Information=Informazioni Log Disco
+Disk Sharing must be disabled to add a Root Share=La Condivisione del Disco deve essere disabilitata per aggiungere una Condivisione Principale
+Do NOT use a remote share local mount in a Docker container or VM for critical data=**NON** usare un Punto di mount locale di una Condivisione remota in un Contenitore Docker/Macchina Virtuale per i dati critici
+Do not put files or folders into the /mnt/rootshare/ folder=**NON** inserire file o cartelle nella cartella '/mnt/rootshare/'
+Domain=Dominio
+Edit Device Script=Modifica Script del Dispositivo
+Edit ISO File Script=Modifica Script File ISO
+Edit Remote SMB=Modifica Condivisione SMB Remota
+Encrypt CIFS Mount=Crittografa Punto di mount CIFS
+Enter the Domain for the share if on a Domain=Inserisci il Dominio della Condivisione (se si trova su un Dominio)
+Enter the Password if the share is password protected=Inserisci la Password se la Condivisione è protetta
+Enter the Username if the share is password protected=Inserisci il Nome utente se la Condivisione è protetta
+Enter the password to use for this disk=Inserisci la password da usare per questo disco
+Enter the server name and it will be added to the local DNS names and will then resolve by name=Inserisci il nome del server; verrà aggiunto ai nomi DNS locali e sarà quindi raggiungibile tramite nome
+Exclusive Share files will not be accessible in a Root Share=I file della Condivisione Esclusiva non saranno accessibili in una Condivisione Principale
+Execute Script as udev simulating a device being installed=Esegui Script come 'udev' simulando l’installazione di un dispositivo
+Fail=Errore
+failed to=Impossibile
+Failed to get data to refresh page=Impossibile ottenere i dati per aggiornare la pagina
+file share for=Condivisione file per
+File System Check=Controllo File system…
+File System Scrub=Scrub File system…
+Format=Formatta
+Formatting=Formattazione in corso…
+Free=Libero
+from disk=dal disco
+Go to Settings->Global Share Settings and set Enable Disk Shares to Auto or Off=Vai in *Impostazioni → Condivisione* e imposta 'Abilita Condivisione Dischi' su **Auto** o **No**
+Historical=Cronologia
+Historical Unassigned Devices=Cronologia Unassigned Devices
+Historical Device is=
+Identification=Identificazione
+If SMB shares do not show, check your credentials=Se le Condivisioni SMB non vengono visualizzate, controlla le tue credenziali
+If the IP address of the server shows in the list after searching, your DNS server is not resolving the name=Se l’indirizzo IP del server compare nell’elenco dopo la ricerca, significa che il tuo server DNS non è in grado di trovare il nome associato ad esso.
+If this disk was pre-cleared, you will remove the pre-clear signature=Se su questo disco è stata eseguita l'operazione di Pre-clear, verrà rimossa la firma ad essa associata.
+If you add the disk to the array and the pre-clear signature is removed, Unraid will go through the lengthy process of clearing the disk again=Se aggiungi il disco all’array e la firma dell'operazione di Pre-clear viene rimossa, Unraid eseguirà nuovamente il processo di Pre-clear.
+Invalid Configuration - Remove and Re-add=Configurazione non valida – Rimuovi e Aggiungi di nuovo
+is offline=è offline
+ISO File is=Il file ISO è
+ISO File Shares=Condivisione File ISO
+If using a disk password be sure to enter the password for this disk in UD Settings so it can be mounted=Se il disco è protetto da password assicurati di inserirla nelle Impostazioni di Unassigned Devices, altrimenti non potrà essere montato.
+Leave blank to use the array passwordpassphrase=Lascia il campo vuoto per usare la password/frase di accesso dell’array
+Load Shares=Carica Condivisioni
+Loading=Caricamento in corso
+Log=Log
+Mount=Mount
+Mount Point=Punto di mount
+Mounting=Operazione di Mount in corso
+Next=Avanti
+NFS Mount Point=Punto di mount NFS
+NFS or ISO File Shares configured=Condivisioni NFS o File ISO configurate
+NFS Script=Script NFS
+NFS Share=Condivisione NFS
+NFS Shares=Condivisioni NFS
+No Remote SMB=Nessuna Condivisione SMB Remota
+No script file to execute=Nessun file script da eseguire
+No Unassigned Disks available=Nessun Disco non assegnato disponibile
+Not Enabled=Non Abilitato
+not installed=non installato
+Note=NOTA
+offline=offline
+User Shares=Condivisioni Utente
+User Shares without Pools=Condivisioni Utente senza Pool
+You must enable NFS in Settings->NFS to mount NFS shares=Devi abilitare NFS in *Impostazioni → NFS* per montare le Condivisioni NFS.
+You must enable SMB in Settings->SMB to mount SMB shares=Devi abilitare SMB in *Impostazioni → SMB* per montare le Condivisioni SMB.
+Open=Apri
+Partition=Partizione
+Partition and Format Disk=Partiziona e Formatta il disco
+Passed=Passthrough abilitato
+Passed Through=Abilitato al Passthrough
+Password=Password
+Pool=Pool
+Preclear=Esegui Pre-clear
+Read only=Sola Lettura
+Reboot=Riavvia
+Refresh Disks and Configuration=Aggiorna Dischi e Configurazione
+Remember your password It cannot be recovered=Salva la tua password in un posto sicuro perché **NON** potrà essere recuperata.
+Remote Server is=Il Server Remoto è
+Remote Shares=Condivisioni Remote
+Remote Shares online status will be reset=Lo stato online delle Condivisioni Remote verrà reimpostato
+Remote share mounts are dependent on a solid and reliable network connection and that can be difficult to achieve=L’utilizzo di una Condivisione Remota dipende dalla solidità e stabilità della connessione di rete.
+Remove Device configuration=Rimuovi configurazione del Dispositivo
+Remove ISO File Share=Rimuovi Condivisione File ISO
+Remove Partition=Rimuovi Partizione
+Remove Remote SMB=Rimuovi Condivisione SMB Remota
+Remove partition=Rimuovi partizione
+Running=In esecuzione
+Script=Script
+Script is already running=Lo Script è già in esecuzione
+Search For Servers=Cerca Server
+Script Log=Log dello Script
+Search for Servers, or enter the Server name or IP address manually=Cerca i Server presenti sulla rete oppure inserisci manualmente il Nome del Server o l’Indirizzo IP associato ad esso.
+Search for Shares or enter the Share name manually=Cerca le Condivisioni presenti sulla rete oppure inserisci manualmente il Nome della Condivisione associato ad essa.
+Searching=Ricerca in corso
+Select the Root Share=Seleziona la Condivisione Principale
+Serial Number Mount Point=Numero di Serie (Punto di mount)
+Shares=Condivisioni
+Share Type=Tipologia Condivisione
+share for=
+Show/Hide Historical Unassigned Devices=Mostra/Nascondi Cronologia di Unassigned Devices
+Show/Hide SMB/NFS/ISO Shares=Mostra/Nascondi Condivisioni SMB/NFS/File ISO
+Show/Hide Unassigned Disk Devices=Mostra/Nascondi Dispositivi di Unassigned Devices
+Simple=Semplice
+SMB Shares=Condivisioni SMB Remote
+Source=Origine
+SSD cannot be spun down=L'SSD non può essere messo in standby
+Success=Completato con successo
+Show Historical Devices=Mostra Cronologia Dispositivi
+Show SMB/NFS/ISO Shares=Mostra Condivisioni SMB/NFS/File ISO
+Show Disk Devices=Mostra Dischi
+This is a way to gather Unraid shares into one Root Share=Questo è un modo per raggruppare le Condivisioni Unraid in un’unica Condivisione Principale
+This will remove the ISO file share for=Questa operazione rimuoverà la Condivisione File ISO per
+This will remove the=Questa operazione rimuoverà
+This will remove the saved configuration of=Questa operazione rimuoverà la configurazione salvata di
+Timeout: Failed to get unassigned devices information - check the syslog=Timeout: Impossibile ottenere le informazioni sui dispositivi non assegnati. Controlla il 'syslog'.
+to confirm=per procedere
+to format=per formattare
+Unassigned Devices Settings=Impostazioni Unassigned Devices
+Unassigned Disk Devices=Dispositivi Unassigned Devices
+Unassigned Disks=Dischi Non assegnati
+Unmount=Smonta
+Unmounting=Unmount in corso
+Use caution when gathering shares into one Root Share=Fai attenzione quando raggruppi le Condivisioni in un’unica Condivisione Principale
+Used=Usato
+User Shares - allow access to User Shares, including Cache and Pool files=Condivisioni Utente - Consente l’accesso alle Condivisioni Utente **INCLUSI** i file della Cache e del Pool.
+User Shares without Pools - allow access to User Shares, but the Root Share will not include Cache and Pool files=Condivisioni Utente senza Pool - Consente l’accesso alle Condivisioni Utente **ESCLUSI*** i file della Cache e del Pool.
+Username=Nome utente
+View Device Script Log=Visualizza Log dello Script del Dispositivo
+View ISO File Script Log=Visualizza Log dello Script File ISO
+View NFS Script Log=Visualizza Log dello Script NFS
+View SMB Script Log=Visualizza Log dello Script SMB
+WARNING=AVVISO
+When you copy files between shares in the Root Share, the files may not end up on the expected disks=Quando esegui la copia dei file da più Condivisioni alla Condivisione Principale i file potrebbero non finire sui dischi previsti.
+Working=In esecuzione
+You can also subject yourself to security issues like ransomware by exposing all your shares in one Root Share=Raggruppare tutte le Condivisioni in un’unica Condivisione Principale può anche esporti a rischi per la sicurezza (come i ransomware).
+You may need to enter credentials to list the shares=Potrebbe essere necessario inserire le credenziali per visualizzare l’elenco delle Condivisioni.
+You must enable the Destructive Mode in UD Settings before you can Format this disk=Devi abilitare la **Modalità di Modifica** nelle Impostazioni di Unassigned Devices per poter **formattare** questo disco.
+You WILL have problems if you do=Potresti riscontrare **GRAVI** problemi se procedi.
+ZFS Pool Name=Nome Pool ZFS
+ZFS Volume=Volume ZFS
+
+:unassgned_devices_switches_plug:
+> Turn on the **Disks** switch to change the web page to show disk devices. Turn off the **Disks** switch to change the web page to hide disk devices.
+>
+> Turn on the **Shares** switch to change the web page to show shares. Turn off the **Shares** switch to change the web page to hide shares.
+>
+> Turn on the **Historical** switch to show Historical disk devices. Turn off **Historical** switch to switch back to not show Historical disk devices.
+>
+> Click on the <i class="fa fa-refresh"></i> icon to refresh disks and configuration.
+>
+> Click on the <i class="fa fa-gear"></i> icon to go to the UD Settings.
+>
+> You can spin a disk up or down by clicking on the disk ball <i class='fa fa-circle orb green-orb'></i> or <i class='fa fa-circle orb grey-orb'></i> indicator. Applies to Unraid 6.9 RC2 and later.
+>
+> Click on the <i class="fa fa-gears"></i> icon to go to the Device Settings configuration. This is where you configure a device script and certain device characteristics.
+> 
+> Click on the <i class="icon-nvme"></i> or <i class="fa fa-hdd-o"></i> icon to display syslog entries specific to this disk device.
+>
+> **Mount Point icons:**
+>
+> When the <i class='fa fa-pencil'></i> icon shows next to the mount point it indicates the mount point can be changed when the mount point is clicked.
+>
+> When the <i class='fa fa-external-link'></i> icon shows next to the mount point it indicates the clicking on the mount point will browse the files on that partition.
+>
+> Click on the <i class="fa fa-align-left"></i> icon to display the device script log. This is the log specific to the device script.
+>
+> Click on the <i class="fa fa-check"></i> icon to perform a file system check. BTRFS and ZFS file systems need to be mounted to do a file check. The file check on BTRFS and ZFS file systems is a scrub.
+>
+> Click on the <i class="fa fa-flash"></i> icon to run your device script as if it was hot plugged. This only applies to disk devices.
+:end
+
+:unassigned_devices_general_help_plug:
+> **Unassigned Devices is called UD for short.**
+>
+> Hover your mouse over any active area on the UD page and a tooltip will show what clicking that area does.
+> You can mount USB devices, SATA drives, remote SMB/NFS shares, and ISO files with UD. Any devices with the 'Auto Mount' switch on will be mounted when the array is started. All drives and SMB/NFS mounts are unmounted when the array is stopped on the 'stopping_svcs' event.
+> If you want to share your drive, you can turn on the Share switch. The default for Remote SMB shares is Public read/write access. Enable SMB Security by user in the Unassigned Devices Settings. NFS shares are exported and access is read/write. The export of NFS devices is enabled in the Unassigned Devices settings. You can also enable a common script that will be executed on every disk mount. To share any UD device, enable sharing in Unassigned Devices Settings and turn on the switch for that device. SMB/NFS remote shares and ISO mounts are always shared.
+> After entering a mount point, press &lt;Enter&gt; to save the change.
+>
+> Additional options are available when you click on the <i style='color:black;font-weight:bold;' class="fa fa-plus-square"></i> icon by device identification. When the disk is unmounted, the mount point of the device can be changed. The disk label will also be changed.  A disk can be formatted and an fsck run to check the disk.
+>
+> The 'Settings → Unassigned Devices' security settings for SMB and NFS must be set correctly for SMB and NFS sharing to work properly.
+>
+> If the mount button is grayed out for a SMB/NFS remote share, the remote server is not responding to a ping. The remote share server must respond to a ping or UD will consider it offline.
+>
+> The 'Add Root Share' button is disabled when 'Enable disk shares' is enabled and any Root Shares previously added will not mount.
+>
+> UD has a 'Destructive Mode' that allows deleting disk partitions and formatting disks. If Destructive Mode is not enabled in UD Settings, you WILL NOT be able to format a disk or remove partitions. Go to 'Settings → Unassigned Devices' to enable Destructive Mode.
+>
+> **To format a disk:**
+>
+> + Destructive mode must be enabled.
+> + Disk must have all partitions removed. Unmount the disk, click the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click all <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icons to delete partitions.
+> + If the disk has been pre-cleared and it shows a grayed-out 'Format' button, click on the <i style='color:black;font-weight:bold;' class='fa fa-plus-square'></i> icon, then click on the <i style='color:red;font-weight:bold;' class='fa fa-remove hdd'></i> icon to delete the pre-clear status file.
+>
+> **Note: A disk partitioned in UD is compatible with the array disk partitioning and can be added to the array. Supported file formats are XFS, XFS encrypted, BTRFS, BTRFS encrypted, ZFS and ZFS encrypted.**
+>
+> **Encrypted Disks:**
+>
+> + By default, encrypted disks formatted in UD use the array password/passphrase and can be added to the array. Alternatively, you may set a unique per‑disk password at format time; to mount such a disk, enter that per‑disk password in 'Unassigned Devices → Settings'.
+>
+> **Unassigned devices script:**
+>
+> UD includes a script that is used for mounting and unmounting devices and SMB/NFS mounts. These scripts can be used from the command line or in your scripts as necessary.
+>
+> + '/usr/local/sbin/rc.unassigned mount autodevices' - all devices set to 'auto mount' will be mounted.
+> + '/usr/local/sbin/rc.unassigned mount autoshares' - all SMB/NFS mounts set to 'auto mount' will be mounted.
+> + '/usr/local/sbin/rc.unassigned umount auto' - all devices and SMB/NFS mounts set to 'auto mount' will be unmounted.
+> + '/usr/local/sbin/rc.unassigned umount all' - all devices and SMB/NFS mounts are unmounted in preparation for shutting down the array.
+> + '/usr/local/sbin/rc.unassigned mount /dev/sdX or devX' - mount disk device.
+> + '/usr/local/sbin/rc.unassigned mount name=diskname' - mount disk device by disk name.
+> + '/usr/local/sbin/rc.unassigned umount /dev/sdX or devX' - unmount disk device. You can use this command in a UD script to unmount the device when the script has completed.
+> + '/usr/local/sbin/rc.unassigned umount name=diskname' - unmount device by disk name.
+> + '/usr/local/sbin/rc.unassigned spindown /dev/sdX or devX' - spin down disk device.
+> + '/usr/local/sbin/rc.unassigned spindown name=diskname' - spin down a disk by disk name.
+> + '/usr/local/sbin/rc.unassigned detach /dev/sdX or devX' - detach a USB disk device. You can use this command in a UD script to detach the device when the script has completed.
+> + '/usr/local/sbin/rc.unassigned detach name=diskname' - detach a USB disk device by its name. You can use this command in a User script to detach the device when the script has completed.
+> + '/usr/local/sbin/rc.unassigned attach serial' - attach a disk device. You can use this command in a script to attach a device. The 'diskname' is not available when the disk is detached.
+> + '/usr/local/sbin/rc.unassigned mount source' - where source is the SMB/NFS source.
+> + '/usr/local/sbin/rc.unassigned umount source' - where source is the SMB/NFS source.
+>
+> Note: '/dev/sdX' where 'X' is the device designator. The 'devX' is the device name in the UD page. If the device name is 'Dev 1', then use 'dev1' as the device to spin down. Using the name=diskname is useful if you have a User Script needing to perform UD operations on a disk.
+>
+> Be careful using the '/dev/sdX' or 'devX' designation because they can change after a reboot. It’s best to use the values passed into the UD script for 'sdX' (DEVICE) and 'devX' (UD_DEVICE).
+:end

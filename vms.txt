@@ -301,4 +301,4 @@ Windows 82012, newer Linux distros=Windows 8/2012, versioni Linux recenti
 wsport for virtual console=Porta WS per la Console virtuale
 XML View=Visualizza XML
 
-; Translation completed - 2025-09-06
+; Translation completed - 06.09.2025

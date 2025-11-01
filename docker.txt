@@ -158,4 +158,4 @@ Writable=Scrivibile
 Container not found Try reloading this page to fix=Contenitore non trovato. Prova a ricaricare questa pagina per risolvere.
 For security reasons, containers with Network Type Host should not have Tailscale enabled Please disable Tailscale in this container or change the Network Type of the container=Per motivi di sicurezza, i Contenitori con 'Tipo di rete' impostato su **Host** non dovrebbero avere Tailscale abilitato. Disabilita Tailscale in questo Contenitore oppure modifica il 'Tipo di rete'.
 
-; Translation completed - 2025-09-04
+; Translation completed - 04.09.2025

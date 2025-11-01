@@ -26,4 +26,4 @@ Use only lowercase letters, digits, underscores and dashes=Usa solo caratteri in
 User %s has been deleted=L’utente '%s' è stato rimosso
 User name=Nome utente
 
-; Translation completed - 2025-09-04
+; Translation completed - 04.09.2025
