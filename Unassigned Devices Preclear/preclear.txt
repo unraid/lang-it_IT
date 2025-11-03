@@ -1,0 +1,80 @@
+A disk must be cleared of all partitions before it can be precleared=Tutte le partizioni presenti sul disco devono essere **ELIMINATE** prima di poter eseguire il Pre-clear.
+Cannot Preclear=Impossibile eseguire il Pre-clear.
+Clear Disk=Ripulisci Disco
+Clear Signature=Cancella Firma
+Clear Stats=Cancella Statistiche
+Click to show reports=Clicca o premi qui per mostrare le statistiche
+Concurrent Sessions=Sessioni Simultanee
+Cycles=Cicli
+Device Model=Dispositivo
+Disk Log Information=Informazioni Log Disco
+Disk Size=Dimensione Disco
+Download Logs=Scarica Log
+Enable Testing for debugging=Abilita i test a scopo di debug
+Fast Post-read=Operazione 'Post-read' Veloce
+Firmware=Firmware
+Fix Preclear=Correggi il Pre-clear
+Identification=Modello
+If you set a queue limit, all running preclear sessions above that limit will be paused and remain in the queue until a session finishes=Se imposti un limite di coda, tutte le operazioni di Pre-clear in esecuzione oltre tale limite verranno messe in pausa e rimarranno in coda finché una sessione non termina.
+Notifications=Notifiche
+On every cycle and step end=Al termine di ogni ciclo e di ogni fase
+On every 25% of progress=Ad ogni 25% di avanzamento
+On every cycle end=Al termine di ogni ciclo
+On preclear end=Al termine dell’operazione di Pre-clear
+Operation=Operazione
+Post-read Verify=Verifica 'Post-read'
+Preclear Disks=Dischi di Pre-clear
+Preclear Disk Log=Log di Pre-clear del Disco
+Preclear Log=Log Pre-clear
+Preclear Status=Stato Pre-clear
+Preview Progress=Visualizza Avanzamento
+Read size=Dimensioni Lettura
+Remove Report=Rimuovi Statistiche
+Resume all Sessions=Riprendi tutte le operazioni
+Resume Preclear=Riprendi il Pre-clear
+Preview Progress Report=Visualizza Stato Operazione
+Select Disks=Seleziona Dischi
+Serial Number=Numero di Serie
+Set Preclear Queue=Imposta Coda di Pre-clear
+Show Preclear Report=Mostra Statistiche di Pre-clear
+Skip Pre-read=Salta 'Pre-read'
+Skip Post-Read=Salta 'Post-read'
+Start Multiple Sessions=Avvia Sessioni Multiple
+Start New=Avvia Nuova
+Start Preclear=Esegui il Pre-clear
+Stop all Sessions=Ferma tutte le Sessioni
+Stop Preclear=Ferma il Pre-clear
+Temp=Temperatura
+Testing=Test in corso
+There are no disks that can be precleared=Non sono presenti dischi sui quali è possibile avviare il Pre-clear
+Verify Signature=Verifica Firma
+Write size=Dimensioni Scrittura
+You can use Unassigned Devices to clear the disk=Puoi usare Unassigned Devices per cancellare il disco
+
+:preclear_general_help_plug:
+> Il Pre-clear di Unassigned Devices può essere usato per preparare i dischi da utilizzare nell’array, per cancellare i dati in maniera sicura e per eseguire uno stress test per verificarne il corretto funzionamento prima di impiegarli nell’array.
+>
+> Solo i dischi che non sono utilizzati nell’array e che non hanno partizioni con file system sono idonei all’operazione di Pre-clear.
+>
+> Quando un disco è sottoposto a Pre-clear puoi seguire lo stato su questa pagina, sulla pagina Unassigned Devices o sull’icona di stato del Pre-clear nella pagina web di Unraid.
+> 
+> Ci sono molteplici scelte per il Pre-clear:
+>
+> Lo script **Enhanced**, creato dall’utente '**gfjardim**', supporta funzionalità avanzate come la messa in pausa e la ripresa del Pre-clear. Ha anche un’ampia funzionalità di logging.
+>
+> L’opzione **Docker** si riferisce al Contenitore Docker '**binhex**' che esegue il Pre-clear. Il vantaggio è che l’operazione di Pre-clear è isolata all’interno del Contenitore Docker.
+>
+> Operazioni di Pre-clear:
+>
+> • **Ripulisci Disco** - Il disco viene sottoposto a Pre-clear e la firma di Unraid viene salvata sul disco. Questa operazione creerà una partizione vuota sul disco.
+> • **Cancella Disco** - Cancella l’intero contenuto in maniera sicura scrivendo degli 'zeri' sul disco. La firma di Pre-clear viene rimossa.
+> • **Cancella e Ripulisci Disco** - Vengono scritti 'dati casuali' sul disco che poi vengono sovrascritti dagli 'zeri'. Questa è una buona scelta per assicurarsi che tutte le tracce siano rimosse.
+> • **Verifica Firma** - Controlla la firma del disco.
+> • **Verifica Disco** - La firma del disco viene controllata e il disco viene verificato per essere azzerato.
+> • **Verifica 'Post-read'** - Esegue un’operazione di 'Post-read' per controllare l’integrità del disco.
+> • **Cancella Firma** - Rimuove la firma di Pre-clear dal disco.
+>
+> Il testo <em style='color:#00BE37;'>Pre-cleared</em> accanto al numero di serie del disco indica che il disco ha una firma di Pre-clear. Sarà mostrato solo se il disco è stato sottoposto all’operazione di Pre-clear e le relative statistiche sono state rimosse.
+:end
+
+; Translation completed - 31.10.2025

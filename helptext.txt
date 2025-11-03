@@ -1,9 +1,9 @@
 :main_array_devices_help:
-** Indicatore di stato colorato ** il significato dell’indicatore all’inizio di ogni riga in * Dispositivi array * è il seguente:
+**Indicatore di Stato colorato** si riferisce all’indicatore all’inizio di ogni riga in *Dispositivi Array* ed è il seguente:
 
 <i class='fa fa-circle orb green-orb'></i>Funzionamento normale, il dispositivo è attivo.
 
-<i class='fa fa-circle orb grey-orb'></i>Dispositivo in standby (disco fermo).
+<i class='fa fa-circle orb grey-orb'></i>Dispositivo in standby, il disco è fermo.
 
 <i class='fa fa-warning orb yellow-orb'></i>Contenuto dispositivo emulato.
 
@@ -11,18 +11,18 @@
 
 <i class='fa fa-square orb blue-orb'></i>Nuovo dispositivo.
 
-<i class='fa fa-square orb grey-orb'></i>Nessun dispositivo presente, posizione vuota.
+<i class='fa fa-square orb grey-orb'></i>Nessun dispositivo presente, la posizione è vuota.
 
-** Identificazione ** è la * firma * che identifica in modo univoco un dispositivo di archiviazione. La firma
+**Identificazione** è la *firma* che identifica in modo univoco un dispositivo di archiviazione. La firma
 include il modello del dispositivo, il numero di serie, l’ID del dispositivo Linux e le sue dimensioni.
 
-**Temp.** (temperatura) viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina [Impostazioni > Impostazioni Interfaccia](Settings/DisplaySettings). Non è possibile leggere la temperatura dei dischi in standby poiché questo in genere li risveglia; in questo caso viene visualizzato il simbolo "*". È possibile
-che venga visualizzato il simbolo "*" per i dispositivi SSD e Flash anche se questi comunicano la propria temperatura
-ma spesso restituiscono il valore "0".
+**Temperatura** viene letta direttamente dal dispositivo. Configurare quali unità utilizzare nella pagina [Impostazioni → Interfaccia Grafica Utente (GUI)](Settings/DisplaySettings). Non è possibile leggere la temperatura dei dischi in standby poiché questo in genere li risveglia; in questo caso viene visualizzato il simbolo '*'. È possibile
+che venga visualizzato il simbolo '*' per i dispositivi SSD e Flash anche se questi comunicano la propria temperatura
+ma spesso restituiscono il valore '0'.
 
-** Dimensioni, Usato, Libero ** indica le dimensioni totali del dispositivo, lo spazio utilizzato e lo spazio rimanente per i file. Questi valori
+**Dimensioni, Usato, Libero** indicano rispettivamente le dimensioni totali del dispositivo, lo spazio utilizzato e lo spazio rimanente per i file. Questi valori
 vengono configurati anche nella pagina [Preferenze di visualizzazione](Impostazioni > Impostazioni di visualizzazione).
-La quantità di spazio utilizzata sarà diversa da zero anche per un disco vuoto poiché qualsiasi file system occupa comunque una propria porzione di dati.
+La quantità di spazio utilizzata sarà diversa da '0' anche per un disco vuoto poiché qualsiasi file system occupa comunque una propria porzione di dati.
 
 *Nota: per un pool di cache multi-dispositivo questi dati indicano l’intero pool come restituito da BTRFS.*
 
@@ -39,7 +39,7 @@ provoca la * disabilitazione * del disco.
 La colonna ** Visualizza ** mostra l’icona di una Cartella e ciò indica che il dispositivo è * montato *. Clicca sull’icona per
 sfogliare il file system.
 
-Se "Visualizza i totali dell’array" è abilitato nella pagina [Preferenze di visualizzazione](Impostazioni / Impostazioni di visualizzazione),
+Se 'Visualizza i totali dell’array' è abilitato nella pagina [Preferenze di visualizzazione](Impostazioni / Impostazioni di visualizzazione),
 è inclusa la riga ** Totale ** che fornisce un conteggio delle statistiche del dispositivo, inclusa la temperatura media
 dei tuoi dispositivi.
 
@@ -59,36 +59,36 @@ Clicca sul nome del dispositivo per configurare le impostazioni individuali del 
 :end
 
 :main_slots_help:
-**Slot** ti permette di selezionare il numero di slot dispositivo nel tuo server destinati all’Array.
-Il numero minimo di slot dell’Array è **2**, e devi avere almeno un dispositivo assegnato all’Array.
+**Slot** ti permette di selezionare il numero di slot dispositivo nel tuo server destinati all’array.
+Il numero minimo di slot dell’Array è **2**, e devi avere almeno un dispositivo assegnato all’array.
 :end
 
 :cache_devices_help:
-**Indicatore di Stato Colorato**: il significato dell’indicatore colorato all’inizio di ogni riga in *Dispositivi Pool* è il seguente:
+**Indicatore di Stato colorato** si riferisce all’indicatore all’inizio di ogni riga in *Dispositivi Pool* ed è il seguente:
 
 <i class='fa fa-circle orb green-orb'></i>Funzionamento normale, il dispositivo è attivo.
 
-<i class='fa fa-circle orb grey-orb'></i>Dispositivo in standby (disco fermo).
+<i class='fa fa-circle orb grey-orb'></i>Dispositivo in standby, il disco è fermo.
 
 <i class='fa fa-square orb blue-orb'></i>Nuovo dispositivo.
 
 <i class='fa fa-square orb grey-orb'></i>Nessun dispositivo presente, la posizione è vuota.
 
-**Pool Devices** is a single device, or pool of multiple devices, *outside* the Unraid array.  It may be exported for network access just
-like an Array device.  Being outside the Unraid array results in significantly faster write access.
+**Pool Devices** è un singolo dispositivo, o un insieme di più dispositivi, *esterno* all’array Unraid. Può essere esportato 
+per l’accesso di rete proprio come un dispositivo Array.  Essere esterno all’array Unraid comporta un accesso in scrittura significativamente più veloce.
 
-There are two ways to configure the Pool devices:
+Ci sono due modi per configurare i Dispositivi Pool:
 
-1. As a single device, or
-2. As a multi-device pool.
+1. Come dispositivo singolo, oppure
+2. Come pool multi-dispositivo.
 
-When configured as a single device you may format the device using any supported file system (btrfs, reiserfs,
-or xfs).  This configuration offers the highest performance, but at the cost of no data protection - if the
-single pool device fails all data contained on it may be lost.
+Quando configurato come dispositivo singolo, puoi formattare il dispositivo usando qualsiasi file system supportato.
+  Questa configurazione offre le prestazioni migliori a discapito della protezione dei dati: 
+se un singolo dispositivo del pool si danneggia **TUTTI** i dati in esso contenuti potrebbero essere persi.
 
-When configured as a multi-device pool, Unraid OS will automatically select *btrfs-raid1* format (for both data
-and meta-data).  btrfs permits any number of devices to be added to the pool and each copy of data is guaranteed
-to be written to two different devices.  Hence the pool can withstand a single-disk failure without losing data.
+Quando configurato come pool multi-dispositivo, Unraid OS selezionerà automaticamente il formato btrfs-raid1 (sia per i dati che per i metadati).
+  BTRFS consente di aggiungere al pool un numero qualsiasi di dispositivi e ogni copia dei dati è garantita per essere scritta su due dispositivi diversi.
+  Pertanto, il pool può resistere al guasto di un singolo disco senza perdita dei dati.
 
 When [User Shares](/Settings/ShareSettings) are enabled, user shares may be configured to
 automatically make use of the Pool device in order to
