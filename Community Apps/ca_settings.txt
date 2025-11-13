@@ -25,3 +25,5 @@ This unlocks some extra features within CA generally only used by developers Not
 Support Thread=Thread di Supporto
 Disable Featured Applications=Disabilita app 'In evidenza'
 This setting will disable Featured applications appearing on the home screen=Questa impostazione disabiliterà la visualizzazione delle applicazioni 'In Evidenza' nella schermata principale.
+
+; Translation completed - 13.11.2025

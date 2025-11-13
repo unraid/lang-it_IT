@@ -29,3 +29,5 @@ to obtain a MapQuest API key=per ottenere una chiave API MapQuest
 > Il **Tema Chiaro** viene utilizzato dall’alba al tramonto.<br>
 > Il **Tema Scuro** viene utilizzato dal tramonto all’alba.
 :end
+
+; Translation completed - 13.11.2025

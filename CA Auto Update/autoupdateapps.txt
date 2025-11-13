@@ -17,3 +17,5 @@ Docker Must Be Enabled For This Module To Operate=Docker deve essere abilitato p
 Time to wait for graceful stop before killing=Tempo di attesa per arresto controllato prima dell’interruzione forzata
 Update All Docker Applications=Aggiorna tutti i Contenitori Docker
 Do not overlap with autoupdate=Non sovrapporre con aggiornamenti automatici
+
+; Translation completed - 13.11.2025

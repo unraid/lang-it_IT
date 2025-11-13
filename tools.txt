@@ -208,9 +208,9 @@ i seguenti file di configurazione:
 
 :diagnostics_2_plug:
 + */config*
-  <br>copy all *\*.cfg files*, *go* file and the *super.dat* file. These are configuration files.
+  <br>copia tutti i file *\*.cfg*, *go* e *super.dat*. These are configuration files.
 + */config/shares*
-  <br>copy all *\*.cfg* files. These are user share settings files.
+  <br>copia tutti i file *\*.cfg*. These are user share settings files.
 + *Syslog file(s)*
   <br>copy the current *syslog* file and any previous existing *syslog* files.
 + *System*

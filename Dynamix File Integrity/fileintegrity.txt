@@ -132,3 +132,5 @@ When parity operation is running=Quando l’operazione di parità è in esecuzio
 > La rilevazione degli errori, incluse le informazioni riguardanti i dati corrotti, può essere scritta nel log di sistema o salvata in un file di log sull’Unità Flash USB.
 > Disabilitando la rilevazione degli errori anche la creazione del file di log verrà disabilitata. È comunque possibile continuare a ricevere le notifiche.
 :end
+
+; Translation completed - 13.11.2025

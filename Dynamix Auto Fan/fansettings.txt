@@ -8,3 +8,5 @@ Minimum PWM value=Valore PWM minimo
 PWM controller=Controller PWM
 PWM fan=Ventola PWM
 Refresh interval=Intervallo di aggiornamento
+
+; Translation completed - 13.11.2025
