@@ -15,3 +15,5 @@ User=Utente
 >
 > Per rimuovere un’associazione di nomi, cancella la rispettiva casella del nome utente e clicca su **Applica**.
 :end
+
+; Translation completed - 13.11.2025

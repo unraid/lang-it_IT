@@ -3,3 +3,5 @@ Docker=Docker
 Language=Lingua
 Notice %s - Version update %s=Notifica %s - Aggiornamento versione %s
 Plugin=Plugin
+
+; Translation completed - 13.11.2025

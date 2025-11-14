@@ -17,3 +17,5 @@ Credits=Riconoscimenti
 For support for this plugin, visit here=Per ottenere supporto su questo plugin, clicca qui
 HERE=QUI
 Plugin Version=Versione del Plugin
+
+; Translation completed - 13.11.2025

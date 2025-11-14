@@ -9,3 +9,5 @@ Disable Security Mitigations A Reboot Is Required For Changes To Take Effect=La 
 A Reboot Is Required For Changes To Take Effect=È richiesto il riavvio per applicare le modifiche.
 Mitigations will be enabled after a reboot=Le mitigazioni saranno abilitate dopo il riavvio.
 Mitigations will be disabled after a reboot=Le mitigazioni saranno disabilitate dopo il riavvio.
+
+; Translation completed - 13.11.2025

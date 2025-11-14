@@ -29,8 +29,8 @@ User defined options=Opzioni definite dall’utente
 >
 > Il caching delle cartelle (cache_dirs) legge continuamente le directory per mantenerle in memoria.
 > Il programma non sa se una directory è già in memoria o se deve essere riletta dal disco.
-> Pertanto, non può evitare di attivare i dischi quando succede che la cache di memoria di Linux elimina una directory e *cache_dirs* riesegue la scansione della directory.
-> Se un grande numero di file è mantenuto in memoria, è inevitabile che alcune directory vengano eliminate dalla cache quando il sistema è sotto carico.
+> Pertanto, non può evitare di attivare i dischi quando la cache di memoria di Linux elimina una directory e *cache_dirs* riesegue la scansione della directory.
+> Se un grande numero di file è mantenuto in memoria è inevitabile che alcune directory vengano eliminate dalla cache quando il sistema è sotto carico.
 >
 > Per impostazione predefinita, il programma utilizza una modalità adattiva in cui riduce la profondità della struttura delle directory che cerca di mantenere in memoria.
 > Quando rileva un *cache-miss* (scansione lenta), riduce la profondità finché i dischi diventano inattivi,
@@ -139,3 +139,5 @@ User defined options=Opzioni definite dall’utente
 >
 > Nota: le virgolette singole intorno all’argomento di -a sono importanti. Le virgolette doppie non funzionano nella versione attuale, quindi non è possibile filtrare con '-name "*Old" -prune'.
 :end
+
+; Translation completed - 13.11.2025

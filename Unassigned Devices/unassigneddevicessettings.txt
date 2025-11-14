@@ -1,79 +1,79 @@
-Add=
-Auto Mount USB Devices=
-Case-sensitive names=
-Change Disk UUID=
-Change UUID=
-Command times=
-Common Script=
-Common Settings=
-Destructive Mode=Modalità di Modifica
-Disabled=
-Disk spin down is managed by Unraid=
-Enable NFS export=
-Enable SMB Security=
-Enable Time Machine=
-Enter Disk Password=
-Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the **Result** text area
-Enter Pool Mount Point=
-Legacy Mount Point Compatibility=
-Mount SSDs with discard option=
-NFS Security=
-NFS Settings=
-NFS must be enabled in Settings->NFS to enable NFS Export=NFS must be enabled in 'Settings → NFS' to enable NFS Export
-NFS Version to use when Mounting Remote Shares=
-Public=
-Private=
-Private Hidden=
-Refresh and Update=
-Remote Share Mount Wait Time=
-Rule=
-Select Disk=
-See Help=
-Set Encrypted Disk Password=
-Set Password=
-Set Pool Mount Point=
-Set the Pool Mount Point for this disk=
-Set the disk Password=
-SMB Settings=
-SMB Sharing=
-Specify SMB Version when Mounting Remote Shares=
-Spin down disks=
-Test=
-Testing=
-Test the Remote Server=
-The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=
-This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=
-Time Machine volume size limit=
-to SMB share config=
-Udev and Hotplug=
-Unassigned Devices=
-Unraid 6.10 or later is required for NFSv4 support=
-Upgrade ZFS Pool=
-Use only when directed for support because the messages can flood the log=
-Warning=
-Windows may require a valid User to be defined even for Public shares=
-Working=
+Add=Aggiungi
+Auto Mount USB Devices=Monta automaticamente Dispositivi USB
+Case-sensitive names=Nomi sensibili alle maiuscole/minuscole
+Change Disk UUID=Modifica UUID del Disco
+Change UUID=Modifica UUID
+Command times=Orari dei comandi
+Common Script=Script Comune
+Common Settings=Generali
+Destructive Mode=Modalità Distruttiva
+Disabled=Disabilitato
+Disk spin down is managed by Unraid=Lo spin down del disco è gestito da Unraid
+Enable NFS export=Abilita esportazione NFS
+Enable SMB Security=Abilita Sicurezza SMB
+Enable Time Machine=Abilita Time Machine
+Enter Disk Password=Inserisci Password Disco
+Enter the Remote Server name or IP address and the results from the Remote Server Test will show in the Result text area=Inserisci il nome o l’indirizzo IP del Server Remoto e i risultati di 'Test Server Remoto' verranno visualizzati nella sezione **Risultato**
+Enter Pool Mount Point=Inserisci Punto di Mount Pool
+Legacy Mount Point Compatibility=Compatibilità Punto di Mount Legacy
+Mount SSDs with discard option=Monta SSD con opzione 'discard'
+NFS Security=Sicurezza NFS
+NFS Settings=Impostazioni NFS
+NFS must be enabled in Settings->NFS to enable NFS Export=NFS deve essere abilitato in 'Impostazioni → NFS' per abilitare l'Esportazione NFS
+NFS Version to use when Mounting Remote Shares=Versione NFS per Condivisioni Remote
+Public=Pubblico
+Private=Privato
+Private Hidden=Privato Nascosto
+Refresh and Update=Aggiorna e Ricarica
+Remote Share Mount Wait Time=Tempo di attesa Mount Condivisione Remota
+Rule=Regola
+Select Disk=Seleziona Disco
+See Help=Vedi Aiuto
+Set Encrypted Disk Password=Imposta Password Disco Crittografato
+Set Password=Imposta Password
+Set Pool Mount Point=Imposta Punto di Mount Pool
+Set the Pool Mount Point for this disk=Imposta il Punto di Mount Pool per questo disco
+Set the disk Password=Imposta la Password del disco
+SMB Settings=Impostazioni SMB
+SMB Sharing=Condivisione SMB
+Specify SMB Version when Mounting Remote Shares=Specifica Versione SMB quando si montano Condivisioni Remote
+Spin down disks=Metti i dischi in standby
+Test=Test
+Testing=Test in corso
+Test the Remote Server=Testa il Server Remoto
+The Unassigned Devices Plus plugin must be installed to enable Destructive Mode=Il plugin Unassigned Devices Plus deve essere installato per abilitare la Modalità Distruttiva.
+This is a tool to help troubleshoot Remote Servers ability to serve SMB and NFS shares=Questo è uno strumento per aiutare a risolvere i problemi di Servizio delle Condivisioni SMB e NFS da parte dei Server Remoti
+Time Machine volume size limit=Limite dimensione volume Time Machine
+to SMB share config=alla configurazione della Condivisione SMB
+Udev and Hotplug=Udev e Hotplug
+Unassigned Devices=Unassigned Devices
+Unraid 6.10 or later is required for NFSv4 support=Unraid 6.10 o successivo è richiesto per il supporto NFSv4.
+Upgrade ZFS Pool=Aggiorna Pool ZFS
+Use only when directed for support because the messages can flood the log=Usalo solo quando richiesto dal supporto, perché i messaggi possono riempire il log.
+Warning=Avviso
+Windows may require a valid User to be defined even for Public shares=Windows potrebbe richiedere la definizione di un Utente valido anche per le Condivisioni Pubbliche.
+Working=In esecuzione
 
 ; Help
 ;
 :ud_settings_plus_plug:
-> **Note:** The 'Unassigned Devices Plus' plugin must be installed in order to mount HFS+ and exFAT disk formats, and enable destructive mode.
+> **NOTA:** Il plugin 'Unassigned Devices Plus' deve essere installato per montare i formati disco HFS+ ed exFAT e per abilitare la Modalità Distruttiva.
 :end
 
 :ud_settings_common_script_plug:
-> If set, this script will run before the device script. The action is in the environment variable **$ACTION**. Be sure you reference all commands with their full path.
+> Se impostato, questo script verrà eseguito prima dello script del dispositivo. L’azione si trova nella variabile d’ambiente **$ACTION**. Bssicurati di fare riferimento a tutti i comandi con il loro percorso completo.
 :end
 
 :ud_settings_destructive_plug:
-> If enabled, this will allow you to erase and format partitions using Unassigned Devices. This cannot be enabled unless the 'Unassigned Devices Plus' plugin is installed.
+> Se abilitato, questo ti permetterà di cancellare e formattare le partizioni usando Unassigned Devices. Questa operazione non può essere abilitata a meno che il plugin 'Unassigned Devices Plus' non sia installato.
 :end
 
 :ud_settings_mount_usb_devices_plug:
-> When set to **Yes**, will auto mount a new USB device and share it without user intervention.
+> Quando impostato su **Sì**, monterà automaticamente un nuovo dispositivo USB e lo condividerà senza l’intervento dell’utente.
 :end
 
 :ud_settings_discard_plug:
-> Mount SSDs that support discard with 'discard' option. If you are using the SSD Trim Settings to do a periodic trim of SSDs you can set this to **No**.
+> Monta gli SSD che supportano lo scarto con l’opzione 'discard'. Se stai usando le Impostazioni Trim SSD per eseguire un trim periodico sugli SSD, puoi impostare questa opzione su **No**.
 :end
 
 :ud_settings_symlinks_plug:

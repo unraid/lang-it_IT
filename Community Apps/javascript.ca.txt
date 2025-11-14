@@ -1,6 +1,6 @@
 Search for %s=Cerca %s
 DockerHub Search for %s=Cerca %s su DockerHub
-Are you sure you want to delete %s from the list of previously installed applications=Confermi di voler eliminare %s dall’elenco 'App precedenti'?
+Are you sure you want to delete %s from the list of previously installed applications=Confermi di voler rimuovere %s dall’elenco 'App precedenti'?
 Are you sure you want to uninstall %s=Confermi di voler disinstallare %s?
 Are you sure you want to remove the private application %s by %s=Confermi di voler rimuovere l’applicazione privata %s di %s?
 Removing %s=Rimuovo %s…
@@ -11,4 +11,6 @@ Are you sure you want to install %s docker and %s plugin applications=Confermi d
 Install Application=Installa applicazione
 Install Applications=Installa applicazioni
 Something really wrong went on during %s=Si è verificato un errore durante %s
-Are you sure you want to delete %s applications from the previously installed list=Confermi di voler eliminare %s applicazioni dall’elenco 'App precedenti'?
+Are you sure you want to delete %s applications from the previously installed list=Confermi di voler rimuovere %s applicazioni dall’elenco 'App precedenti'?
+
+; Translation completed - 13.11.2025
