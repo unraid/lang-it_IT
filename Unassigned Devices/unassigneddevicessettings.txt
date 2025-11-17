@@ -3,7 +3,7 @@ Auto Mount USB Devices=Monta automaticamente Dispositivi USB
 Case-sensitive names=Nomi sensibili alle maiuscole/minuscole
 Change Disk UUID=Modifica UUID del Disco
 Change UUID=Modifica UUID
-Command times=Orari dei comandi
+Command times=Orari dei Comandi
 Common Script=Script Comune
 Common Settings=Generali
 Destructive Mode=Modalità Distruttiva
@@ -23,7 +23,7 @@ NFS must be enabled in Settings->NFS to enable NFS Export=NFS deve essere abilit
 NFS Version to use when Mounting Remote Shares=Versione NFS per Condivisioni Remote
 Public=Pubblico
 Private=Privato
-Private Hidden=Privato Nascosto
+Private Hidden=Privato e Nascosto
 Refresh and Update=Aggiorna e Ricarica
 Remote Share Mount Wait Time=Tempo di attesa Mount Condivisione Remota
 Rule=Regola
@@ -61,7 +61,7 @@ Working=In esecuzione
 :end
 
 :ud_settings_common_script_plug:
-> Se impostato, questo script verrà eseguito prima dello script del dispositivo. L’azione si trova nella variabile d’ambiente **$ACTION**. Bssicurati di fare riferimento a tutti i comandi con il loro percorso completo.
+> Se impostato, questo script verrà eseguito prima dello script del dispositivo. L’azione si trova nella variabile d’ambiente **$ACTION**. Assicurati di fare riferimento a tutti i comandi con il loro percorso completo.
 :end
 
 :ud_settings_destructive_plug:
@@ -73,58 +73,58 @@ Working=In esecuzione
 :end
 
 :ud_settings_discard_plug:
-> Monta gli SSD che supportano lo scarto con l’opzione 'discard'. Se stai usando le Impostazioni Trim SSD per eseguire un trim periodico sugli SSD, puoi impostare questa opzione su **No**.
+> Monta gli SSD che supportano lo scarto con l’opzione 'discard'. Lascia questa impostazione su **No** se stai usando le Impostazioni Trim SSD per eseguire un trim periodico sugli SSD.
 :end
 
 :ud_settings_symlinks_plug:
-> Set to **Yes** to create symlinks for /mnt/remotes/ at /mnt/disks/.
+> Imposta su **Sì** per creare **symlink** per '/mnt/remotes/' in '/mnt/disks/'.
 >
-> This is for backwards compatibility of VM and Docker Container mappings to the /mnt/disks/ mount point.
-> You are encouraged to change your mappings to the /mnt/remotes/ mount point.
+> Questa opzione serve per la compatibilità con le versioni precedenti delle mappature di M.V. e Contenitori Docker al punto di mount '/mnt/disks/'.
+> Ti consigliamo di modificare le tue mappature al punto di mount '/mnt/remotes/'.
 >
-> If you do not need the backwards compatibility, leave it set to **No**.
+> Lascia questa impostazione su **No** se non hai bisogno della retrocompatibilità.
 :end
 
 :ud_settings_remote_share_wait_plug:
-> This is the time in seconds to wait before mounting remote shares when the array is first started.
+> Questo valore indica il **tempo** in 'secondi' da attendere prima di montare le Condivisioni Remote quando l’array viene avviato per la prima volta.
 >
 :end
 
 :ud_settings_specify_smb_vers_plug:
-> Set to **No** for Unassigned Devices to first try to mount remote shares by not setting the SMB version when mounting.
+> Imposta su **No** se desideri che Unassigned Devices tenti prima di montare le Condivisioni Remote non specificando la versione SMB durante l’operazione di mount.
 >
-> Set to **Yes** for Unassigned Devices to only mount SMB remote shares specifying the SMB version.
+> Imposta su **Sì** se desideri che Unassigned Devices monti solo le Condivisioni remote SMB specificando la versione SMB.
 >
-> Some remote servers need to have the version specified.
+> NOTA: alcuni server remoti richiedono che la versione SMB sia necessariamente specificata.
 :end
 
 :ud_settings_debug_level_plug:
-> Setting a Debug Log Level adds additional logging in specific areas of UD for troubleshooting.  Set the Debug Log Level to debug a specific area of UD.
+> Un Livello di Log di Debug aggiunge logging aggiuntivo in aree specifiche di Unassigned Devices per la risoluzione dei problemi. Seleziona il Livello di Log di Debug per eseguire il debug di un’area specifica.
 >
-> Set to **None** to turn off debug logging.
+> Seleziona **Nessuno** per disattivare i Log di Debug.
 >
-> **Udev and Hotplug** udev, disk discovery and hotplug debug.
+> Seleziona **Udev e Hotplug** per il debug di 'udev', 'rilevamento dischi' e 'hotplug'.
 >
-> **Refresh and Update** to find issues where UD hangs.
+> Seleziona **Aggiorna e Ricarica** per identificare le aree in cui Unassigned Devices si blocca.
 >
-> **Command times** command execution times. **Warning:** very chatty.
+> Seleziona **Orari dei Comandi** per definire i 'Tempi di esecuzione' dei comandi. **ATTENZIONE:** genera molti messaggi di log.
 >
-> **Note:** Don’t leave the Debug Log Level enabled for extended periods; it can generate excessive syslog messages.
+> **NOTA:** Non lasciare il 'Livello di Log' di debug abilitato per periodi prolungati in quanto può generare troppi messaggi di log.
 :end
 
 :ud_settings_specify_nfs_vers_plug:
-> Set to **Auto** to mount all NFS Remote Shares, auto-negotiating the NFS version to use.
+> Seleziona **Auto** per montare tutte le Condivisioni Remote NFS, negoziando automaticamente la versione NFS da usare.
 >
-> If the **Auto** setting doesn’t work or only mounts NFSv3, use the **NFSv4** setting because your Unraid version cannot auto-negotiate NFSv4.
+> Se l’opzione **Auto** non funziona o monta solo NFSv3, usa l’impostazione NFSv4 perché la tua versione di Unraid non può negoziare automaticamente tale protocollo.
 :end
 
 :ud_settings_smb_security_plug:
-> Set the user level of SMB Sharing:
+> Imposta il livello utente della Condivisione SMB:
 >
-> + Set to **Disabled** to disable SMB sharing.
-> + Set to **Public** will share devices, Remote SMB/NFS shares, and iso Mounts Public with read and write access.
-> + Set to **Private** to enable SMB Security on SMB shares. Set access by user to allow access and whether or not the user can write to the share.
-> + Set to **Private Hidden** to enable SMB Security on SMB shares that will not be visible. Set access by user to allow access and whether or not the user can write to the share.
+> • Seleziona **Disabilitato** per disabilitare la Condivisione SMB.
+> • Seleziona **Pubblico** per condividere i Dispositivi, le Condivisioni Remote SMB/NFS e i Mount ISO come Pubblici (con accesso in lettura e scrittura).
+> • Seleziona **Privato** per abilitare la Sicurezza SMB sulle Condivisioni SMB. Imposta l’accesso per utente per consentire l’accesso e specificare se l’utente può scrivere o meno sulla Condivisione.
+> • Seleziona **Privato e Nascosto** per abilitare la Sicurezza SMB sulle Condivisioni SMB nascoste. Imposta l’accesso per utente per consentire l’accesso e specificare se l’utente può scrivere o meno sulla Condivisione.
 >
 > Windows Server Signing:
 >
@@ -220,3 +220,5 @@ Working=In esecuzione
 
 > By ensuring that NFS is enabled, configured with the correct permissions, and exported directories are allowed for your client IP, showmount should list the available exports.
 :end
+
+; Work in progress | Latest revision: 17.11.2025

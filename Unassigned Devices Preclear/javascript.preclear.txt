@@ -1,5 +1,5 @@
 Do you want to pause all running preclear sessions=Vuoi mettere in pausa tutte le operazioni di Pre-clear in esecuzione?
-Do you want to proceed=Vuoi procedere?
+Do you want to proceed=Vuoi procedere
 Do you want to resume all running preclear sessions=Vuoi riprendere tutte le operazioni di Pre-clear in esecuzione?
 Do you want to resume it instead of starting a new one=Vuoi riprendere invece di iniziarne una nuova?
 Do you want to stop all running preclear sessions=Vuoi interrompere tutte le operazioni di Pre-clear in esecuzione?
