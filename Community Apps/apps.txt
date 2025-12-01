@@ -115,7 +115,7 @@ Pin App=Fissa App
 Unpin App=Sblocca App
 
 ; Branch installations
-Choose A Branch To Install=Scegli la Linea di sviluppo da utilizzare per l’installazione
+Choose A Branch To Install=Scegli la versione da utilizzare per l’installazione
 
 ; Multiple application installs
 Install Selected Applications=Installa le app selezionate
@@ -186,7 +186,7 @@ Debugging=Debugging
 Development=Team di sviluppo
 Additional Contributions=Contributi aggiuntivi
 GUI Layout Design=Designer UI
-Application Feed=Feed delle applicazioni
+Application Feed=Feed delle app
 Additional Testing=Test aggiuntivi
 Moderation=Moderatori
 Additional Libraries=Librerie aggiuntive
@@ -195,7 +195,7 @@ Translation=Traduzione
 
 ; Statistics page
 unknown=sconosciuto
-Last Change To Application Feed=Ultima modifica al Feed delle Applicazioni
+Last Change To Application Feed=Ultima modifica al Feed delle app
 Docker Applications=Contenitori Docker
 Plugin Applications=Applicazioni (plugin)
 Templates=Template
@@ -233,7 +233,7 @@ Check out these newly added applications from our awesome community=Dai un’occ
 Check out these up and coming apps=Scopri queste app emergenti
 These apps have the highest percentage of new installs=Queste app hanno la più alta percentuale di nuove installazioni
 An assortment of randomly chosen apps=Un assortimento di app scelte casualmente
-Featured Applications=Applicazioni in Evidenza
+Featured Applications=App In evidenza
 
 ; Categories try not to be excessively long This is displayed on the left of CA screen
 Backup=Backup
@@ -262,7 +262,7 @@ Web=Web
 Privacy=Privacy
 Productivity=Produttività
 Security=Sicurezza
-Spotlight=In Evidenza
+Spotlight=In evidenza
 Tools Utilities=Strumenti/Utility
 System=Sistema
 Themes=Temi
@@ -306,13 +306,13 @@ This application template has been blacklisted=Il template di quest’applicazio
 This application template has been deprecated=Il template di quest’applicazione è obsoleto
 This application has additional requirements=Quest’app presenta requisiti aggiuntivi
 Additional Requirements=Requisiti Aggiuntivi
-Donate To Author=Dona all’Autore
+Donate To Author=Dona all’autore
 Donate To Maintainer=Dona al Maintainer
 CLOSE=CHIUDI
 Author=Autore
 Maintainer=Maintainer
 DockerHub=DockerHub
-Application Template=Template dell’Applicazione
+Application Template=Template dell’applicazione
 DockerHub Stars=Valutazione DockerHub
 Added to CA=Aggiunto a Community Applications
 Date Updated=Data Aggiornamento
@@ -341,7 +341,7 @@ Uninstall=Disinstalla
 Project=Progetto
 Read Me First=Leggimi
 Install another instance=Installa un’altra istanza
-Install Using The Templates Default Tag=Installa Usando il Tag Predefinito del Template
+Install Using The Templates Default Tag=Usa il tag predefinito del template
 Moderator Comments=Commenti del Moderatore:
 Note not all authors keep up to date on change logs=Nota: non tutti gli autori aggiornano i changelog.
 Note not all maintainers keep up to date on change logs=Nota: non tutti i maintainer aggiornano i changelog.
