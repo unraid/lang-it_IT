@@ -26,7 +26,7 @@ Pause=Pausa
 Proceed=Procedi
 Project Page=Pagina del Progetto
 Read Me First=Leggimi prima
-Remove container=Rimuovi Contenitore
+Remove container=Rimuovi contenitore
 Remove definition=Rimuovi definizione
 Remove image=Rimuovi immagine
 Remove VM=Rimuovi Macchina Virtuale
@@ -36,10 +36,10 @@ Resume=Ripristina
 Start=Avvia
 Stop=Ferma
 Support=Supporto
-Update container=Aggiorna Contenitore
+Update container=Aggiorna contenitore
 Update=Aggiorna
-Updating all Containers=Aggiornamento Contenitori
-Updating the container=Aggiornamento Contenitore
+Updating all Containers=Aggiornamento contenitori
+Updating the container=Aggiornamento contenitore
 VNC Remote=VNC Remoto
 WebUI=WebUI
 Yes, delete it=Sì, cancellalo
@@ -66,10 +66,10 @@ Missing encryption key=Chiave di crittografia mancante
 Opening encrypted volumes=Sblocco i Volumi crittografati…
 
 ; docker variables
-Container Path=Percorso del Contenitore
-Container Port=Porta del Contenitore
-Container Variable=Variabile del Contenitore
-Container Label=Etichetta del Contenitore
-Container Device=Dispositivo del Contenitore
+Container Path=Percorso del contenitore
+Container Port=Porta del contenitore
+Container Variable=Variabile del contenitore
+Container Label=Etichetta del contenitore
+Container Device=Dispositivo del contenitore
 
 ; Translation completed - 04.09.2025

@@ -1,36 +1,35 @@
+Enable Outgoing Proxy=Abilita Proxy in uscita
+Name=Nome
+Optional=Opzionale
+Outgoing Proxy=Proxy in uscita
+Password=Password
+Please match the requested format=Devi rispettare il formato richiesto
+Required=Obbligatorio
+Select Proxy=Seleziona Proxy
+User=Utente
 
 :outgoing_proxy_enable_plug:
-> Select the Proxy to use. Only online Proxies will be selectable.
+> Seleziona il Proxy da usare. Solo i Proxy online potranno essere selezionati.
 >
-> If your network environment requires an outgoing http proxy, define that here.
+> Se il tuo ambiente di rete richiede un proxy http in uscita, definiscilo qui.
 >
-> Outgoing connections from the webgui and some system processes will use the specified http proxy. Docker container installs and updates will use the proxy, but the container itself will not, neither will any VMs.
+> Le connessioni in uscita dall’Interfaccia Grafica Web (WebGUI) e alcuni processi di sistema useranno il proxy http specificato. Le installazioni e gli aggiornamenti dei contenitori Docker useranno il proxy, ma i contenitori stessi e le Macchine Virtuali, no.
 >
-> For a more comprehensive solution you might consider setting up <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN tunnel access for System)_</a></u>.
+> Per una soluzione più completa potresti considerare di configurare una <u><a href='https://docs.unraid.net/unraid-os/manual/security/vpn/#configuring-vpn-tunneled-access-for-system/' target='_blank'>_(VPN)_</a></u>.
 :end
 
 :outgoing_proxy_name_plug:
-> Outgoing Proxy name for this Proxy
+> Nome del Proxy in uscita per questo Proxy.
 :end
 
 :outgoing_proxy_url_plug:
-> Outgoing Proxy URL for this Proxy. The URL can be entered with or without credentials. The credentials will be parsed from the URL.
+> URL del Proxy in uscita per questo Proxy. L’URL può essere inserito con o senza credenziali. Le credenziali verranno estratte dall’URL.
 >
-> If you enter a User and Password, they will be used as new credentials.
+> Se inserisci un Nome Utente e una Password, verranno usati come nuove credenziali.
 :end
 
 :outgoing_proxy_user_plug:
-> Outgoing Proxy User Name for this Proxy
+> Nome Utente del Proxy in uscita per questo Proxy.
 :end
 
-
-; Note: December 29, 2024 - 9 missing translations
-Enable Outgoing Proxy=
-Name=
-Optional=
-Outgoing Proxy=
-Password=
-Please match the requested format=
-Required=
-Select Proxy=
-User=
+; Translation completed - 01.12.2025
